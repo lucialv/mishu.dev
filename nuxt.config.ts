@@ -5,7 +5,10 @@ export default defineNuxtConfig({
     head: {
       title: "Lucía Álvarez",
       htmlAttrs: { lang: "en" },
-      link: [{ rel: "canonical", href: "https://mishu.dev" }],
+      link: [
+        { rel: "canonical", href: "https://mishu.dev" },
+        { rel: "icon", href: "/owo.png" },
+      ],
       meta: [
         { "http-equiv": "Cache-Control", content: "1y" },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
@@ -61,6 +64,7 @@ export default defineNuxtConfig({
         { property: "og:title", content: "Home | Lucía Álvarez" },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "https://mishu.dev" },
+        { property: "og:image", content: "/owo.png" },
       ],
     },
   },
