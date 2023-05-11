@@ -8,7 +8,7 @@
       <p>Coming Soon! ♡</p></strong
     >
   </div>
-  <img src="owo.png" alt="mishu.dev" class="foto" />
+  <img src="/owo.png" alt="mishu.dev" class="foto" />
 </template>
 
 <style>
