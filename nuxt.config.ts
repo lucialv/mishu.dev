@@ -21,6 +21,7 @@ export default defineNuxtConfig({
         { name: "audience", content: "all" },
         { name: "author", content: "Lucía Álvarez, mishudiscord@gmail.com" },
         { name: "coverage", content: "Worldwide" },
+        { name: "theme-color", content: "#C4EEFF" },
         {
           name: "description",
           content: "Lucía Álvarez's personal website and portfolio",
