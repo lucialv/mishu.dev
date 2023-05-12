@@ -21,10 +21,13 @@ body {
   background-repeat: no-repeat;
   min-height: calc(109vh - 7.5rem); /* 7.5rem = altura de .hello */
 }
-
+@font-face {
+    font-family: "RockoUltraFLF";
+    src: url("fonts/RockoUltraFLF.ttf");
+}
 .hello {
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family: "RockoUltraFLF", sans-serif;
   font-size: 5rem;
   padding: 3rem;
   color: #86c4ff;
