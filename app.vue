@@ -54,7 +54,7 @@ body {
   right: 0;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1350px) {
   .hello {
     padding-right: 0px;
     font-size: 2.8rem;
