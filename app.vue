@@ -7,15 +7,20 @@
     >
       <strong
         ><br />
-        <h1>Hi! I'm Lucía ♡</h1>
+        <div class="hover:text-pink-200"><h1>Hi! I'm Lucía ♡</h1></div>
         <u>
-          <br /><a
-            class="underline decoration-pink-300/50"
-            href="https://mishu.dev"
-            >mishu.dev</a
-          ></u
-        >
-        <p>Coming Soon! ♡</p></strong
+          <br />
+          <div
+            class="transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+          >
+            <a
+              class="underline decoration-pink-300/50 hover:text-pink-200"
+              href="https://mishu.dev"
+              >mishu.dev</a
+            >
+          </div>
+        </u>
+        <p class="hover:text-pink-200">Coming Soon! ♡</p></strong
       >
       <br />
       <!-- <button
@@ -55,7 +60,9 @@
       <div
         class="container px-5 py-8 mx-auto flex items-center flex-row flex-col"
       >
-        <p class="text-sm opacity-70 sm:py-2 sm:mt-0 mt-4 text-white">
+        <p
+          class="text-sm opacity-70 sm:py-2 sm:mt-0 mt-4 text-white hover:text-pink-200"
+        >
           © 2023 Lucía Álvarez
         </p>
       </div>
