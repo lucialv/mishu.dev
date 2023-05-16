@@ -8,7 +8,13 @@
       <strong
         ><br />
         <h1>Hi! I'm Lucía ♡</h1>
-        <u> <br /><a href="https://mishu.dev">mishu.dev</a></u>
+        <u>
+          <br /><a
+            class="underline decoration-white/50"
+            href="https://mishu.dev"
+            >mishu.dev</a
+          ></u
+        >
         <p>Coming Soon! ♡</p></strong
       >
       <br />

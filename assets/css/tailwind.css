@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply bg-gradient-to-tl from-cyan-200 via-transparent to-fuchsia-200;
+    @apply bg-gradient-to-tl from-sky-400 via-fuchsia-200 to-pink-400;
   }
 }
 .h-screen {
