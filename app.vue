@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="flex flex-col justify-between min-h-[92vh] ...">
+  <div class="flex flex-col justify-between min-h-[92.3vh] ...">
     <div
       class="pl-12 mb-4 text-5xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl drop-shadow-xl flex items-stretch"
     >
