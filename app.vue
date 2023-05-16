@@ -34,7 +34,7 @@
       class="container px-5 py-8 mx-auto flex items-center flex-row flex-col"
     >
       <p class="text-sm opacity-70 sm:py-2 sm:mt-0 mt-4 text-white">
-        © 2022 Lucía Álvarez
+        © 2023 Lucía Álvarez
       </p>
     </div>
   </footer>
