@@ -1,10 +1,10 @@
 <script setup></script>
 
 <template>
-  <div class="w-full h-full bg-cover bg-gradient-to-br from-sky-100 to-purple-200 ...">
-  <div class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+  <div class="w-full flex flex-col h-screen justify-between h-full bg-cover bg-gradient-to-br from-sky-100 to-purple-200 ...">
+  <div class="pl-12 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
     <strong
-      ><h1>Hi! I'm Mishu ♡</h1>
+      ><br /><h1>Hi! I'm Mishu ♡</h1>
       <u> <br /><a href="https://mishu.dev">mishu.dev</a></u>
       <p>Coming Soon! ♡</p></strong
     >
@@ -16,9 +16,6 @@
 </template>
 
 <style>
-* {
-  border: 1px solid red;
-}
 @font-face {
     font-family: "RockoUltraFLF";
     src: url("fonts/RockoUltraFLF.ttf");
