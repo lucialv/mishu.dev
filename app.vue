@@ -18,7 +18,7 @@
 </button> -->
   </div>
   <div class="">
-    <img src="/owo.png" alt="mishu.dev" class="absolute bottom-0 right-0 h-96 w-96 ..." />
+    <img src="/owo.png" alt="mishu.dev" class="absolute bottom-0 right-0 h-100 w-100 ..." />
   </div>
 </div>
 </template>
