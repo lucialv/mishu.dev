@@ -24,7 +24,7 @@
       <img
         src="/owo.png"
         alt="mishu.dev"
-        class="absolute bottom-0 right-0 h-100 w-100 ..."
+        class="absolute bottom-0 right-0 h-98 w-98"
       />
     </div>
 
