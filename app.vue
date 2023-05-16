@@ -3,7 +3,7 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen ...">
     <div
-      class="pl-12 mb-4 text-5xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl drop-shadow-xl"
+      class="pl-12 mb-4 text-5xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl drop-shadow-xl flex"
     >
       <strong
         ><br />
@@ -14,7 +14,7 @@
             class="transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
           >
             <a
-              class="underline decoration-pink-300/50 hover:text-pink-200"
+              class="underline decoration-pink-300/50 hover:text-pink-200 flex"
               href="https://mishu.dev"
               >mishu.dev</a
             >
