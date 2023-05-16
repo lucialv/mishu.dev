@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply bg-cover bg-gradient-to-br from-cyan-100 to-indigo-200;
+    @apply bg-gradient-to-tl from-cyan-200 via-transparent to-fuchsia-200;
   }
 }
 .h-screen {
