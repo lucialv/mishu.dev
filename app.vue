@@ -115,5 +115,6 @@ h3,
 strong,
 u {
   font-family: "RockoUltraFLF", sans-serif;
+  font-display: swap;
 }
 </style>
