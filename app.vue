@@ -50,7 +50,8 @@
       </button> -->
     </div>
     <div class="lg:text-6xl xl:text-7xl 2xl:text-8xl">
-      <img
+      <nuxt-img
+        format="webp"
         src="/owo.png"
         alt="mishu.dev"
         class="absolute bottom-0 right-0 h-97 w-97 sm:h-98 sm:w-98 md:h-96 md:w-96 lg:h-97 lg:w-97 xl:h-98 xl:w-98 2xl:h-100 2xl:w-100"
