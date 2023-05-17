@@ -99,9 +99,9 @@
 --></template>
 
 <style>
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 @font-face {
   font-family: "RockoUltraFLF";
