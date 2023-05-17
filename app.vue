@@ -1,27 +1,24 @@
 <script setup></script>
 
+
 <template>
   <div class="flex flex-col justify-between min-h-screen ...">
-    <div
-      class="pl-12 mb-4 text-5xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl drop-shadow-xl flex"
-    >
-      <strong
-        ><br />
-        <div class="hover:text-pink-200"><h1>Hi! I'm Lucía ♡</h1></div>
+    <div class="pl-12 mb-4 text-5xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl drop-shadow-xl flex">
+      <strong>
+        <br />
+          <div class="hover:text-pink-200">
+            <h1>Hi! I'm Lucía ♡</h1>
+          </div>
+        <br />
         <u>
-          <br />
-          <div
-            class="transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
-          >
-            <a
-              class="underline decoration-pink-300/50 hover:text-pink-200 flex"
+          <div class="transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
+            <a class="underline decoration-pink-300/50 hover:text-pink-200 flex"
               href="https://mishu.dev"
-              >mishu.dev</a
-            >
+              >mishu.dev</a>
           </div>
         </u>
-        <p class="hover:text-pink-200">Coming Soon! ♡</p></strong
-      >
+        <p class="hover:text-pink-200">Coming Soon! ♡</p>
+        </strong>
       <br />
       <!-- <button
         disabled
@@ -57,38 +54,14 @@
     </div>
 
     <footer class="body-font">
-      <div
-        class="container px-5 py-8 mx-auto flex items-center flex-row flex-col"
-      >
-        <p
-          class="text-sm opacity-70 sm:py-2 sm:mt-0 mt-4 text-white hover:text-pink-200"
-        >
+      <div class="container px-5 py-8 mx-auto flex items-center flex-row flex-col">
+        <p class="text-sm opacity-70 sm:py-2 sm:mt-0 mt-4 text-white hover:text-pink-200">
           © 2023 Lucía Álvarez
         </p>
       </div>
     </footer>
   </div>
-</template>
-
-<style>
-/* * {
-  border: 1px solid red;
-} */
-
-@font-face {
-  font-family: "RockoUltraFLF";
-  src: url("fonts/RockoUltraFLF.ttf");
-}
-h1,
-p,
-h2,
-h3,
-strong,
-u {
-  font-family: "RockoUltraFLF", sans-serif;
-}
-</style>
-<!--
+  <!--
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⡶⠾⠛⠛⠋⠉⠉⠉⠉⠉⠛⠛⠻⠶⣦⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⡶⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠷⣦⣄⣤⣤⣤⣤⣤⣤⣀⠀⠀⠀
@@ -116,3 +89,24 @@ u {
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡀⠀⠀⠀⠀⢀⣤⣶⠆⢀⣠⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣷⣄⠀⠀⠀⠙⣛⣡⣶⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 -->
+
+</template>
+
+<style>
+/* * {
+  border: 1px solid red;
+} */
+
+@font-face {
+  font-family: "RockoUltraFLF";
+  src: url("fonts/RockoUltraFLF.ttf");
+}
+h1,
+p,
+h2,
+h3,
+strong,
+u {
+  font-family: "RockoUltraFLF", sans-serif;
+}
+</style>
