@@ -10,7 +10,6 @@ export default defineNuxtConfig({
         { rel: "icon", href: "/owo.png" },
       ],
       meta: [
-        
         { "http-equiv": "Cache-Control", content: "1y" },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
         { "http-equiv": "Expires", content: "1y" },
@@ -27,7 +26,10 @@ export default defineNuxtConfig({
           name: "description",
           content: "Lucía Álvarez's personal website and portfolio",
         },
-        { name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"},
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1, maximum-scale=1",
+        },
         { name: "designer", content: "Lucía Álvarez, mishudiscord@gmail.com" },
         { name: "distribution", content: "Global" },
         { name: "googlebot", content: "index,follow" },
