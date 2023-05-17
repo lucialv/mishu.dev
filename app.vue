@@ -45,11 +45,11 @@
         Loading...
       </button> -->
     </div>
-    <div class="">
+    <div class=" lg:text-6xl xl:text-7xl 2xl:text-8xl">
       <img
         src="/owo.png"
         alt="mishu.dev"
-        class="absolute bottom-0 right-0 h-98 w-98"
+        class="absolute bottom-0 right-0 h-98 w-98 md:h-100 md:w-100 sm:h-96 sm:w-96 lg:h-98 lg:w-98 xl:h-98 xl:w-98"
       />
     </div>
 
