@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         },
         {
           name: "viewport",
-          content: "width=device-width, initial-scale=1, maximum-scale=1",
+          content: "width=device-width, initial-scale=1, maximum-scale=5",
         },
         { name: "designer", content: "Lucía Álvarez, mishudiscord@gmail.com" },
         { name: "distribution", content: "Global" },
