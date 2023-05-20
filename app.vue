@@ -80,7 +80,7 @@ u {
 }
 </style>
 
-<script type="text/javascript">
+<script>
 (function () {
   var words = [
       "Girl",
