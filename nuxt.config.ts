@@ -9,6 +9,13 @@ export default defineNuxtConfig({
         { rel: "canonical", href: "https://mishu.dev" },
         { rel: "icon", href: "/owo.png" },
       ],
+      script: [
+        {
+          hid: "stripe",
+          src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+          defer: true,
+        },
+      ],
       meta: [
         { "http-equiv": "Cache-Control", content: "1y" },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
