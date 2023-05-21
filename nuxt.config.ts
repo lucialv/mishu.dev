@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
+  runtimeConfig: {
+    public: {
+      DISCORD_USER_ID: "997571433280577656",
+    },
+  },
   app: {
     head: {
       title: "Lucía Álvarez",
@@ -8,12 +13,6 @@ export default defineNuxtConfig({
       link: [
         { rel: "canonical", href: "https://mishu.dev" },
         { rel: "icon", href: "/owo.png" },
-      ],
-      script: [
-        {
-          src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
-          defer: true,
-        },
       ],
       meta: [
         { "http-equiv": "Cache-Control", content: "1y" },
