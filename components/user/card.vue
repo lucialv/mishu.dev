@@ -8,9 +8,9 @@
         <!-- banner -->
         <picture>
           <source type="image/webp" srcset="/images/banner.webp" />
-          <source type="image/gif" srcset="/images/banner.png" />
+          <source type="image/gif" srcset="/images/banner.gif" />
           <img
-            src="/images/banner.png"
+            src="/images/banner.gif"
             alt="banner"
             width="300"
             height="120"
