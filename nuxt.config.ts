@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
+  runtimeConfig: {
+    public: {
+      DISCORD_USER_ID: "997571433280577656",
+    },
+  },
   app: {
     head: {
       title: "Lucía Álvarez",
