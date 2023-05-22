@@ -27,8 +27,21 @@
             <user-card-avatar :status="user.discord_status" />
           </div>
         </div>
+        <img
+          src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
+          iara-label=":iara_snuggie:"
+          alt="iara_snuggie"
+          draggable="false"
+          class="w-6 h-6 absolute top-[110px] right-[32px]"
+        />
+        <img
+          src="https://cdn.discordapp.com/emojis/1097524744720482395.webp?size=44&quality=lossless"
+          iara-label=":iara_snuggie:"
+          alt="iara_snuggie"
+          draggable="false"
+          class="w-6 h-6 absolute top-[110.3px] right-[10px]"
+        />
       </div>
-
       <!-- headerTop -->
       <div class="pt-16 pb-3 px-4">
         <!-- headerText -->
