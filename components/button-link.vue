@@ -2,7 +2,7 @@
   <nuxt-link
     :to="href"
     target="_blank"
-    class="text-white py-2 px-6 focus:outline-none rounded-lg"
+    class="text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
     :class="types[type ?? 'none']"
   >
     {{ text ?? href }}

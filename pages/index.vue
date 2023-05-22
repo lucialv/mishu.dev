@@ -1,6 +1,9 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen ...">
-    <client-only class="text-white grid grid-cols-1 justify-items-center pt-[25%] text-xl font-['RockoUltraFLF']" placeholder=" Loading...">
+    <client-only
+      class="text-white grid grid-cols-1 justify-items-center pt-[25%] text-xl font-['RockoUltraFLF']"
+      placeholder=" Loading..."
+    >
       <div
         class="container right-0 mx-auto flex px-5 md:py-32 py-12 md:flex-row flex-col items-center"
       >
@@ -57,6 +60,13 @@
               text="Twitter"
               class="ml-2"
             /> -->
+            <button @click="toggleDark()">
+              <i inline-block align-middle i="dark:carbon-moon carbon-sun" />
+              <span
+                class="inline-block ml-2 rounded text-neutral-800 dark:text-zinc-100 bg-neutral-100 dark:bg-zinc-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal black:text-neutral-50 shadow-[0_4px_9px_-4px_rgba(51,45,45,0.7)] transition duration-150 ease-in-out"
+                >{{ isDark ? "Light" : "Dark" }}</span
+              >
+            </button>
           </div>
         </div>
 
@@ -116,9 +126,12 @@
 }
 </style>
 <script setup lang="js">
-import { useInterval } from '@vueuse/core'
+import { useInterval, useDark, useToggle } from '@vueuse/core'
 var lista = ["a developer", "a girl", "a gamer", "an anime fan"];
 const counter = useInterval(5000, () => {
   // Incrementa el valor para cambiar el texto
 });
+const colorMode = useColorMode()
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
 </script>

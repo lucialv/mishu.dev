@@ -6,6 +6,12 @@ export default defineNuxtConfig({
       DISCORD_USER_ID: "997571433280577656",
     },
   },
+  colorMode: {
+    preference: "light", // default value of the color mode
+    fallback: "light", // fallback value if the preference can't be detected
+    classSuffix: "", // optional, default value: ''
+    storageKey: "nuxt-color-mode", // optional, default value: 'color-mode'
+  },
   app: {
     head: {
       title: "Lucía Álvarez",
@@ -14,10 +20,13 @@ export default defineNuxtConfig({
         { rel: "canonical", href: "https://mishu.dev" },
         { rel: "icon", href: "/owo.png" },
         // <link rel="preload" as="image" href="img.png" />
-        { rel: "preload", as:"image", href:"/images/banner.webp"},
+        { rel: "preload", as: "image", href: "/images/banner.webp" },
       ],
       meta: [
-        { "http-equiv": "Cache-Control", content: "no-cache, no-store, must-revalidate" },
+        {
+          "http-equiv": "Cache-Control",
+          content: "no-cache, no-store, must-revalidate",
+        },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
         { "http-equiv": "Expires", content: "0" },
         { "http-equiv": "Pragma", content: "no-cache" },
