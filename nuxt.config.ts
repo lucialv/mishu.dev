@@ -13,12 +13,15 @@ export default defineNuxtConfig({
       link: [
         { rel: "canonical", href: "https://mishu.dev" },
         { rel: "icon", href: "/owo.png" },
+        // <link rel="preload" as="image" href="img.png" />
+        { rel: "preload", as:"image", href:"/images/banner.webp"},
+        { rel: "preload", as: "style", href:"assets/css/tailwind.css"}
       ],
       meta: [
-        { "http-equiv": "Cache-Control", content: "1y" },
+        { "http-equiv": "Cache-Control", content: "no-cache, no-store, must-revalidate" },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
-        { "http-equiv": "Expires", content: "1y" },
-        { "http-equiv": "Pragma", content: "1y" },
+        { "http-equiv": "Expires", content: "0" },
+        { "http-equiv": "Pragma", content: "no-cache" },
         { name: "apple-mobile-web-app-capable", content: "yes" },
         { name: "apple-mobile-web-app-status-bar-style", content: "black" },
         { name: "apple-mobile-web-app-title", content: "Lucía Álvarez" },
