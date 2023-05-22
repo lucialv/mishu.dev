@@ -55,7 +55,13 @@
             </div>
           </strong>
           <div class="flex justify-center pt-10">
-            <button-link href="https://github.com/mishhuu" text="GitHub" />
+            <NuxtLink to="https://github.com/mishhuu" target="_blank">
+              <button
+                class="bg-sky-400 hover:bg-white hover:text-sky-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
+              >
+                GitHub
+              </button>
+            </NuxtLink>
             <button
               class="inline-block ml-2 rounded text-neutral-800 dark:text-zinc-100 bg-neutral-100 dark:bg-zinc-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal black:text-neutral-50 drop-shadow-xl transition duration-150 ease-in-out"
               @click="toggleDark()"
