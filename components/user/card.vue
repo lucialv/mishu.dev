@@ -10,6 +10,7 @@
           <source type="image/webp" srcset="/images/banner.webp" />
           <source type="image/gif" srcset="/images/banner.gif" />
           <img
+            fetchpriority="high"
             src="/images/banner.gif"
             alt="banner"
             width="300"
