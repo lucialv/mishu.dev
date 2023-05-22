@@ -55,17 +55,11 @@
           </strong>
           <div class="flex justify-center pt-10">
             <button-link href="https://github.com/mishhuu" text="GitHub" />
-            <!-- <button-link
-              href="https://twitter.com/user"
-              text="Twitter"
-              class="ml-2"
-            /> -->
-            <button @click="toggleDark()">
-              <i inline-block align-middle i="dark:carbon-moon carbon-sun" />
-              <span
-                class="inline-block ml-2 rounded text-neutral-800 dark:text-zinc-100 bg-neutral-100 dark:bg-zinc-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal black:text-neutral-50 drop-shadow-xl transition duration-150 ease-in-out"
-                >{{ isDark ? "Light" : "Dark" }}</span
-              >
+            <button
+              class="inline-block ml-2 rounded text-neutral-800 dark:text-zinc-100 bg-neutral-100 dark:bg-zinc-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal black:text-neutral-50 drop-shadow-xl transition duration-150 ease-in-out"
+              @click="toggleDark()"
+            >
+              {{ isDark ? "Light" : "Dark" }}
             </button>
           </div>
         </div>
