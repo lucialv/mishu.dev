@@ -16,7 +16,8 @@
             >
               <h1>
                 Hi! I'm
-                <span class="text-cyan-200">Lucía ♡</span>
+                <span class="text-cyan-200">Lucía </span>
+                ♡
               </h1>
             </div>
             <div>
@@ -69,7 +70,7 @@
       <footer class="body-font">
         <div class="container px-5 py-8 mx-auto flex items-center flex-col">
           <p
-            class="text-sm opacity-70 sm:py-2 sm:mt-0 mt-4 text-white font-['RockoUltraFLF']"
+            class="text-sm opacity-70 sm:py-2 drop-shadow-xl sm:mt-0 mt-4 text-white font-['RockoUltraFLF']"
           >
             © 2023 Lucía Álvarez
           </p>

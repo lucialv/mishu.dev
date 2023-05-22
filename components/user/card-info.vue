@@ -17,15 +17,16 @@
         />
       </span>
       {{ "‎  " }}
-      <span class="text-pink-600 dark:text-pink-300">{{ " She/Her" }}</span>
+      <span class="">{{ " She/Her" }}</span>
+      <!-- text-pink-600 dark:text-pink-300 -->
       {{ " · " }}
-
+      <!-- class="text-teal-600 dark:text-teal-200" -->
       <external-link
-        class="text-teal-600 dark:text-teal-200"
         href="https://www.16personalities.com/infp-personality"
         text="INFP-T"
       />{{ " · " }}
-      <span class="text-sky-600 dark:text-sky-200">{{ " 15 year old" }}</span>
+      <span class="">{{ " 15 year old" }}</span>
+      <!-- text-sky-600 dark:text-sky-200 -->
       {{ "\n" }}
       {{ "\n" }}
 
@@ -38,11 +39,13 @@
         />
       </span>
       {{ " " }}
+
       <external-link
-        class="text-blue-500 dark:text-blue-300"
+        class="text-blue-900 dark:text-blue-500"
         href="https://mishu.dev/"
         text="https://mishu.dev/ "
-      />{{ "‎  " }} {{ " Owner" }}
+      />{{ "‎  " }}
+      {{ " Owner" }}
       <span class="inline-block">
         <img
           src="https://cdn.discordapp.com/emojis/1012713973596037151.webp?size=44&quality=lossless"
@@ -62,8 +65,8 @@
         />
       </span>
       {{ " " }}
+      <!-- class="text-emerald-500 dark:text-emerald-200" -->
       <external-link
-        class="text-emerald-500 dark:text-emerald-200"
         href="https://github.com/mishhuu"
         text="Beginner Developer "
       />
@@ -85,8 +88,8 @@
         />
       </span>
       {{ " " }}
-
-      <span class="text-red-500 dark:text-red-300">{{ "I Love Gaming and Anime" }}</span>
+      <!-- class="text-red-500 dark:text-red-300" -->
+      <span>{{ "I Love Gaming and Anime" }}</span>
       {{ " " }}
       <img
         src="https://cdn.discordapp.com/emojis/1026592770074353684.webp?size=44&quality=lossless"
