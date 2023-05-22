@@ -17,15 +17,15 @@
         />
       </span>
       {{ "‎  " }}
-      <span class="text-pink-500 dark:text-pink-300">{{ " She/Her" }}</span>
+      <span class="text-pink-600 dark:text-pink-300">{{ " She/Her" }}</span>
       {{ " · " }}
 
       <external-link
-        class="text-teal-200"
+        class="text-teal-600 dark:text-teal-200"
         href="https://www.16personalities.com/infp-personality"
         text="INFP-T"
       />{{ " · " }}
-      <span class="text-sky-500 dark:text-sky-200">{{ " 15 year old" }}</span>
+      <span class="text-sky-600 dark:text-sky-200">{{ " 15 year old" }}</span>
       {{ "\n" }}
       {{ "\n" }}
 
