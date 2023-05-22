@@ -7,8 +7,8 @@ export default defineNuxtConfig({
     },
   },
   colorMode: {
-    preference: "light", // default value of the color mode
-    fallback: "light", // fallback value if the preference can't be detected
+    preference: "dark", // default value of the color mode
+    fallback: "dark", // fallback value if the preference can't be detected
     classSuffix: "", // optional, default value: ''
     storageKey: "nuxt-color-mode", // optional, default value: 'color-mode'
   },
