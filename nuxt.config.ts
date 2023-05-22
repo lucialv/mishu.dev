@@ -15,7 +15,6 @@ export default defineNuxtConfig({
         { rel: "icon", href: "/owo.png" },
         // <link rel="preload" as="image" href="img.png" />
         { rel: "preload", as:"image", href:"/images/banner.webp"},
-        { rel: "preload", as: "style", href:"assets/css/tailwind.css"}
       ],
       meta: [
         { "http-equiv": "Cache-Control", content: "no-cache, no-store, must-revalidate" },
