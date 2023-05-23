@@ -35,6 +35,11 @@
   src: url("../../fonts/RockoUltraFLF.ttf");
   font-display: swap;
 }
+@font-face {
+  font-family: "RockoFLF";
+  src: url("../../fonts/rockoflf.ttf");
+  font-display: swap;
+}
 @layer base {
   html,
   body {
