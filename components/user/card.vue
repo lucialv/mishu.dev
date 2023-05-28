@@ -46,7 +46,10 @@
       <div class="pt-16 pb-3 px-4">
         <!-- headerText -->
         <div class="text-xl font-semibold leading-6">
-          <span class="text-zinc-900 dark:text-slate-50">mishhuu</span>
+          <span class="text-zinc-900 dark:text-slate-50">lu </span>
+        </div>
+        <div class="text-lg font-semibold leading-6">
+          <span class="text-zinc-900 dark:text-slate-50">lucia❤</span>
           <span class="dark:text-slate-300">#0001</span>
         </div>
 
