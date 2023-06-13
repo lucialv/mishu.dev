@@ -57,7 +57,7 @@
           <div class="flex justify-center pt-10">
             <NuxtLink to="https://github.com/mishhuu" target="_blank">
               <button
-                class="bg-sky-400 hover:bg-white hover:text-sky-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
+                class="bg-blue-600 hover:bg-white hover:text-sky-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
               >
                 GitHub
               </button>
