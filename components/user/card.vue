@@ -62,7 +62,7 @@
         <div class="text-xl font-semibold leading-6">
           <span class="text-zinc-900 dark:text-slate-50">lucia </span>
         </div>
-        <div class="text-lg font-semibold leading-6">
+        <div class="text-md font-semibold leading-6">
           <span class="text-zinc-900 dark:text-slate-50">@lucialv</span>
           <span class="dark:text-slate-300"></span>
         </div>
