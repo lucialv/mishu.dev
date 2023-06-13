@@ -11,7 +11,7 @@
       <span class="inline-block">
         <img
           src="https://cdn.discordapp.com/emojis/1105972056350273698.webp?size=44&quality=lossless"
-          alt="transgender-flag"
+          alt="transgender-cat"
           class="w-5 h-5 inline-block align-bottom"
           draggable="false"
         />
@@ -33,7 +33,7 @@
       <span class="inline-block">
         <img
           src="https://cdn.discordapp.com/emojis/1077014562085294090.webp?size=44&quality=lossless"
-          alt="small-blue-diamond"
+          alt="pink-arrow"
           class="w-5 h-5 inline-block align-bottom"
           draggable="false"
         />
@@ -49,7 +49,7 @@
       <span class="inline-block">
         <img
           src="https://cdn.discordapp.com/emojis/1012713973596037151.webp?size=44&quality=lossless"
-          alt="transgender-flag"
+          alt="ghost-love"
           class="w-5 h-5 inline-block align-bottom"
           draggable="false"
         />
@@ -59,7 +59,7 @@
       <span class="inline-block">
         <img
           src="https://cdn.discordapp.com/emojis/1077014562085294090.webp?size=44&quality=lossless"
-          alt="small-blue-diamond"
+          alt="pink-arrow"
           class="w-5 h-5 inline-block align-bottom"
           draggable="false"
         />
@@ -73,7 +73,7 @@
       <img
         src="https://cdn.discordapp.com/emojis/743960005924880494.webp?size=44&quality=lossless"
         iara-label=":iara_snuggie:"
-        alt="iara_snuggie"
+        alt="flushed-girl"
         draggable="false"
         class="w-5 h-5 inline-block align-bottom"
       />
@@ -82,7 +82,7 @@
       <span class="inline-block">
         <img
           src="https://cdn.discordapp.com/emojis/1077014562085294090.webp?size=44&quality=lossless"
-          alt="small-blue-diamond"
+          alt="pink-arrow"
           class="w-5 h-5 inline-block align-bottom"
           draggable="false"
         />
@@ -94,7 +94,7 @@
       <img
         src="https://cdn.discordapp.com/emojis/1026592770074353684.webp?size=44&quality=lossless"
         iara-label=":iara_snuggie:"
-        alt="iara_snuggie"
+        alt="yay"
         draggable="false"
         class="w-5 h-5 inline-block align-bottom"
       />

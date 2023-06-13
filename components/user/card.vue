@@ -27,34 +27,83 @@
             <user-card-avatar :status="user.discord_status" />
           </div>
         </div>
-        <img
-          src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
-          iara-label=":iara_snuggie:"
-          alt="iara_snuggie"
-          draggable="false"
-          class="w-6 h-6 absolute top-[110px] right-[59px]"
-        />
-        <img
-          src="https://cdn.discordapp.com/emojis/1097524744720482395.webp?size=44&quality=lossless"
-          iara-label=":iara_snuggie:"
-          alt="iara_snuggie"
-          draggable="false"
-          class="w-6 h-6 absolute top-[110.3px] right-[81px]"
-        />
-        <img
-          src="https://cdn.discordapp.com/emojis/1097524736101204108.webp?size=44&quality=lossless"
-          iara-label=":iara_snuggie:"
-          alt="iara_snuggie"
-          draggable="false"
-          class="w-6 h-6 absolute top-[110.3px] right-[35px]"
-        />
-        <img
-          src="https://cdn.discordapp.com/emojis/1112318025182498876.webp?size=44&quality=lossless"
-          iara-label=":iara_snuggie:"
-          alt="iara_snuggie"
-          draggable="false"
-          class="w-6 h-6 absolute top-[110.3px] right-[9px]"
-        />
+        <div>
+          <div>
+            <img
+              src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
+              alt="active-developer"
+              draggable="false"
+              class="w-6 h-6 absolute top-[110px] right-[80px] cursor-pointer"
+            />
+          </div>
+          <div>
+            <p
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-8 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+            >
+              Active Developer
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.discordapp.com/emojis/1097524744720482395.webp?size=44&quality=lossless"
+              alt="hypesquad"
+              draggable="false"
+              class="w-6 h-6 absolute top-[110.3px] right-[102px] cursor-pointer"
+            />
+          </div>
+          <div>
+            <p
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-12 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+            >
+              HypeSquad Bravery
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.discordapp.com/emojis/1097524736101204108.webp?size=44&quality=lossless"
+              alt="nitro"
+              draggable="false"
+              class="w-6 h-6 absolute top-[110.3px] right-[56px] cursor-pointer"
+            />
+          </div>
+          <div>
+            <p
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+            >
+              Subscriber since 28 May 2023
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.discordapp.com/emojis/1112318025182498876.webp?size=44&quality=lossless"
+              alt="boost"
+              draggable="false"
+              class="w-6 h-6 absolute top-[110.3px] right-[31px] cursor-pointer"
+            />
+          </div>
+          <div>
+            <p
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+            >
+              Server Boosting since 28 May 2023
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.discordapp.com/emojis/1118229890756526170.webp?size=44&quality=lossless"
+              alt="icon-username"
+              draggable="false"
+              class="w-6 h-6 absolute top-[110.3px] right-[9px] cursor-pointer"
+            />
+          </div>
+          <div>
+            <p
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+            >
+              Originally know as lucialv#0001
+            </p>
+          </div>
+        </div>
       </div>
       <!-- headerTop -->
       <div class="pt-16 pb-3 px-4">
@@ -78,7 +127,7 @@
           <img
             src="https://cdn.discordapp.com/emojis/743960005924880494.webp?size=44&quality=lossless"
             iara-label=":iara_snuggie:"
-            alt="iara_snuggie"
+            alt="flushed-girl"
             draggable="false"
             class="w-5 h-5 -my-px mr-1 float-left"
           />
