@@ -45,14 +45,17 @@ const input = ref("");
 const anchor = ref<HTMLAnchorElement>();
 
 function submit() {
-  anchor.value.href = `mailto:mishudiscord@gmail.com?body=${encodeURIComponent(
+  const element = anchor.value;
+  if (!element) return;
+
+  element.href = `mailto:mishudiscord@gmail.com?body=${encodeURIComponent(
     input.value
   )}`;
-  anchor.value.click();
+  element.click();
   input.value = "";
 }
 
-function handleInput(event: KeyboardEvent) {
+function handleInput(event: Event) {
   const target = event.target as HTMLTextAreaElement;
   target.style.removeProperty("height");
   target.style.height = `${target.scrollHeight + 2}px`;

@@ -97,7 +97,7 @@ const elapsed = useState<string | null>(
 window.setInterval(() => (elapsed.value = computeElapsed()), 1000);
 
 function computeElapsed() {
-  if (!props.data.timestamps) return null;
+  if (!props.data.timestamps?.start) return null;
 
   const distance = Date.now() - props.data.timestamps.start;
   const seconds = (Math.floor(distance / secondAsMilliseconds) % 60)
