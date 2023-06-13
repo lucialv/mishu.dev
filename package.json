@@ -14,7 +14,7 @@
     "nuxt": "^3.4.3"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.8",
+    "@nuxtjs/tailwindcss": "^6.7.0",
     "@vueuse/core": "^10.1.2",
     "@vueuse/nuxt": "^10.1.2",
     "discord-api-types": "^0.37.42",

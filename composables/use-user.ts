@@ -6,10 +6,10 @@ export const useUser = () => {
     listening_to_spotify: false,
     kv: {},
     discord_user: {
-      username: "lucia❤",
+      username: "lucialv",
       public_flags: 0,
       id: "300969054649450496",
-      discriminator: "0001",
+      discriminator: "0",
       bot: false,
       avatar: "a1a851e64ba807a0f5d511a15162a238",
     },
