@@ -66,10 +66,7 @@
       </span>
       {{ " " }}
       <!-- class="text-emerald-500 dark:text-emerald-200" -->
-      <external-link
-        href="https://github.com/mishhuu"
-        text="Beginner Developer "
-      />
+      {{ "Beginner Developer " }}
       <img
         src="https://cdn.discordapp.com/emojis/743960005924880494.webp?size=44&quality=lossless"
         iara-label=":iara_snuggie:"

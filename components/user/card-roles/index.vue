@@ -4,12 +4,7 @@
   >
     Roles
   </h2>
-  <div
-    aria-label="Roles"
-    role="list"
-    tabindex="0"
-    class="mt-0.5 mb-3 flex flex-wrap"
-  >
+  <div aria-label="Roles" role="list" class="mt-0.5 mb-3 flex flex-wrap">
     <user-card-roles-item
       role="TypeScript"
       class-color="bg-gradient-to-tl from-blue-700 to-blue-200"

@@ -1,5 +1,6 @@
 <template>
   <nuxt-link
+    is="button"
     :to="href"
     target="_blank"
     class="text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
@@ -13,7 +14,7 @@
 defineProps<{ href: string; text?: string; type?: keyof typeof types }>();
 
 const types = {
-  none: "bg-sky-400 hover:bg-white hover:text-sky-500",
-  info: "bg-indigo-500 hover:bg-indigo-600",
+  none: "bg-blue-600 hover:bg-white hover:scale-105 hover:text-blue-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal transition-all duration-300 focus:outline-none rounded",
+  info: "",
 };
 </script>

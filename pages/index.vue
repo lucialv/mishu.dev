@@ -17,7 +17,12 @@
               <h1>
                 Hi! I'm
                 <span class="text-cyan-200">Lucía </span>
-                ♡
+                <img
+                  src="https://cdn.discordapp.com/emojis/1112300498888958043.gif?size=1024&quality=lossless"
+                  alt="bird "
+                  class="w-10 h-10 md:w-20 md:h-20 inline-block"
+                  draggable="false"
+                />
               </h1>
             </div>
             <div>
@@ -55,15 +60,9 @@
             </div>
           </strong>
           <div class="flex justify-center pt-10">
-            <NuxtLink to="https://github.com/mishhuu" target="_blank">
-              <button
-                class="bg-blue-600 hover:bg-white hover:text-sky-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal focus:outline-none rounded"
-              >
-                GitHub
-              </button>
-            </NuxtLink>
+            <button-link href="https://github.com/lucialv" text="GitHub" />
             <button
-              class="inline-block ml-2 rounded text-neutral-800 dark:text-zinc-100 bg-neutral-100 dark:bg-zinc-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal black:text-neutral-50 drop-shadow-xl transition duration-150 ease-in-out"
+              class="inline-block ml-2 rounded hover:scale-105 text-neutral-800 dark:text-zinc-100 bg-neutral-100 dark:bg-zinc-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal black:text-neutral-50 drop-shadow-xl transition duration-150 ease-in-out"
               @click="toggleDark()"
             >
               {{ isDark ? "Light" : "Dark" }}
