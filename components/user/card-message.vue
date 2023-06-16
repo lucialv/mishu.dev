@@ -3,6 +3,7 @@
     class="relative w-full flex flex-wrap items-stretch p-3 bg-slate-200 dark:bg-zinc-800 rounded"
   >
     <textarea
+      id="message"
       class="rounded-r-none flex-auto outline-0 bg-transparent overflow-hidden resize-none"
       placeholder="Message @mishhuu"
       aria-label="Send an email to Lucía"
@@ -14,7 +15,7 @@
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
-        class="w-6 ml-2 top-3 right-3 rounded-l-none fill-zinc-700 dark:fill-zinc-300"
+        class="w-8 h-8 ml-2 top-3 right-3 rounded-l-none fill-zinc-700 dark:fill-zinc-300"
         :class="{ 'opacity-20': !input.length }"
       >
         <path

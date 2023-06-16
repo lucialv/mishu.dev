@@ -10,7 +10,6 @@
           <source type="image/webp" srcset="/images/banner.webp" />
           <source type="image/gif" srcset="/images/banner.gif" />
           <img
-            fetchpriority="high"
             src="/images/banner.gif"
             alt="banner"
             width="300"
@@ -38,7 +37,7 @@
           </div>
           <div>
             <p
-              class="absolute w-auto p-2 m-2 min-w-max top-14 right-8 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-8 rounded-md shadow-md text-zinc-900 bg-white dark:text-white dark:bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
             >
               Active Developer
             </p>
@@ -53,7 +52,7 @@
           </div>
           <div>
             <p
-              class="absolute w-auto p-2 m-2 min-w-max top-14 right-12 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-12 rounded-md shadow-md text-zinc-900 bg-white dark:text-white dark:bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
             >
               HypeSquad Bravery
             </p>
@@ -68,7 +67,7 @@
           </div>
           <div>
             <p
-              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-zinc-900 bg-white dark:text-white dark:bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
             >
               Subscriber since 28 May 2023
             </p>
@@ -83,7 +82,7 @@
           </div>
           <div>
             <p
-              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-zinc-900 bg-white dark:text-white dark:bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
             >
               Server Boosting since 28 May 2023
             </p>
@@ -98,7 +97,7 @@
           </div>
           <div>
             <p
-              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-white bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
+              class="absolute w-auto p-2 m-2 min-w-max top-14 right-0 rounded-md shadow-md text-zinc-900 bg-white dark:text-white dark:bg-zinc-900 text-xs font-bold transition-all duration-100 scale-0 origin-top [div:hover+*>&]:scale-100"
             >
               Originally know as lucialv#0001
             </p>
@@ -125,7 +124,7 @@
         <!-- customStatus -->
         <div class="pb-2.5">
           <img
-            src="https://cdn.discordapp.com/emojis/743960005924880494.webp?size=44&quality=lossless"
+            src="https://cdn.discordapp.com/emojis/1111775552802668574.webp?size=44&quality=lossless"
             iara-label=":iara_snuggie:"
             alt="flushed-girl"
             draggable="false"
@@ -134,7 +133,7 @@
           <span v-if="activity" :data="activity"
             >Playing <strong>{{ activity.name }}</strong></span
           >
-          <span v-else> If you see this, I love you &lt;3 </span>
+          <span v-else> 私の背中を歩くあなたの指がハートを描きます。</span>
         </div>
 
         <!-- divider -->

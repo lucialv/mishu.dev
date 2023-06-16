@@ -1,9 +1,6 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen ...">
-    <client-only
-      class="text-white grid grid-cols-1 justify-items-center pt-[25%] text-xl font-['RockoUltraFLF']"
-      placeholder=" Loading..."
-    >
+    <client-only>
       <div
         class="container right-0 mx-auto flex px-5 md:py-32 py-12 md:flex-row flex-col items-center"
       >

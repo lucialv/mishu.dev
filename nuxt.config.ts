@@ -18,9 +18,8 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: "en" },
       link: [
         { rel: "canonical", href: "https://mishu.dev" },
-        { rel: "icon", href: "/owo.png" },
+        { rel: "icon", href: "/owo.webp" },
         // <link rel="preload" as="image" href="img.png" />
-        { rel: "preload", as: "image", href: "/images/banner.webp" },
       ],
       meta: [
         {
@@ -85,7 +84,7 @@ export default defineNuxtConfig({
         { property: "og:title", content: "Home | Lucía Álvarez" },
         { property: "og:type", content: "website" },
         { property: "og:url", content: "https://mishu.dev" },
-        { property: "og:image", content: "/owo.png" },
+        { property: "og:image", content: "/owo.webp" },
       ],
     },
   },
