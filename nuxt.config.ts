@@ -24,7 +24,7 @@ export default defineNuxtConfig({
       meta: [
         {
           "http-equiv": "Cache-Control",
-          content: "no-cache, no-store, must-revalidate",
+          content: "no-cache, must-revalidate",
         },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
         { "http-equiv": "Expires", content: "0" },
