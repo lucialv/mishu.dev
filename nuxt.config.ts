@@ -24,11 +24,11 @@ export default defineNuxtConfig({
       meta: [
         {
           "http-equiv": "Cache-Control",
-          content: "no-cache, must-revalidate",
+          content: "1y",
         },
         { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" },
-        { "http-equiv": "Expires", content: "0" },
-        { "http-equiv": "Pragma", content: "no-cache" },
+        { "http-equiv": "Expires", content: "1y" },
+        { "http-equiv": "Pragma", content: "1y" },
         { name: "apple-mobile-web-app-capable", content: "yes" },
         { name: "apple-mobile-web-app-status-bar-style", content: "black" },
         { name: "apple-mobile-web-app-title", content: "Lucía Álvarez" },
