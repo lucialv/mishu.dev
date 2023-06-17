@@ -15,6 +15,7 @@
           :alt="data.assets!.large_text"
           width="60"
           height="60"
+          draggable="false"
           class="block object-cover rounded-lg"
           :class="{ 'large-mask': data.assets!.small_text }"
         />
@@ -24,6 +25,7 @@
           :alt="data.assets!.small_text"
           width="20"
           height="20"
+          draggable="false"
           class="rounded-full absolute -bottom-1 -right-1"
         />
         <img
@@ -32,6 +34,7 @@
           :alt="data.application_id"
           width="20"
           height="20"
+          draggable="false"
           class="rounded-full absolute -bottom-1 -right-1"
         />
       </div>
