@@ -27,12 +27,15 @@
           </div>
         </div>
         <div>
+          <div
+            class="bg-[#FDF4FF] dark:bg-zinc-800 w-32 h-8 absolute right-4 rounded-lg top-[116px]"
+          ></div>
           <div>
             <img
               src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
               alt="active-developer"
               draggable="false"
-              class="w-6 h-6 absolute top-[110px] right-[80px] cursor-pointer"
+              class="w-6 h-6 absolute top-[120px] right-[95px] cursor-pointer z-10"
             />
           </div>
           <div>
@@ -47,7 +50,7 @@
               src="https://cdn.discordapp.com/emojis/1097524744720482395.webp?size=44&quality=lossless"
               alt="hypesquad"
               draggable="false"
-              class="w-6 h-6 absolute top-[110.3px] right-[102px] cursor-pointer"
+              class="w-6 h-6 absolute top-[120px] right-[118px] cursor-pointer z-10"
             />
           </div>
           <div>
@@ -62,7 +65,7 @@
               src="https://cdn.discordapp.com/emojis/1097524736101204108.webp?size=44&quality=lossless"
               alt="nitro"
               draggable="false"
-              class="w-6 h-6 absolute top-[110.3px] right-[56px] cursor-pointer"
+              class="w-6 h-6 absolute top-[120px] right-[70px] cursor-pointer z-10"
             />
           </div>
           <div>
@@ -77,7 +80,7 @@
               src="https://cdn.discordapp.com/emojis/1112318025182498876.webp?size=44&quality=lossless"
               alt="boost"
               draggable="false"
-              class="w-6 h-6 absolute top-[110.3px] right-[31px] cursor-pointer"
+              class="w-6 h-6 absolute top-[120px] right-[45px] cursor-pointer z-10"
             />
           </div>
           <div>
@@ -92,7 +95,7 @@
               src="https://cdn.discordapp.com/emojis/1118229890756526170.webp?size=44&quality=lossless"
               alt="icon-username"
               draggable="false"
-              class="w-6 h-6 absolute top-[110.3px] right-[9px] cursor-pointer"
+              class="w-6 h-6 absolute top-[120px] right-[20px] cursor-pointer z-10"
             />
           </div>
           <div>
