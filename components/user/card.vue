@@ -28,7 +28,7 @@
         </div>
         <div>
           <div
-            class="bg-[#FDF4FF] dark:bg-zinc-800 w-32 h-8 absolute right-4 rounded-lg top-[116px]"
+            class="bg-neutral-200 dark:bg-zinc-800 w-32 h-8 absolute right-4 rounded-lg top-[116px]"
           ></div>
           <div>
             <img
