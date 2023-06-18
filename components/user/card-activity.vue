@@ -6,7 +6,9 @@
 		<div class="flex items-center">
 			<!-- assets -->
 			<div class="relative self-start">
+				<!-- This image only will show if there is data.application_id -->
 				<img
+					v-if="data.application_id"
 					:src="`https://cdn.discordapp.com/app-assets/${data.application_id}/${data.assets!.large_image}.png`"
 					:alt="data.assets!.large_text"
 					width="60"
@@ -16,18 +18,29 @@
 					:class="{ 'large-mask': data.assets!.small_text }"
 				/>
 				<img
+					:src="`https://dcdn.dstn.to/app-icons/${data.application_id}.png`"
+					:alt="data.assets!.large_text"
+					width="60"
+					height="60"
+					draggable="false"
+					class="block rounded-lg object-cover"
+					:class="{ 'large-mask': data.assets!.small_text }"
+				/>
+				<!-- This image only will show if there isn't data.application_id -->
+				<img
+					v-if="!data.application_id"
+					:src="imageUrl"
+					:alt="`spotify song`"
+					width="60"
+					height="60"
+					class="block rounded-lg object-cover"
+					:class="{ 'large-mask': data.assets!.small_text }"
+				/>
+				<!-- This image only will show if there is a small image of the activity -->
+				<img
 					v-if="data.assets!.small_text"
 					:src="`https://cdn.discordapp.com/app-assets/${data.application_id}/${data.assets!.small_image}.png`"
 					:alt="data.assets!.small_text"
-					width="20"
-					height="20"
-					draggable="false"
-					class="absolute -bottom-1 -right-1 rounded-full"
-				/>
-				<img
-					v-if="!data.assets"
-					:src="`https://dcdn.dstn.to/app-icons/${data.application_id}.png`"
-					:alt="data.application_id"
 					width="20"
 					height="20"
 					draggable="false"
@@ -67,12 +80,24 @@
 
 <script setup lang="ts">
 import type { GatewayActivity } from 'discord-api-types/payloads/v10';
+import { ref, onMounted } from 'vue';
 
 const secondAsMilliseconds = 1000;
 const minuteAsMilliseconds = secondAsMilliseconds * 60;
 const hourAsMilliseconds = minuteAsMilliseconds * 60;
 
 const props = defineProps<{ data: GatewayActivity }>();
+const imageUrl = ref('');
+
+onMounted(async () => {
+	try {
+		const response = await fetch('https://api.lanyard.rest/v1/users/300969054649450496');
+		const lyndata = await response.json();
+		imageUrl.value = lyndata.data.spotify.album_art_url;
+	} catch (error) {
+		console.error('Error fetching data:', error);
+	}
+});
 const elapsed = useState<string | null>('user-card-activity-elapsed', computeElapsed);
 window.setInterval(() => (elapsed.value = computeElapsed()), 1000);
 
