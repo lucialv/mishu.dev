@@ -6,12 +6,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.2.0",
+    "@sapphire/prettier-config": "^1.4.5",
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.4.3",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.7.0",

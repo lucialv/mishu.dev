@@ -777,6 +777,13 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
+"@sapphire/prettier-config@^1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@sapphire/prettier-config/-/prettier-config-1.4.5.tgz#9b74035193fd69a4eeeb3cc437d5b41978f0a868"
+  integrity sha512-XFyDXwztGmP7CJo1BMjmBZaX4aLyMPceZX4rQU9WsODnkJBTpAEIPjmioFUHlnLsu+yty0r5635Ye3eIcr1x0A==
+  dependencies:
+    prettier "^2.8.2"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
@@ -4102,6 +4109,16 @@ postcss@^8.1.10, postcss@^8.2.15, postcss@^8.4.23:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+prettier-plugin-tailwindcss@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.3.0.tgz#8299b307c7f6467f52732265579ed9375be6c818"
+  integrity sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==
+
+prettier@^2.8.2, prettier@^2.8.8:
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 pretty-bytes@^6.1.0:
   version "6.1.0"

@@ -1,5 +1,5 @@
 <template>
-	<nuxt-link :to="href" target="_blank" class="hover:underline underline-offset-2">
+	<nuxt-link :to="href" target="_blank" class="underline-offset-2 hover:underline">
 		{{ text ?? href }}
 	</nuxt-link>
 </template>
