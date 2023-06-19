@@ -18,13 +18,12 @@
 					:class="{ 'large-mask': data.assets!.small_text }"
 				/>
 				<img
-					:src="`https://dcdn.dstn.to/app-icons/${data.application_id}.png`"
-					:alt="data.assets!.large_text"
+					:src="`https://dcdn.dstn.to/app-icons/${gameID}.png`"
+					:alt="gameName"
 					width="60"
 					height="60"
 					draggable="false"
 					class="block rounded-lg object-cover"
-					:class="{ 'large-mask': data.assets!.small_text }"
 				/>
 				<!-- This image only will show if there isn't data.application_id -->
 				<img
@@ -88,16 +87,20 @@ const hourAsMilliseconds = minuteAsMilliseconds * 60;
 
 const props = defineProps<{ data: GatewayActivity }>();
 const imageUrl = ref('');
-
+const gameName = ref('');
+const gameID = ref('');
 onMounted(async () => {
 	try {
 		const response = await fetch('https://api.lanyard.rest/v1/users/300969054649450496');
 		const lyndata = await response.json();
 		imageUrl.value = lyndata.data.spotify.album_art_url;
+		gameName.value = lyndata.data.activities.name;
+		gameID.value = lyndata.data.activities.application_id;
 	} catch (error) {
 		console.error('Error fetching data:', error);
 	}
 });
+console.log(`https://dcdn.dstn.to/app-icons/${gameID}.png`, gameID);
 const elapsed = useState<string | null>('user-card-activity-elapsed', computeElapsed);
 window.setInterval(() => (elapsed.value = computeElapsed()), 1000);
 
