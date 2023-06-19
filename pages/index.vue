@@ -5,7 +5,7 @@
 				<NavBar />
 			</div>
 
-			<div id="home" class="container right-0 mx-auto flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
+			<div id="home" class="container right-0 mx-auto mb-72 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
 				<div
 					class="mb-16 flex flex-col items-center text-center font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 				>
@@ -57,10 +57,10 @@
 				</div>
 			</div>
 			<!-- About me section start -->
-			<div id="aboutme" class="mx-auto flex px-5 py-12 md:py-32">
+			<div id="aboutme" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
 				<div class="mb-16 font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:flex">
 					<div class="mr-0">
-						<img src="/images/avatar-512.webp" alt="about me photo" class="rounded-3xl" />
+						<img src="/images/avatar-512.webp" alt="about me photo" class="w-full rounded-3xl" />
 					</div>
 					<div class="pt-8 md:ml-8">
 						<div>
@@ -78,7 +78,7 @@
 			<!-- About Me section finish -->
 
 			<!-- Contact section start -->
-			<div id="contact" class="mx-auto flex px-5 py-12 md:py-32">
+			<div id="contact" class="mx-auto mb-52 mt-52 flex px-5 py-12 md:py-32">
 				<div class="mb-16 font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:flex">
 					<div class="pt-8">
 						<div>
