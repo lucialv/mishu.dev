@@ -1,16 +1,18 @@
 <template>
-	<nav class="fixed w-full bg-white p-4">
+	<nav class="fixed w-full p-4 px-6 md:px-16">
 		<div class="flex items-center justify-between">
 			<!-- Header logo -->
 			<div>
-				<Tailwind />
+				<a href="#home">
+					<Tailwind />
+				</a>
 			</div>
 
 			<!-- Mobile toggle -->
 			<div class="md:hidden">
 				<button @click="drawer">
 					<svg
-						class="h-8 w-8 fill-current text-black"
+						class="absolute right-9 top-4 h-10 w-10 rounded-md bg-white bg-opacity-40 fill-current text-white"
 						fill="none"
 						stroke-linecap="round"
 						stroke-linejoin="round"
@@ -25,12 +27,12 @@
 
 			<!-- Navbar -->
 			<div class="hidden md:block">
-				<ul class="flex space-x-8 font-sans text-sm">
-					<li><a href="#home" class="border-b-2 border-blue-500 pb-1">Home</a></li>
-					<li><a href="#aboutme" class="">About Me</a></li>
+				<ul class="flex space-x-8 font-sans text-sm text-white">
+					<li><a href="#home" class="active hover:border-b-2 hover:border-white hover:pb-1">Home</a></li>
+					<li><a href="#aboutme" class="hover:border-b-2 hover:border-white hover:pb-1">About Me</a></li>
 					<!-- <li><a href="#" class="">Features</a></li>
 					<li><a href="#" class="">FAQ</a></li> -->
-					<li><a href="#" class="">Contact</a></li>
+					<li><a href="#contact" class="hover:border-b-2 hover:border-white hover:pb-1">Contact</a></li>
 					<li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li>
 				</ul>
 			</div>
@@ -70,7 +72,7 @@
 					</button>
 				</div>
 
-				<span @click="isOpen = false" class="flex w-full items-center border-b p-4">
+				<span @click="isOpen = false" class="flex items-center justify-center border-b p-4">
 					<Tailwind />
 				</span>
 
@@ -79,7 +81,7 @@
 					<li><a href="#aboutme" @click="isOpen = false" class="my-4 inline-block">About Me</a></li>
 					<!-- <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Features</a></li>
 					<li><a href="#" @click="isOpen = false" class="my-4 inline-block">FAQ</a></li> -->
-					<li><a href="#" @click="isOpen = false" class="my-4 inline-block">Contact</a></li>
+					<li><a href="#contact" @click="isOpen = false" class="my-4 inline-block">Contact</a></li>
 					<li>
 						<a
 							href="#"

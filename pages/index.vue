@@ -56,6 +56,7 @@
 					<user-card />
 				</div>
 			</div>
+			<!-- About me section start -->
 			<div id="aboutme" class="mx-auto flex px-5 py-12 md:py-32">
 				<div class="mb-16 font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:flex">
 					<div class="mr-0">
@@ -74,11 +75,40 @@
 					</div>
 				</div>
 			</div>
+			<!-- About Me section finish -->
+
+			<!-- Contact section start -->
+			<div id="contact" class="mx-auto flex px-5 py-12 md:py-32">
+				<div class="mb-16 font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:flex">
+					<div class="pt-8">
+						<div>
+							<h1 class="text-center text-4xl md:text-justify">Contact</h1>
+						</div>
+						<div class="pt-2 md:max-w-lg">
+							<div class="min-h-32 min-w-32 relative flex w-full flex-wrap items-stretch rounded bg-slate-200 p-3 dark:bg-zinc-800">
+								<textarea
+									id="message"
+									class="h-28 w-80 max-w-xs flex-auto resize-none overflow-hidden rounded-r-none bg-transparent font-['Whitney'] outline-0"
+									placeholder="Hey Lucía! I just want to contact you because..."
+									aria-label="Send an email to Lucía"
+									v-model.trim="input"
+									@input="handleInput"
+									@keyup.ctrl.enter="submit"
+								></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Contact section finish -->
+
+			<!-- Footer section start -->
 			<footer class="body-font">
 				<div class="container mx-auto flex flex-col items-center px-5 py-8">
 					<p class="mt-4 font-['RockoUltraFLF'] text-sm text-white opacity-70 drop-shadow-xl sm:mt-0 sm:py-2">© 2023 Lucía Álvarez</p>
 				</div>
 			</footer>
+			<!-- Footer section finish -->
 		</client-only>
 	</div>
 </template>
