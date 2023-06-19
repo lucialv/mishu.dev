@@ -91,7 +91,12 @@ onMounted(async () => {
 	try {
 		const response = await fetch('https://api.lanyard.rest/v1/users/300969054649450496');
 		const lyndata = await response.json();
-		imageUrl.value = lyndata.data.spotify.album_art_url;
+		if (lyndata.data.listening_to_spotify) {
+			imageUrl.value = lyndata.data.spotify.album_art_url;
+		} else {
+			imageUrl.value = '';
+		}
+
 		gameName.value = lyndata.data.activities.name;
 		gameID.value = lyndata.data.activities.application_id;
 		activities.value = lyndata.data.activities;
