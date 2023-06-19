@@ -48,3 +48,9 @@
 		@apply bg-gradient-to-tl from-cyan-300 via-blue-600 to-sky-300;
 	}
 }
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+}
