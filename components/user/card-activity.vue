@@ -27,6 +27,15 @@
 										draggable="false"
 										class="h-[60px] w-[60px] rounded-lg object-cover"
 									/>
+									<img
+										v-if="activity.assets"
+										:src="`https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets!.small_image}.png`"
+										:alt="activity.name"
+										width="20"
+										height="20"
+										draggable="false"
+										class="absolute bottom-[265px] left-16 rounded-full"
+									/>
 									<!-- non-spotify applications and no assets-->
 									<img
 										v-if="activity.name != 'Spotify' && !activity.assets"
@@ -48,7 +57,9 @@
 										<div v-if="data.state" class="overflow-hidden text-ellipsis whitespace-nowrap">
 											{{ activity.state }}
 										</div>
-										<div v-if="elapsed" class="overflow-hidden text-ellipsis whitespace-nowrap">{{ elapsed }} elapsed</div>
+										<div v-if="elapsed" class="overflow-hidden text-ellipsis whitespace-nowrap">
+											{{ computeElapsed(activity.timestamps?.start) }} elapsed
+										</div>
 									</div>
 								</div>
 							</div>
@@ -105,21 +116,19 @@ onMounted(async () => {
 	}
 });
 
-const elapsed = useState<string | null>('user-card-activity-elapsed', computeElapsed);
-window.setInterval(() => (elapsed.value = computeElapsed()), 1000);
+const elapsed = useState<string | null>('user-card-activity-elapsed');
 
-function computeElapsed() {
-	if (!props.data.timestamps?.start) return null;
+window.setInterval(() => {
+	elapsed.value = computeElapsed(props.data.timestamps?.start);
+}, 1000);
 
-	const distance = Date.now() - props.data.timestamps.start;
+function computeElapsed(startTimestamp?: number) {
+	if (!startTimestamp) return null;
+
+	const distance = Date.now() - startTimestamp;
 	const seconds = (Math.floor(distance / secondAsMilliseconds) % 60).toString().padStart(2, '0');
 	const minutes = (Math.floor(distance / minuteAsMilliseconds) % 60).toString().padStart(2, '0');
-	if (distance < hourAsMilliseconds) return `${minutes}:${seconds}`;
-
-	const hours = Math.floor(distance / hourAsMilliseconds)
-		.toString()
-		.padStart(2, '0');
-	return `${hours}:${minutes}:${seconds}`;
+	return `${minutes}:${seconds}`;
 }
 </script>
 
