@@ -17,7 +17,7 @@
 										:src="imageUrl"
 										alt="valorant"
 										draggable="false"
-										class="h-[60px] w-[60px] rounded-lg object-cover"
+										class="max-w-[60px]: max-h-[60px] min-h-[60px] min-w-[60px] rounded-lg object-cover"
 									/>
 									<!-- non-spotify applicationn with assets-->
 									<img
