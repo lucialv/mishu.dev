@@ -30,8 +30,6 @@
 				<ul class="flex space-x-8 font-sans text-sm text-white">
 					<li><a href="#home" class="active hover:border-b-2 hover:border-white hover:pb-1">Home</a></li>
 					<li><a href="#aboutme" class="hover:border-b-2 hover:border-white hover:pb-1">About Me</a></li>
-					<!-- <li><a href="#" class="">Features</a></li>
-					<li><a href="#" class="">FAQ</a></li> -->
 					<li><a href="#contact" class="hover:border-b-2 hover:border-white hover:pb-1">Contact</a></li>
 					<li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li>
 				</ul>
@@ -79,8 +77,6 @@
 				<ul class="divide-y font-sans">
 					<li><a href="#home" @click="isOpen = false" class="my-4 inline-block">Home</a></li>
 					<li><a href="#aboutme" @click="isOpen = false" class="my-4 inline-block">About Me</a></li>
-					<!-- <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Features</a></li>
-					<li><a href="#" @click="isOpen = false" class="my-4 inline-block">FAQ</a></li> -->
 					<li><a href="#contact" @click="isOpen = false" class="my-4 inline-block">Contact</a></li>
 					<li>
 						<a
