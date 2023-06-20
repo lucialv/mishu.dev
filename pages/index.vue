@@ -78,7 +78,7 @@
 			<!-- About Me section finish -->
 
 			<!-- Contact section start -->
-			<div id="contact" class="mx-auto mb-52 mt-52 flex px-5 py-12 md:py-32">
+			<!-- <div id="contact" class="mx-auto mb-52 mt-52 flex px-5 py-12 md:py-32">
 				<div class="mb-16 font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:flex">
 					<div class="pt-8">
 						<div>
@@ -99,7 +99,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
+			<Contact />
 			<!-- Contact section finish -->
 
 			<!-- Footer section start -->

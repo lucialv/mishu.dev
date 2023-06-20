@@ -1,4 +1,5 @@
 <template>
+	<div class="fixed h-[72px] w-full bg-white/10 px-6 ring-1 ring-white/10 md:px-16"></div>
 	<nav class="fixed w-full p-4 px-6 md:px-16">
 		<div class="flex items-center justify-between">
 			<!-- Header logo -->
@@ -45,7 +46,7 @@
 				leave-to-class="opacity-0"
 			>
 				<div @keydown.esc="isOpen = false" v-show="isOpen" class="fixed inset-0 z-10 transition-opacity">
-					<div @click="isOpen = false" class="absolute inset-0 bg-black opacity-50" tabindex="0"></div>
+					<div @click="isOpen = false" class="absolute inset-0 bg-white opacity-50" tabindex="0"></div>
 				</div>
 			</transition>
 
