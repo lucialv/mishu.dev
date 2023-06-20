@@ -1,7 +1,7 @@
 <template>
 	<div class="relative flex w-full flex-wrap items-stretch rounded bg-slate-200 p-3 dark:bg-zinc-800">
 		<textarea
-			id="message"
+			id="mensaje"
 			class="flex-auto resize-none overflow-hidden rounded-r-none bg-transparent outline-0"
 			placeholder="Message @lucialv"
 			aria-label="Send an email to Lucía"
