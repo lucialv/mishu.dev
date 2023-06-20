@@ -2,7 +2,9 @@
 	<div class="flex items-center justify-center p-12">
 		<!-- Author: FormBold Team -->
 		<!-- Learn More: https://formbold.com -->
+
 		<div class="mx-auto w-full max-w-[550px]">
+			<h1 class="mb-10 block max-w-[90px] border-b-2 text-2xl font-bold dark:text-white">Contact</h1>
 			<form action="https://formbold.com/s/35K1E" method="POST">
 				<div class="mb-5 max-w-[200px]">
 					<label for="name" class="mb-3 block text-base font-medium text-black dark:text-zinc-100"> Full Name </label>

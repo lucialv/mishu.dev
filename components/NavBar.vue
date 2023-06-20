@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed h-[72px] w-full bg-black/10 ring-black/10 md:px-16"></div>
+	<div class="fixed h-[72px] w-full bg-white shadow-md dark:bg-zinc-800 md:px-16"></div>
 	<nav class="fixed w-full p-4 px-6 md:px-16">
 		<div class="flex items-center justify-between">
 			<!-- Header logo -->
