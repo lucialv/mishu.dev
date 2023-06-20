@@ -10,7 +10,7 @@
 					class="mb-16 flex flex-col items-center text-center font-['RockoUltraFLF'] text-fuchsia-400 drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 				>
 					<strong>
-						<div class="leading-relaxe pt-16 text-4xl hover:text-fuchsia-500 md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+						<div class="leading-relaxe pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 							<h1>
 								Hi! I'm
 								<span class="text-fuchsia-500">Lucía </span>
@@ -23,7 +23,7 @@
 							</h1>
 						</div>
 						<div>
-							<h2 class="leading-relaxe text-4xl hover:text-fuchsia-500 lg:text-5xl xl:text-6xl 2xl:text-6xl">
+							<h2 class="leading-relaxe text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
 								And I'm
 								<Transition name="fade" mode="out-in">
 									<span class="text-fuchsia-500" v-if="lista[counter % lista.length] == `a girl`" id="words">{{
@@ -64,8 +64,7 @@
 						</div>
 						<div class="mt-4 md:max-w-xs">
 							<p class="text-black dark:text-white">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo maiores sit ipsa sequi enim nobis dolore
-								sint vitae repudiandae officiis molestiae voluptatum facilis amet, ducimus itaque, sed nisi. Asperiores?
+								Developer with no experience, I just finished high school and I like anime and videogames.
 							</p>
 						</div>
 					</div>
