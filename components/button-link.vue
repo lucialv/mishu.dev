@@ -14,7 +14,7 @@
 defineProps<{ href: string; text?: string; type?: keyof typeof types }>();
 
 const types = {
-	none: 'bg-blue-600 hover:bg-white hover:scale-105 hover:text-blue-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal transition-all duration-300 focus:outline-none rounded',
+	none: 'bg-fuchsia-500 hover:bg-white hover:scale-105 hover:text-fuchsia-500 text-white px-6 pb-2 pt-2.5 text-xs font-medium leading-normal transition-all duration-300 focus:outline-none rounded',
 	info: ''
 };
 </script>
