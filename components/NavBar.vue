@@ -54,7 +54,7 @@
 				leave-to-class="opacity-0"
 			>
 				<div @keydown.esc="isOpen = false" v-show="isOpen" class="fixed inset-0 z-10 transition-opacity">
-					<div @click="isOpen = false" class="absolute inset-0 bg-white opacity-50 dark:bg-black" tabindex="0"></div>
+					<div @click="isOpen = false" class="absolute inset-0 bg-black opacity-40" tabindex="0"></div>
 				</div>
 			</transition>
 
@@ -88,12 +88,18 @@
 					<li><a href="#aboutme" @click="isOpen = false" class="my-4 inline-block">About Me</a></li>
 					<li><a href="#contact" @click="isOpen = false" class="my-4 inline-block">Contact</a></li>
 					<li>
-						<a
+						<!-- <a
 							href="#"
 							@click="isOpen = false"
 							class="cta my-8 inline-block w-full rounded bg-blue-500 px-3 py-2 text-center font-semibold text-white hover:bg-blue-600"
 							>Sign Up</a
+						> -->
+						<button
+							class="black:text-neutral-50 absolute right-[100px] top-72 rounded bg-zinc-900 px-3 py-2 text-xs font-semibold uppercase text-neutral-100 drop-shadow-xl transition duration-150 ease-in-out hover:scale-105 dark:bg-zinc-100 dark:text-zinc-800"
+							@click="toggleDark()"
 						>
+							{{ isDark ? 'Light' : 'Dark' }}
+						</button>
 					</li>
 				</ul>
 			</aside>

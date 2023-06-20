@@ -3,7 +3,7 @@
 		<textarea
 			id="message"
 			class="flex-auto resize-none overflow-hidden rounded-r-none bg-transparent outline-0"
-			placeholder="Message @mishhuu"
+			placeholder="Message @lucialv"
 			aria-label="Send an email to Lucía"
 			v-model.trim="input"
 			@input="handleInput"
