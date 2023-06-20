@@ -1,6 +1,6 @@
 <template>
 	<div class="fixed h-[72px] w-full bg-white shadow-md dark:bg-zinc-800 md:px-16"></div>
-	<nav class="fixed w-full p-4 px-6 md:px-16">
+	<nav class="fixed w-full p-4 px-6 md:pl-16 md:pr-32">
 		<div class="flex items-center justify-between">
 			<!-- Header logo -->
 			<div>
@@ -13,7 +13,7 @@
 			<div class="md:hidden">
 				<button @click="drawer">
 					<svg
-						class="absolute right-9 top-4 h-10 w-10 rounded-md bg-white bg-opacity-40 fill-current text-white dark:bg-zinc-800 dark:text-black"
+						class="absolute right-9 top-4 h-10 w-10 rounded-md bg-opacity-40 fill-current text-black dark:text-white"
 						fill="none"
 						stroke-linecap="round"
 						stroke-linejoin="round"
@@ -27,12 +27,20 @@
 			</div>
 
 			<!-- Navbar -->
-			<div class="hidden md:block">
+			<div class="hidden md:inline-block">
 				<ul class="flex space-x-8 font-sans text-sm dark:text-white">
-					<li><a href="#home" class="active hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Home</a></li>
+					<li><a href="#home" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Home</a></li>
 					<li><a href="#aboutme" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">About Me</a></li>
 					<li><a href="#contact" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Contact</a></li>
-					<li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li>
+					<!-- <li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li> -->
+					<li>
+						<button
+							class="black:text-neutral-50 absolute bottom-5 rounded bg-zinc-900 px-3 py-2 text-xs font-semibold uppercase text-neutral-100 drop-shadow-xl transition duration-150 ease-in-out hover:scale-105 dark:bg-zinc-100 dark:text-zinc-800"
+							@click="toggleDark()"
+						>
+							{{ isDark ? 'Light' : 'Dark' }}
+						</button>
+					</li>
 				</ul>
 			</div>
 
@@ -46,13 +54,13 @@
 				leave-to-class="opacity-0"
 			>
 				<div @keydown.esc="isOpen = false" v-show="isOpen" class="fixed inset-0 z-10 transition-opacity">
-					<div @click="isOpen = false" class="absolute inset-0 bg-white opacity-50" tabindex="0"></div>
+					<div @click="isOpen = false" class="absolute inset-0 bg-white opacity-50 dark:bg-black" tabindex="0"></div>
 				</div>
 			</transition>
 
 			<!-- Drawer Menu -->
 			<aside
-				class="fixed left-0 top-0 z-30 h-full w-64 transform overflow-auto bg-white p-5 transition-all duration-300 ease-in-out"
+				class="fixed left-0 top-0 z-30 h-full w-64 transform overflow-auto bg-white p-5 text-black transition-all duration-300 ease-in-out dark:bg-zinc-800 dark:text-white"
 				:class="isOpen ? 'translate-x-0' : '-translate-x-full'"
 			>
 				<div class="close">
@@ -93,7 +101,7 @@
 	</nav>
 </template>
 
-<script>
+<script lang="js">
 export default {
 	data() {
 		return {
@@ -122,4 +130,13 @@ export default {
 		});
 	}
 };
+</script>
+
+<script setup lang="js">
+import { useColorMode, useDark, useToggle } from '@vueuse/core'
+
+
+const colorMode = useColorMode()
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
 </script>

@@ -27,15 +27,6 @@
 										draggable="false"
 										class="h-[60px] w-[60px] rounded-lg object-cover"
 									/>
-									<img
-										v-if="activity.assets"
-										:src="`https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets!.small_image}.png`"
-										:alt="activity.name"
-										width="20"
-										height="20"
-										draggable="false"
-										class="absolute bottom-[265px] left-16 rounded-full"
-									/>
 									<!-- non-spotify applications and no assets-->
 									<img
 										v-if="activity.name != 'Spotify' && !activity.assets"
