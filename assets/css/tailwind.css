@@ -45,7 +45,7 @@
 @layer base {
 	html,
 	body {
-		@apply bg-gradient-to-tl from-cyan-300 via-blue-600 to-sky-300;
+		@apply bg-zinc-100 dark:bg-zinc-800;
 	}
 }
 

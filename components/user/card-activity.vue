@@ -128,7 +128,11 @@ function computeElapsed(startTimestamp?: number) {
 	const distance = Date.now() - startTimestamp;
 	const seconds = (Math.floor(distance / secondAsMilliseconds) % 60).toString().padStart(2, '0');
 	const minutes = (Math.floor(distance / minuteAsMilliseconds) % 60).toString().padStart(2, '0');
-	return `${minutes}:${seconds}`;
+	if (distance < hourAsMilliseconds) return `${minutes}:${seconds}`;
+	const hours = Math.floor(distance / hourAsMilliseconds)
+		.toString()
+		.padStart(2, '0');
+	return `${hours}:${minutes}:${seconds}`;
 }
 </script>
 

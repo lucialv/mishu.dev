@@ -7,13 +7,13 @@
 
 			<div id="home" class="container right-0 mx-auto mb-72 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
 				<div
-					class="mb-16 flex flex-col items-center text-center font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
+					class="mb-16 flex flex-col items-center text-center font-['RockoUltraFLF'] text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 				>
 					<strong>
-						<div class="text-5xl leading-relaxed text-white hover:text-cyan-100 md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+						<div class="leading-relaxe text-5xl hover:text-pink-200 md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 							<h1>
 								Hi! I'm
-								<span class="text-cyan-200">Lucía </span>
+								<span class="text-pink-300">Lucía </span>
 								<img
 									src="https://cdn.discordapp.com/emojis/1112300498888958043.gif?size=1024&quality=lossless"
 									alt="bird "
@@ -23,19 +23,19 @@
 							</h1>
 						</div>
 						<div>
-							<h2 class="text-4xl leading-relaxed text-white hover:text-cyan-100 lg:text-5xl xl:text-6xl 2xl:text-6xl">
+							<h2 class="leading-relaxe text-4xl hover:text-pink-200 lg:text-5xl xl:text-6xl 2xl:text-6xl">
 								And I'm
 								<Transition name="fade" mode="out-in">
-									<span class="text-cyan-200" v-if="lista[counter % lista.length] == `a girl`" id="words">{{
+									<span class="text-pink-300" v-if="lista[counter % lista.length] == `a girl`" id="words">{{
 										lista[counter % lista.length]
 									}}</span>
-									<span class="text-cyan-200" v-else-if="lista[counter % lista.length] == `a gamer`" id="words">{{
+									<span class="text-pink-300" v-else-if="lista[counter % lista.length] == `a gamer`" id="words">{{
 										lista[counter % lista.length]
 									}}</span>
-									<span class="text-cyan-200" v-else-if="lista[counter % lista.length] == `a developer`" id="words">{{
+									<span class="text-pink-300" v-else-if="lista[counter % lista.length] == `a developer`" id="words">{{
 										lista[counter % lista.length]
 									}}</span>
-									<span class="text-cyan-200" v-else-if="lista[counter % lista.length] == `an anime fan`" id="words">{{
+									<span class="text-pink-300" v-else-if="lista[counter % lista.length] == `an anime fan`" id="words">{{
 										lista[counter % lista.length]
 									}}</span>
 								</Transition>
@@ -45,7 +45,7 @@
 					<div class="flex justify-center pt-10">
 						<button-link href="https://github.com/lucialv" text="GitHub" />
 						<button
-							class="black:text-neutral-50 ml-2 inline-block rounded bg-neutral-100 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-neutral-800 drop-shadow-xl transition duration-150 ease-in-out hover:scale-105 dark:bg-zinc-800 dark:text-zinc-100"
+							class="black:text-neutral-50 ml-2 inline-block rounded bg-zinc-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-neutral-100 drop-shadow-xl transition duration-150 ease-in-out hover:scale-105 dark:bg-zinc-100 dark:text-zinc-800"
 							@click="toggleDark()"
 						>
 							{{ isDark ? 'Light' : 'Dark' }}
@@ -58,16 +58,16 @@
 			</div>
 			<!-- About me section start -->
 			<div id="aboutme" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
-				<div class="mb-16 font-['RockoUltraFLF'] text-white drop-shadow-xl md:mb-0 md:flex">
+				<div class="mb-16 font-['Whitney'] drop-shadow-xl md:mb-0 md:flex">
 					<div class="mr-0">
 						<img src="/images/avatar-512.webp" alt="about me photo" class="w-full rounded-3xl" />
 					</div>
 					<div class="pt-8 md:ml-8">
 						<div>
-							<h1 class="text-center text-4xl md:text-justify">About me</h1>
+							<h1 class="text-center text-4xl text-pink-300 md:text-justify">About me</h1>
 						</div>
 						<div class="pt-2 md:max-w-xs">
-							<p>
+							<p class="text-black dark:text-zinc-200">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo maiores sit ipsa sequi enim nobis dolore
 								sint vitae repudiandae officiis molestiae voluptatum facilis amet, ducimus itaque, sed nisi. Asperiores?
 							</p>
@@ -106,7 +106,9 @@
 			<!-- Footer section start -->
 			<footer class="body-font">
 				<div class="container mx-auto flex flex-col items-center px-5 py-8">
-					<p class="mt-4 font-['RockoUltraFLF'] text-sm text-white opacity-70 drop-shadow-xl sm:mt-0 sm:py-2">© 2023 Lucía Álvarez</p>
+					<p class="mt-4 font-['Whitney'] text-sm text-black opacity-70 drop-shadow-xl dark:text-white sm:mt-0 sm:py-2">
+						© 2023 Lucía Álvarez
+					</p>
 				</div>
 			</footer>
 			<!-- Footer section finish -->

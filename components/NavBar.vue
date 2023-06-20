@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed h-[72px] w-full bg-white/10 px-6 ring-1 ring-white/10 md:px-16"></div>
+	<div class="fixed h-[72px] w-full bg-black/10 ring-black/10 md:px-16"></div>
 	<nav class="fixed w-full p-4 px-6 md:px-16">
 		<div class="flex items-center justify-between">
 			<!-- Header logo -->
@@ -13,7 +13,7 @@
 			<div class="md:hidden">
 				<button @click="drawer">
 					<svg
-						class="absolute right-9 top-4 h-10 w-10 rounded-md bg-white bg-opacity-40 fill-current text-white"
+						class="absolute right-9 top-4 h-10 w-10 rounded-md bg-white bg-opacity-40 fill-current text-white dark:bg-zinc-800 dark:text-black"
 						fill="none"
 						stroke-linecap="round"
 						stroke-linejoin="round"
@@ -28,10 +28,10 @@
 
 			<!-- Navbar -->
 			<div class="hidden md:block">
-				<ul class="flex space-x-8 font-sans text-sm text-white">
-					<li><a href="#home" class="active hover:border-b-2 hover:border-white hover:pb-1">Home</a></li>
-					<li><a href="#aboutme" class="hover:border-b-2 hover:border-white hover:pb-1">About Me</a></li>
-					<li><a href="#contact" class="hover:border-b-2 hover:border-white hover:pb-1">Contact</a></li>
+				<ul class="flex space-x-8 font-sans text-sm dark:text-white">
+					<li><a href="#home" class="active hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Home</a></li>
+					<li><a href="#aboutme" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">About Me</a></li>
+					<li><a href="#contact" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Contact</a></li>
 					<li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li>
 				</ul>
 			</div>
