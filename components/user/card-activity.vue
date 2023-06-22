@@ -5,20 +5,12 @@
 		<!-- bodyNormal -->
 		<div class="flex">
 			<ul>
-				<li v-for="(activity, index) in activities" :key="activity.id">
+				<li v-for="(activity, index) in testactivities" :key="activity.id">
 					<template v-if="index !== 0">
 						<!-- assets -->
 						<div class="flex flex-col gap-y-8">
 							<div class="mb-4 flex items-center gap-x-2">
 								<div>
-									<!-- spotify -->
-									<img
-										v-if="activity.name == 'Spotify'"
-										:src="imageUrl"
-										alt="valorant"
-										draggable="false"
-										class="max-w-[60px]: max-h-[60px] min-h-[60px] min-w-[60px] rounded-lg object-cover"
-									/>
 									<!-- non-spotify applicationn with assets-->
 									<img
 										v-if="activity.name != 'Spotify' && activity.assets"
@@ -35,6 +27,14 @@
 										draggable="false"
 										class="h-[60px] w-[60px] rounded-lg object-cover"
 									/>
+									<!-- spotify -->
+									<img
+										v-if="activity.name == 'Spotify'"
+										:src="spotdata.album_art_url"
+										alt="valorant"
+										draggable="false"
+										class="max-w-[60px]: max-h-[60px] min-h-[60px] min-w-[60px] rounded-lg object-cover"
+									/>
 								</div>
 								<div>
 									<!-- content -->
@@ -42,10 +42,10 @@
 										<div class="overflow-hidden text-ellipsis whitespace-nowrap text-sm font-semibold">
 											{{ activity.name }}
 										</div>
-										<div v-if="data.details" class="overflow-hidden text-ellipsis whitespace-nowrap">
+										<div v-if="activity.details" class="overflow-hidden text-ellipsis whitespace-nowrap">
 											{{ activity.details }}
 										</div>
-										<div v-if="data.state" class="overflow-hidden text-ellipsis whitespace-nowrap">
+										<div v-if="activity.state" class="overflow-hidden text-ellipsis whitespace-nowrap">
 											{{ activity.state }}
 										</div>
 										<div v-if="elapsed" class="overflow-hidden text-ellipsis whitespace-nowrap">
@@ -61,7 +61,7 @@
 		</div>
 
 		<!-- buttons -->
-		<div v-if="data.buttons?.length" class="mt-3 flex flex-initial flex-col flex-wrap items-stretch justify-start">
+		<!-- <div v-if="data.buttons?.length" class="mt-3 flex flex-initial flex-col flex-wrap items-stretch justify-start">
 			<button
 				v-for="button in data.buttons"
 				:key="typeof button === 'string' ? button : button.label"
@@ -71,46 +71,24 @@
 					{{ button }}
 				</div>
 			</button>
-		</div>
+		</div> -->
 	</div>
 </template>
 
 <script setup lang="ts">
 import type { GatewayActivity } from 'discord-api-types/payloads/v10';
-import { ref, onMounted } from 'vue';
+import { spotifyStatus } from '~~/composables/use-user';
 
 const secondAsMilliseconds = 1000;
 const minuteAsMilliseconds = secondAsMilliseconds * 60;
 const hourAsMilliseconds = minuteAsMilliseconds * 60;
 
-const props = defineProps<{ data: GatewayActivity }>();
-const activities = ref<GatewayActivity[]>([]);
-const imageUrl = ref('');
-const gameName = ref('');
-const gameID = ref('');
-
-onMounted(async () => {
-	try {
-		const response = await fetch('https://api.lanyard.rest/v1/users/300969054649450496');
-		const lyndata = await response.json();
-		if (lyndata.data.listening_to_spotify) {
-			imageUrl.value = lyndata.data.spotify.album_art_url;
-		} else {
-			imageUrl.value = '';
-		}
-
-		gameName.value = lyndata.data.activities.name;
-		gameID.value = lyndata.data.activities.application_id;
-		activities.value = lyndata.data.activities;
-	} catch (error) {
-		console.error('Error fetching data:', error);
-	}
-});
+const fun = defineProps<{ spotdata: spotifyStatus; testactivities: GatewayActivity[]; singleactivity: GatewayActivity }>();
 
 const elapsed = useState<string | null>('user-card-activity-elapsed');
 
 window.setInterval(() => {
-	elapsed.value = computeElapsed(props.data.timestamps?.start);
+	elapsed.value = computeElapsed(fun.singleactivity.timestamps?.start);
 }, 1000);
 
 function computeElapsed(startTimestamp?: number) {
