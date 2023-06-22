@@ -131,7 +131,7 @@
 				<div class="mb-3 h-[1px] w-full bg-slate-200 dark:bg-zinc-800"></div>
 				<user-card-info />
 				<user-card-dates />
-				<user-card-activity v-if="activity" :data="activity" />
+				<user-card-activity v-if="activity" :spotdata="user.spotify" :testactivities="user.activities" :singleactivity="activity" />
 				<user-card-roles />
 				<user-card-note />
 
@@ -143,11 +143,10 @@
 
 <script setup lang="ts">
 import { LanyardIncomingPayload, LanyardOpcode } from '~~/composables/use-user';
-
+// yeah,
 const user = useUser();
 const config = useRuntimeConfig();
 const activity = computed(() => user.value.activities.find((activity) => activity.assets));
-
 function connect() {
 	let heartbeatInterval = -1;
 	const websocket = new WebSocket('wss://api.lanyard.rest/socket');
