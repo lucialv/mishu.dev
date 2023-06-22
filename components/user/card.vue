@@ -121,10 +121,26 @@
 						draggable="false"
 						class="float-left -my-px mr-1 h-5 w-5"
 					/>
-					<span v-if="activity" :data="activity"
-						>Playing <strong>{{ activity.name }}</strong></span
+					<span v-if="user.activities[4]"
+						>Playing <strong>{{ user.activities[1].name }} </strong>, <strong>{{ user.activities[2].name }} </strong>,
+						<strong>{{ user.activities[3].name }} </strong> and <strong>{{ user.activities[4].name }}</strong
+						>.</span
 					>
-					<span v-else> 私の背中を歩くあなたの指がハートを描きます。</span>
+					<span v-else-if="user.activities[3]"
+						>Playing <strong>{{ user.activities[1].name }} </strong>, <strong>{{ user.activities[2].name }} </strong> and
+						<strong>{{ user.activities[3].name }}</strong
+						>.</span
+					>
+					<span v-else-if="user.activities[2] && !user.activities[3]"
+						>Playing <strong>{{ user.activities[1].name }} </strong> and <strong>{{ user.activities[2].name }}</strong
+						>.</span
+					>
+					<span v-else-if="user.activities[1] && !user.activities[2]"
+						>Playing <strong>{{ user.activities[1].name }}</strong
+						>.
+					</span>
+					<span v-else-if="user.activities[0]"> {{ user.activities[0].state }} </span>
+					<span v-else> ^^</span>
 				</div>
 
 				<!-- divider -->
