@@ -10,7 +10,8 @@
 				</div>
 				<div class="mt-4 md:max-w-xs">
 					<p class="text-black dark:text-white">
-						Developer with no experience, I just finished high school and I like anime and videogames.
+						Developer Junior, with a lot of desire to learn more every day and with the desire to get to do something great in the future.
+						Just finished high school.
 					</p>
 				</div>
 			</div>
