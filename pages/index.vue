@@ -57,7 +57,7 @@
 						</nuxt-link>
 					</div>
 				</div>
-				<div class="md:mt-12 lg:scale-110">
+				<div class="md:mt-12">
 					<user-card />
 				</div>
 			</div>

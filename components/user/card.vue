@@ -1,13 +1,14 @@
 <template>
-	<div class="w-[300px] font-['Whitney'] drop-shadow-xl dark:text-slate-200">
+	<div class="w-[350px] font-['Whitney'] drop-shadow-xl dark:text-slate-200">
 		<div class="h-full overflow-hidden rounded-2xl bg-slate-50 dark:bg-zinc-900">
 			<!-- headerWrapper -->
 			<div class="relative">
 				<!-- banner -->
+
 				<picture>
 					<source type="image/webp" srcset="/images/banner.webp" />
 					<source type="image/gif" srcset="/images/banner.gif" />
-					<img src="/images/banner.gif" alt="banner" width="300" height="120" aria-hidden="true" draggable="false" class="block" />
+					<img src="/images/banner.gif" alt="banner" width="350" height="120" aria-hidden="true" draggable="false" class="block" />
 				</picture>
 				<!-- avatarWrapperNormal -->
 				<div class="absolute left-[16px] top-[76px]">
@@ -16,19 +17,20 @@
 						<user-card-avatar :status="user.discord_status" />
 					</div>
 				</div>
+
 				<div>
-					<div class="absolute right-4 top-[116px] h-8 w-32 rounded-lg bg-neutral-200 dark:bg-zinc-800"></div>
+					<div class="absolute right-8 top-[135px] h-8 w-32 rounded-lg bg-neutral-200 dark:bg-zinc-800"></div>
 					<div>
 						<img
 							src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
 							alt="active-developer"
 							draggable="false"
-							class="absolute right-[95px] top-[120px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[107px] top-[138px] z-10 h-6 w-6 cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-8 top-14 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-8 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							Active Developer
 						</p>
@@ -38,12 +40,12 @@
 							src="https://cdn.discordapp.com/emojis/1097524744720482395.webp?size=44&quality=lossless"
 							alt="hypesquad"
 							draggable="false"
-							class="absolute right-[118px] top-[120px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[130px] top-[138px] z-10 h-6 w-6 cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-12 top-14 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-12 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							HypeSquad Bravery
 						</p>
@@ -53,12 +55,12 @@
 							src="https://cdn.discordapp.com/emojis/1097524736101204108.webp?size=44&quality=lossless"
 							alt="nitro"
 							draggable="false"
-							class="absolute right-[70px] top-[120px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[83px] top-[138px] z-10 h-6 w-6 cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-0 top-14 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-6 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							Subscriber since 28 May 2023
 						</p>
@@ -68,12 +70,12 @@
 							src="https://cdn.discordapp.com/emojis/1112318025182498876.webp?size=44&quality=lossless"
 							alt="boost"
 							draggable="false"
-							class="absolute right-[45px] top-[120px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[58px] top-[138px] z-10 h-6 w-6 cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-0 top-14 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-6 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							Server Boosting since 28 May 2023
 						</p>
@@ -83,12 +85,12 @@
 							src="https://cdn.discordapp.com/emojis/1118229890756526170.webp?size=44&quality=lossless"
 							alt="icon-username"
 							draggable="false"
-							class="absolute right-[20px] top-[120px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[35px] top-[138px] z-10 h-6 w-6 cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-0 top-14 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-6 top-20 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							Originally know as lucialv#0001
 						</p>
@@ -96,13 +98,13 @@
 				</div>
 			</div>
 			<!-- headerTop -->
-			<div class="px-4 pb-3 pt-16">
+			<div class="px-8 pb-3 pt-16">
 				<!-- headerText -->
 				<div class="text-xl font-semibold leading-6">
-					<span class="text-zinc-900 dark:text-slate-50">lucia </span>
+					<span class="text-zinc-900 dark:text-slate-50">lucía</span>
 				</div>
 				<div class="text-md font-semibold leading-6">
-					<span class="text-zinc-900 dark:text-slate-50">@lucialv</span>
+					<span class="text-zinc-900 dark:text-slate-50">@{{ user.discord_user.username }}</span>
 					<span class="dark:text-slate-300"></span>
 				</div>
 
@@ -111,7 +113,7 @@
 			</div>
 
 			<!-- body -->
-			<div class="flex-initial px-4 pb-3.5 text-sm">
+			<div class="flex-initial px-8 pb-7 text-sm">
 				<!-- customStatus -->
 				<div class="pb-2.5">
 					<img
