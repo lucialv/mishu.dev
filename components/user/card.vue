@@ -90,7 +90,7 @@
 					</div>
 					<div>
 						<p
-							class="absolute right-6 top-20 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-6 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							Originally know as lucialv#0001
 						</p>
