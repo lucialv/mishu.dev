@@ -36,7 +36,7 @@
 								Hi! I'm
 								<span class="text-fuchsia-500">Lucía </span>
 								<img
-									src="https://cdn.discordapp.com/emojis/1112300498888958043.gif?size=1024&quality=lossless"
+									src="https://cdn.discordapp.com/emojis/1112300498888958043.gif?size=80&quality=lossless"
 									alt="bird "
 									class="inline-block h-10 w-10 md:h-20 md:w-20"
 									draggable="false"

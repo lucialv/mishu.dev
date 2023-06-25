@@ -64,22 +64,6 @@
 				class="fixed left-0 top-0 z-30 h-full w-64 transform overflow-auto bg-white p-5 text-black transition-all duration-300 ease-in-out dark:bg-zinc-800 dark:text-white"
 				:class="isOpen ? 'translate-x-0' : '-translate-x-full'"
 			>
-				<div class="close">
-					<button class="absolute right-0 top-0 mr-4 mt-4" @click="isOpen = false">
-						<svg
-							class="h-6 w-6"
-							fill="none"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path d="M6 18L18 6M6 6l12 12"></path>
-						</svg>
-					</button>
-				</div>
-
 				<span @click="isOpen = false" class="flex items-center justify-center border-b p-4">
 					<Tailwind />
 				</span>

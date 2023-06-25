@@ -25,7 +25,7 @@
 				</div>
 			</div>
 			<div class="">
-				<img src="/images/Supportv2.webp" alt="support photo" class="h-[100%] w-[100%] max-w-2xl rounded-3xl" />
+				<img src="/images/Support.webp" loading="lazy" alt="support photo" class="h-[100%] w-[100%] max-w-2xl rounded-3xl" />
 			</div>
 		</div>
 	</div>
