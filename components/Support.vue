@@ -14,7 +14,7 @@
 								You can support me via <a href="https://ko-fi.com/" class="text-pink-600 underline dark:text-pink-400">Ko-fi</a>!
 							</p>
 						</div>
-						<div class="mt-6">
+						<div class="mb-6 mt-6 md:mb-0">
 							<a
 								class="rounded-lg border-2 border-black px-2 py-2 text-2xl text-black shadow-lg hover:border-zinc-800 hover:bg-zinc-800 hover:text-white dark:border-white dark:text-white dark:hover:border-white dark:hover:bg-white dark:hover:text-black"
 								href="https://ko-fi.com/lucialv"
