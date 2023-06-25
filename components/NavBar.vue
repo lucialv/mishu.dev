@@ -11,7 +11,7 @@
 
 			<!-- Mobile toggle -->
 			<div class="md:hidden">
-				<button @click="drawer">
+				<button id="drawer" aria-label="drawer" @click="drawer">
 					<svg
 						class="absolute right-9 top-4 h-10 w-10 rounded-md bg-opacity-40 fill-current text-black dark:text-white"
 						fill="none"

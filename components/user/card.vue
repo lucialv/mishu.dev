@@ -8,7 +8,7 @@
 				<picture>
 					<source type="image/webp" srcset="/images/banner.webp" />
 					<source type="image/gif" srcset="/images/banner.gif" />
-					<img src="/images/banner.gif" alt="banner" width="350" height="120" aria-hidden="true" draggable="false" class="block" />
+					<img src="/images/banner.gif" alt="banner" aria-hidden="true" draggable="false" class="block h-[120px] w-[350px]" />
 				</picture>
 				<!-- avatarWrapperNormal -->
 				<div class="absolute left-[16px] top-[76px]">
