@@ -1,7 +1,7 @@
 <template>
 	<a href="#home" className="scrollup">
-		<div class="h-10 w-10 rounded-lg bg-zinc-600">
-			<img src="/images/up-arrow.png" alt="arrow" class="absolute right-[18px] top-4 h-5 w-5" />
+		<div class="h-10 w-10 rounded-lg bg-zinc-600 lg:h-14 lg:w-14">
+			<img src="/images/up-arrow.png" alt="arrow" class="absolute right-[18px] top-4 h-5 w-5 lg:right-[23.7px] lg:top-[21px] lg:h-6 lg:w-6" />
 		</div>
 	</a>
 </template>

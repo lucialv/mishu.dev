@@ -1,6 +1,24 @@
 <template>
 	<div class="... flex min-h-screen flex-col justify-between">
 		<client-only>
+			<!-- <div class="fixed h-[50%] w-[60%] opacity-20">
+				<svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+							<stop id="stop1" stop-color="rgba(255, 136.858, 253.166, 1)" offset="0%"></stop>
+							<stop id="stop2" stop-color="rgba(127.249, 20.204, 178.372, 1)" offset="100%"></stop>
+						</linearGradient>
+					</defs>
+					<path
+						fill="url(#sw-gradient)"
+						d="M19.3,-35C24,-30.8,25.9,-23.4,28,-17.1C30,-10.7,32.1,-5.4,34.4,1.3C36.6,8,39,15.9,35.8,20.4C32.7,24.8,24.1,25.8,17.2,28.6C10.3,31.4,5.1,36.2,-0.8,37.5C-6.6,38.8,-13.3,36.7,-19.9,33.7C-26.6,30.7,-33.2,26.9,-36,21.1C-38.8,15.3,-37.7,7.7,-35.8,1.1C-33.9,-5.5,-31.2,-11,-27.6,-15.3C-24,-19.6,-19.5,-22.8,-14.7,-26.9C-10,-31,-5,-36,1.2,-38.1C7.3,-40.1,14.7,-39.1,19.3,-35Z"
+						transform="translate(50 50)"
+						stroke-width="0"
+						style="transition: all 0.3s ease 0s"
+						stroke="url(#sw-gradient)"
+					></path>
+				</svg>
+			</div> -->
 			<div class="z-10">
 				<NavBar />
 			</div>
@@ -65,6 +83,10 @@
 			<!-- About me section start -->
 			<Aboutme />
 			<!-- About Me section finish -->
+
+			<!-- Support section start -->
+			<Support />
+			<!-- Support section finish -->
 
 			<!-- Contact section start -->
 			<Contact />
