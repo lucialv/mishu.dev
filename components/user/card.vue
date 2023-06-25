@@ -178,11 +178,11 @@ function connect() {
 
 	websocket.onopen = () => console.info('[WS] Successfully connected');
 	websocket.onerror = (event) => {
-		console.error('[WS] Received error: ', event);
+		console.log('[WS] Received error: ', event);
 		websocket.close();
 	};
 	websocket.onclose = (event) => {
-		console.error('[WS] Closed with code %d. Retrying in 1 second.', event.code);
+		console.log('[WS] Closed with code %d. Retrying in 1 second.', event.code);
 		if (heartbeatInterval !== -1) {
 			window.clearInterval(heartbeatInterval);
 			heartbeatInterval = -1;
