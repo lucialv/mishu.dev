@@ -150,6 +150,7 @@
 				<user-card-info />
 				<user-card-dates />
 				<user-card-activity v-if="activity" :spotdata="user.spotify" :testactivities="user.activities" :singleactivity="activity" />
+
 				<user-card-roles />
 				<user-card-note />
 
@@ -160,6 +161,7 @@
 </template>
 
 <script setup lang="ts">
+import { listenerCount } from 'process';
 import { LanyardIncomingPayload, LanyardOpcode } from '~~/composables/use-user';
 // yeah,
 const user = useUser();
