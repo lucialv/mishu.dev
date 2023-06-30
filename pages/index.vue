@@ -1,5 +1,5 @@
 <template>
-	<div class="... flex min-h-screen flex-col justify-between">
+	<div class="flex min-h-screen flex-col justify-between">
 		<client-only>
 			<div class="z-10">
 				<NavBar />
