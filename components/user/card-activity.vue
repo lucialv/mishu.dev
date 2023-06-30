@@ -14,7 +14,7 @@
 									<!-- non-spotify applicationn with assets-->
 									<img
 										v-if="activity.name != 'Spotify' && activity.assets"
-										:src="`https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets!.large_image}.png`"
+										:src="`https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets!.large_image}.webp`"
 										:alt="activity.assets!.large_text"
 										draggable="false"
 										class="h-[60px] w-[60px] rounded-lg object-cover"
@@ -31,9 +31,9 @@
 									<img
 										v-if="activity.name == 'Spotify'"
 										:src="spotdata.album_art_url"
-										alt="valorant"
+										alt="spotify song"
 										draggable="false"
-										class="max-w-[60px]: max-h-[60px] min-h-[60px] min-w-[60px] rounded-lg object-cover"
+										class="h-[60px] max-h-[60px] min-h-[60px] w-[60px] min-w-[60px] max-w-[60px] rounded-lg object-cover"
 									/>
 								</div>
 								<div>

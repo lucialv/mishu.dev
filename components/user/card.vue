@@ -161,7 +161,6 @@
 </template>
 
 <script setup lang="ts">
-import { listenerCount } from 'process';
 import { LanyardIncomingPayload, LanyardOpcode } from '~~/composables/use-user';
 // yeah,
 const user = useUser();
