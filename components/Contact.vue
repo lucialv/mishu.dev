@@ -14,7 +14,7 @@
 						name="name"
 						id="name"
 						placeholder="Full Name"
-						class="w-full rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-[0_2px_2px_rgba(240,_171,_252)] dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
+						class="w-full rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-md focus:shadow-pink-300/20 dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
 					/>
 				</div>
 				<div class="mb-5 max-w-[300px]">
@@ -24,7 +24,7 @@
 						name="email"
 						id="email"
 						placeholder="example@domain.com"
-						class="plac w-full rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-[0_2px_2px_rgba(240,_171,_252)] dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
+						class="plac w-full rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-md focus:shadow-pink-300/20 dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
 					/>
 				</div>
 				<div class="mb-5 max-w-[400px]">
@@ -34,7 +34,7 @@
 						name="subject"
 						id="subject"
 						placeholder="Enter your subject"
-						class="w-full rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-[0_2px_2px_rgba(240,_171,_252)] dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
+						class="w-full rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-md focus:shadow-pink-300/20 dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
 					/>
 				</div>
 				<div class="mb-5">
@@ -44,7 +44,7 @@
 						name="message"
 						id="message"
 						placeholder="Type your message"
-						class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-[0_2px_2px_rgba(240,_171,_252)] dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
+						class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white px-4 py-3 text-base font-medium text-black placeholder-[#6B7280] outline-none focus:border-pink-300 focus:shadow-md focus:shadow-pink-300/20 dark:border-white dark:bg-zinc-800 dark:text-white dark:focus:border-pink-300"
 					></textarea>
 				</div>
 				<div>

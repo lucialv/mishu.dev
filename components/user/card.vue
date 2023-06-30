@@ -1,5 +1,5 @@
 <template>
-	<div class="w-[350px] font-['Whitney'] drop-shadow-xl dark:text-slate-200">
+	<div class="w-[350px] font-['Whitney'] dark:text-slate-200">
 		<div class="h-full overflow-hidden rounded-2xl bg-slate-50 dark:bg-zinc-900">
 			<!-- headerWrapper -->
 			<div class="relative">

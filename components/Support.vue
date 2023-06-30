@@ -11,7 +11,12 @@
 					<div class="">
 						<div class="mt-4 md:max-w-md">
 							<p class="text-xl text-black dark:text-white">
-								You can support me via <a href="https://ko-fi.com/" class="text-pink-600 underline dark:text-pink-400">Ko-fi</a>!
+								You can support me via
+								<a
+									href="https://ko-fi.com/"
+									class="text-pink-600 underline decoration-pink-600 decoration-wavy dark:text-pink-400 dark:decoration-pink-400"
+									>Ko-fi</a
+								>!
 							</p>
 						</div>
 						<div class="mb-6 mt-6 md:mb-0">
