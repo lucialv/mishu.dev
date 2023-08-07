@@ -53,7 +53,7 @@ export default defineNuxtConfig({
 				{ name: 'identifier-URL', content: 'https://mishu.dev' },
 				{
 					name: 'keywords',
-					content: 'mishu, mishudev, discord, programming, portfolio'
+					content: 'mishu, Lucía Álvarez Portfolio, Lucía Álvarez, Lucía Portfolio, mishu portfolio'
 				},
 				{ name: 'msapplication-config', content: '/browserconfig.xml' },
 				{ name: 'msapplication-TileColor', content: '#C4EEFF' },

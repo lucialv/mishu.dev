@@ -81,7 +81,7 @@
 							>Sign Up</a
 						> -->
 						<button
-							class="black:text-neutral-50 absolute right-[100px] top-72 rounded bg-zinc-900 px-3 py-2 text-xs font-semibold uppercase text-neutral-100 drop-shadow-xl transition duration-150 ease-in-out hover:scale-105 dark:bg-zinc-100 dark:text-zinc-800"
+							class="black:text-neutral-50 absolute right-[100px] top-[350px] rounded bg-zinc-900 px-3 py-2 text-xs font-semibold uppercase text-neutral-100 drop-shadow-xl transition duration-150 ease-in-out hover:scale-105 dark:bg-zinc-100 dark:text-zinc-800"
 							@click="toggleDark()"
 						>
 							{{ isDark ? 'Light' : 'Dark' }}

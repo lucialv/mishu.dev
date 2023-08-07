@@ -101,7 +101,7 @@
 			<div class="px-8 pb-3 pt-16">
 				<!-- headerText -->
 				<div class="text-xl font-semibold leading-6">
-					<span class="text-zinc-900 dark:text-slate-50">lucía</span>
+					<span class="text-zinc-900 dark:text-slate-50">{{ user.discord_user.global_name }}</span>
 				</div>
 				<div class="text-md font-semibold leading-6">
 					<span class="text-zinc-900 dark:text-slate-50">@{{ user.discord_user.username }}</span>
