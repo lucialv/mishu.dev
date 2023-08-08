@@ -46,6 +46,15 @@
 						Github
 					</button>
 				</nuxt-link>
+				<nuxt-link href="https://discord.com/invite/ajQpA4kszg">
+					<button
+						type="button"
+						class="mb-2 mr-2 inline-flex items-center rounded-lg bg-zinc-900 px-5 py-2.5 text-center font-sans text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-900 dark:hover:text-white"
+					>
+						<Discordicon />
+						My Discord Server
+					</button>
+				</nuxt-link>
 			</div>
 		</div>
 		<div class="md:mt-12">

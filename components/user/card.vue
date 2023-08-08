@@ -141,7 +141,12 @@
 						>Playing <strong>{{ user.activities[1].name }}</strong
 						>.
 					</span>
-					<span v-else-if="user.activities[0]"> {{ user.activities[0].state }} </span>
+					<span v-else-if="user.activities[0] && user.activities[0].state?.includes('https://')">
+						<a class="text-blue-700 hover:underline" target="_blank" :href="extractUrl(user.activities[0].state)">
+							{{ user.activities[0].state }}
+						</a></span
+					>
+					<span v-else-if="user.activities[0] && !user.activities[0].state?.includes('https://')"> {{ user.activities[0].state }} </span>
 					<span v-else> ^^</span>
 				</div>
 
@@ -162,7 +167,12 @@
 
 <script setup lang="ts">
 import { LanyardIncomingPayload, LanyardOpcode } from '~~/composables/use-user';
-// yeah,
+
+function extractUrl(text: string): string {
+	const urlRegex = /(https?:\/\/[^\s]+)/g;
+	const matches = text.match(urlRegex);
+	return matches && matches.length > 0 ? matches[0] : '';
+}
 const user = useUser();
 const config = useRuntimeConfig();
 const activity = computed(() => user.value.activities.find((activity) => activity.assets));
