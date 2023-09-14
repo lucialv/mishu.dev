@@ -1,0 +1,380 @@
+<template>
+	<div>
+		<div class="flex items-center justify-center">
+			<div class="mt-16 h-full w-[300px] items-center justify-center md:w-[700px]">
+				<div class="mb-16 flex">
+					<h1 class="text-lg font-bold text-white lg:text-2xl">Lucía Álvarez</h1>
+					<h1 class="ml-auto text-lg font-bold text-white lg:text-2xl">Institut Sapalomera</h1>
+				</div>
+				<div class="text-start">
+					<h1 class="text-lg font-bold text-white lg:text-2xl">AP 01 Instal·lació i configuració dels navegadors WEB</h1>
+				</div>
+				<hr class="mt-2 h-1 rounded border-0 bg-gradient-to-br from-white to-pink-500 md:w-[700px]" />
+				<div id="instalacio-dels-navegadors">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">Instalació dels navegadors</h1>
+					<h1 class="mt-6 text-lg font-bold text-gray-600 lg:text-2xl">
+						(Tots els enllaços per descarregar els navegadors estan al nom de cada navegador)
+					</h1>
+					<div class="mt-6">
+						<a
+							href="https://www.microsoft.com/ca-es/edge/download?form=MA13FJ&ch=1"
+							class="mt-6 text-lg font-bold text-sky-400 underline lg:text-2xl"
+							target="_blank"
+							>Edge</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+						d'executar per fer la descàrrega d'Edge.
+					</h1>
+					<img src="/images/AP27.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe, ja se'ns estaria instal·lant edge, un cop instal·lat l'obrim i ja el podríem començar a fer
+						servir per a les nostres necessitats.
+					</h1>
+					<img src="/images/AP28.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP29.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a
+							href="https://www.mozilla.org/es-ES/firefox/developer/"
+							class="mt-6 text-lg font-bold text-purple-400 underline lg:text-2xl"
+							target="_blank"
+							>Firefox Developer Edition</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+						d'executar per fer la descàrrega de Firefox Developer Edition.
+					</h1>
+					<img src="/images/AP30.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe, li donem al botó de instalar i ja se'ns estaria instal·lant el Firefox Developer Edition, un cop
+						instal·lat l'obrim i ja el podríem començar a fer servir per a les nostres necessitats.
+					</h1>
+					<img src="/images/AP31.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP32.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a href="https://www.opera.com/es/download" target="_blank" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl"
+							>Opera</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+						d'executar per fer la descàrrega d'Opera.
+					</h1>
+					<img src="/images/AP33.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe de la instal·lació, ens dirà que acceptem els termes i condicions i en donar-li al botó començarà
+						la instal·lació d'Opera.
+					</h1>
+					<img src="/images/AP34.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP35.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe de la instal·lació, ens dirà que acceptem els termes i condicions i en donar-li al botó començarà
+						la instal·lació d'Opera.
+					</h1>
+					<img src="/images/AP36.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ens preguntarà quin tema volem per al navegador (Clar o Fosc), selecciona el que més t'agradi i donali al botó de "Next".
+					</h1>
+					<img src="/images/AP37.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ara ens preguntarà quin estil volum per al navegador, selecciona el que més t'agradi i donali al botó de "Next".
+					</h1>
+					<img src="/images/AP38.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ara ens preguntarà si volem que bloquegi anuncis, us direm que si perquè ens estalviem molt de temps i després us donarem a
+						"Next" per continuar.
+					</h1>
+					<img src="/images/AP39.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ja estem acabant, només falta seleccionar les aplicacions que volem que es mostri a la barra lateral esquerra quan estiguem
+						navegant per així utilitzar-les còmodament quan vulguem.
+					</h1>
+					<img src="/images/AP40.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I ja podríem fer servir el navegador Opera per a les nostres necessitats.
+					</h1>
+					<img src="/images/AP41.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a
+							href="https://vivaldi.com/es/download/"
+							target="_blank"
+							class="mt-6 text-lg font-bold text-orange-500 underline lg:text-2xl"
+							>Vivaldi</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+						d'executar per fer la descàrrega de Vivaldi.
+					</h1>
+					<img src="/images/AP42.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe de la instal·lació, ens dirà que acceptem els termes i condicions i en donar-li al botó començarà
+						la instal·lació de Vivaldi.
+					</h1>
+					<img src="/images/AP43.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP44.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I ja podríem fer servir el navegador Vivaldi per a les nostres necessitats.
+					</h1>
+					<img src="/images/AP45.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a
+							href="https://www.google.com/intl/es_es/chrome/"
+							target="_blank"
+							class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+						<h1 class="text-base font-semibold text-white lg:text-xl">
+							Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+							d'executar per fer la descàrrega de Google Chrome.
+						</h1>
+						<img src="/images/AP46.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+						<img src="/images/AP47.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+						<h1 class="text-base font-semibold text-white lg:text-xl">Una vegada instalat li donem al botó que possa "començar".</h1>
+						<img src="/images/AP48.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+						<h1 class="text-base font-semibold text-white lg:text-xl">
+							Seleccionem si volem afegir adreces d'interès de les aplicacions de Google preferides i li donem a següent.
+						</h1>
+						<img src="/images/AP49.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+						<h1 class="text-base font-semibold text-white lg:text-xl">
+							Seleccionem el fons de pantalla que volem al navegador i us donem a següent.
+						</h1>
+						<img src="/images/AP50.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+						<h1 class="text-base font-semibold text-white lg:text-xl">
+							I per últim ens preguntarà si volem que Google Chrome sigui el nostre navegador predeterminat, si és que si, doneu al botó
+							de "Trieu com a predeterminat" i si és que no, doneu al botó de "Saltar".
+						</h1>
+						<img src="/images/AP51.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+						<h1 class="text-base font-semibold text-white lg:text-xl">
+							I ja tindríem Google Chrome per utilitzar-lo per a les nostres necessitats.
+						</h1>
+						<img src="/images/AP52.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					</div>
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<div id="modificar-la-plana-de-inici-del-navegador">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">Com podem modificar la plana d'inici d'el navegador?</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer tenim que anar a la configuració donant al botó de les tres ralletes adalt a la dreta del navegador.
+					</h1>
+					<img src="/images/AP01.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP02.png" alt="rallitas1" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Després ens sortirá la pàgina de configuració i hi ha un apartar que es diu "A l'inici" i tenim que seleccionar "Obre una
+						pàgina o un conjunt de pàgines determinats" i donar-li a "Afegeix una pàgina nova".
+					</h1>
+					<img src="/images/AP03.png" alt="rallitas2" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						S'ens obrirà un recuadre a on tenim que posar la url de la pàgina que volem obrir cada vegada que obrim una nova pestanya. Jo
+						posaré <a href="https://mishu.dev" class="text-blue-500 hover:underline">https://mishu.dev</a> perque es la meva pàgina
+						preferida i li donarem a "Afegeix".
+					</h1>
+					<img src="/images/AP04.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I ja tendriem la nostra pàgina preferida cada vegada que obrim una nova pestanya en.
+						<a href="https://brave.com" class="font-bold text-red-500 hover:underline">Brave</a>.
+					</h1>
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer tenim que anar a la configuració donant al botó dels tres puntets adalt a la dreta del navegador.
+					</h1>
+					<img src="/images/AP05.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Després ens sortirá la pàgina de configuració i hem de anar al apartar que es diu "A l'inici"
+					</h1>
+					<img src="/images/AP06.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I tenim que seleccionar "Obre una pàgina o un conjunt de pàgines determinats" i donarli a "Afegeix una pàgina nova".
+					</h1>
+					<img src="/images/AP07.png" alt="rallitas2" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						S'ens obrirà un recuadre a on tenim que posar la url de la pàgina que volem obrir cada vegada que obrim una nova pestanya. Jo
+						posaré <a href="https://mishu.dev" class="text-blue-500 hover:underline">https://mishu.dev</a> perque es la meva pàgina
+						preferida i li donarem a "Afegeix".
+					</h1>
+					<img src="/images/AP08.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I ja tendriem la nostra pàgina preferida cada vegada que obrim una nova pestanya en
+						<a href="https://www.google.com/intl/es_es/chrome/" class="font-bold text-yellow-400 hover:underline">Google Chrome</a>.
+					</h1>
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<div id="com-desar-una-pagina-del-meu-interes">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">
+						Com puc desar una plana web que sigui del meu interès per poder consultar més endavant?
+					</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Adalt a la esquerra de l'url tenim un icone que si el cliquem podrem afegir una pàgina a l'adreças d'interest.
+					</h1>
+					<img src="/images/AP09.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ens sortirà un recuadre a on podem modificar el nom que volem que surti a la barra d'adreças d'interès i també el enllaç de la
+						pàgina web.
+					</h1>
+					<img src="/images/AP10.png" alt="rallitas2" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Després ja tindriem la nostra pàgina d'interès a la barra d'adreças d'interès per poder anar a la pàgina web quan volguessim.
+					</h1>
+					<img src="/images/AP11.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Adalt a la dreta de l'url tenim una estrella que si la cliquem podrem afegir una pàgina a l'adreças d'interest.
+					</h1>
+					<img src="/images/AP12.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ens sortirà un recuadre a on podem modificar el nom que volem que surti a la barra d'adreças d'interès i també el enllaç de la
+						pàgina web.
+					</h1>
+					<img src="/images/AP13.png" alt="rallitas2" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Després ja tindriem la nostra pàgina d'interès a la barra d'adreças d'interès per poder anar a la pàgina web quan volguessim.
+					</h1>
+					<img src="/images/AP14.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<div id="on-puc-consultar-historial-de-navegacio">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">On puc consultar l'historial de navegació?</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						En cualsevol pàgina li donem a les tecles <span class="text-red-300">CTRL</span> + <span class="text-red-300">H</span> i
+						s'obrirà la pàgina de l'historial de navegació.
+					</h1>
+					<img src="/images/AP15.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						En cualsevol pàgina li donem a les tecles <span class="text-red-300">CTRL</span> + <span class="text-red-300">H</span> i
+						s'obrirà la pàgina de l'historial de navegació.
+					</h1>
+					<img src="/images/AP16.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<div id="adaptar-navegador-necessitats-especifiques">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">
+						Com puc adaptar el navegador a necessitats específiques com persones amb problemes de visió?
+					</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						En cualsevol pàgina li donem a les tecles <span class="text-red-300">CTRL</span> +
+						<span class="text-red-300">roda cap endavant</span> i podrem fer zoom a la pàgina web, si volem fer menys zoom podemos fer
+						<span class="text-red-300">CTRL</span> + <span class="text-red-300">roda cap enrerre</span>.
+					</h1>
+					<img src="/images/AP17.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						En cualsevol pàgina li donem a les tecles <span class="text-red-300">CTRL</span> +
+						<span class="text-red-300">roda cap endavant</span> i podrem fer zoom a la pàgina web, si volem fer menys zoom podemos fer
+						<span class="text-red-300">CTRL</span> + <span class="text-red-300">roda cap enrerre</span>.
+					</h1>
+					<img src="/images/AP18.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<div id="sincronitzar-dispositius">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">
+						Si vull sincronitzar la cerca de continguts entre el meu portàtil i el meu mòbil com ho puc fer?
+					</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						En cualsevol pàgina li donem a les tecles <span class="text-red-300">CTRL</span> +
+						<span class="text-red-300">roda cap endavant</span> i podrem fer zoom a la pàgina web, si volem fer menys zoom podemos fer
+						<span class="text-red-300">CTRL</span> + <span class="text-red-300">roda cap enrerre</span>.
+					</h1>
+					<img src="/images/AP17.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						En cualsevol pàgina li donem a les tecles <span class="text-red-300">CTRL</span> +
+						<span class="text-red-300">roda cap endavant</span> i podrem fer zoom a la pàgina web, si volem fer menys zoom podemos fer
+						<span class="text-red-300">CTRL</span> + <span class="text-red-300">roda cap enrerre</span>.
+					</h1>
+					<img src="/images/AP18.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<h1 class="text-lg font-bold text-white lg:text-2xl">Puc compartir la informació amb altres persones? Com?</h1>
+				<h1 class="text-lg font-bold text-white lg:text-2xl">Puc classificar la informació trobada a Internet d'alguna manera?</h1>
+				<div id="afegir-compements">
+					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">Com puc afegir un complement al meu navegador?</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer tenim que anar al apartat de extensions donant al botó de les tres ralletes adalt a la dreta del navegador i donant-li
+						a "extensions".
+					</h1>
+					<img src="/images/AP19.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ara ens surtirà buit i tindrem que donar-li al text que possa "Web Store"
+					</h1>
+					<img src="/images/AP20.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ara ja estariem en la botiga a on podem descarregar temes per el nostre navegador o extensions per facilitar-nos la vida en la
+						nostra navegació.
+					</h1>
+					<img src="/images/AP21.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Per instalar una es extensió/tema es molt senzill, només tenim que fer click en la extensió i donar-li al botó "Add to Chrome"
+					</h1>
+					<img src="/images/AP22.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">I ja tendriem el tema o extensió instalat en el nostre navegador.</h1>
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer tenim que anar al apartat de extensions donant al botó de les tres ralletes adalt a la dreta del navegador i donant-li
+						a "extensions".
+					</h1>
+					<img src="/images/AP23.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ara ens surtirà buit i tindrem que donar-li al text que possa "Web Store"
+					</h1>
+					<img src="/images/AP24.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Ara ja estariem en la botiga a on podem descarregar temes per el nostre navegador o extensions per facilitar-nos la vida en la
+						nostra navegació.
+					</h1>
+					<img src="/images/AP25.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Per instalar una es extensió/tema es molt senzill, només tenim que fer click en la extensió i donar-li al botó "Add to Chrome"
+					</h1>
+					<img src="/images/AP26.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">I ja tendriem el tema o extensió instalat en el nostre navegador.</h1>
+					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
