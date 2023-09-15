@@ -19,7 +19,8 @@
 						Instalació dels navegadors
 					</h1>
 					<h1 class="mt-6 text-lg font-bold text-gray-600 lg:text-2xl">
-						(Tots els enllaços per descarregar els navegadors estan al nom de cada navegador)
+						(Tots els enllaços per descarregar els navegadors estan al nom de cada navegador i tots estan utilitzan l'última versió perque
+						es la millor actualment al estar actualitzada)
 					</h1>
 					<div class="mt-6">
 						<a
@@ -158,8 +159,27 @@
 						</h1>
 						<img src="/images/AP52.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					</div>
+					<div class="mt-6">
+						<a href="https://brave.com/es/download/" target="_blank" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl"
+							>Brave</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+						d'executar per fer la descàrrega de Brave.
+					</h1>
+					<img src="/images/AP61.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe de la instal·lació, començarà la instal·lació de Brave.
+					</h1>
+					<img src="/images/AP62.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I ja podríem fer servir el navegador Brave per a les nostres necessitats.
+					</h1>
+					<img src="/images/AP63.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
+
 				<div id="modificar-la-plana-de-inici-del-navegador">
 					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
 						Com podem modificar la plana d'inici d'el navegador?
@@ -185,8 +205,15 @@
 					<img src="/images/AP04.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<h1 class="text-base font-semibold text-white lg:text-xl">
 						I ja tendriem la nostra pàgina preferida cada vegada que obrim una nova pestanya en.
-						<a href="https://brave.com" class="font-bold text-red-500 hover:underline">Brave</a>.
+						<a href="https://brave.com" class="font-bold text-red-500 hover:underline">Brave</a>. I si no vols modificar la pagina que et
+						surt al principi a cada pestanya sempre pots personalitzar la pagina principal donant-li al botó personalitzar.
 					</h1>
+					<img src="/images/AP64.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Se t'obrirà un requadre on pots canviar el fons i les dades que mostra al teu gust, ara només queda jugar amb aquestes coses i
+						personalitzar-la al teu gust.
+					</h1>
+					<img src="/images/AP65.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<div class="mt-6">
 						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
 							>Google Chrome</a
@@ -212,8 +239,16 @@
 					<img src="/images/AP08.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<h1 class="text-base font-semibold text-white lg:text-xl">
 						I ja tendriem la nostra pàgina preferida cada vegada que obrim una nova pestanya en
-						<a href="https://www.google.com/intl/es_es/chrome/" class="font-bold text-yellow-400 hover:underline">Google Chrome</a>.
+						<a href="https://www.google.com/intl/es_es/chrome/" class="font-bold text-yellow-400 hover:underline">Google Chrome</a>. I si
+						no vols modificar la pagina que et surt al principi a cada pestanya sempre pots personalitzar la pagina principal donant-li al
+						botó personalitzar que es com un llapís.
 					</h1>
+					<img src="/images/AP66.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Se t'obrirà un requadre on pots canviar el fons i les dades que mostra al teu gust, ara només queda jugar amb aquestes coses i
+						personalitzar-la al teu gust.
+					</h1>
+					<img src="/images/AP67.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
 				<div id="com-desar-una-pagina-del-meu-interes">
