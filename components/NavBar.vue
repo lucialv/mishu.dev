@@ -108,7 +108,7 @@
 							@click="toggleDark()"
 						>
 							<div
-								class="flex rounded-md bg-gradient-to-br from-slate-400 via-neutral-100 to-slate-400 px-3 py-2 text-black transition-all duration-150 ease-out"
+								class="flex rounded-md bg-gradient-to-br from-slate-200 via-neutral-100 to-slate-200 px-3 py-2 text-black transition-all duration-150 ease-out"
 								v-if="isDark"
 							>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">

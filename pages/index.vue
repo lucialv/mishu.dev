@@ -1,7 +1,7 @@
 <template>
 	<div class="flex min-h-screen flex-col justify-between">
 		<client-only>
-			<div class="z-10">
+			<div class="z-50">
 				<NavBar />
 			</div>
 			<div class="absolute bottom-0 right-0 z-50">

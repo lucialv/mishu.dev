@@ -17,7 +17,7 @@
 					</h1>
 				</div>
 				<div>
-					<h2 class="leading-relaxe text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
+					<h2 class="leading-relaxe text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
 						And I'm
 						<Transition name="fade" mode="out-in">
 							<span
