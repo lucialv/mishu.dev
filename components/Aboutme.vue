@@ -11,7 +11,7 @@
 				<div class="mt-4 md:max-w-md">
 					<p class="text-xl text-black dark:text-white">
 						Developer Junior, with a lot of desire to learn more every day and with the desire to get to do something great in the future.
-						Just finished high school.
+						Just finished high school and currently studying the MSN intermediate VET program.
 					</p>
 				</div>
 			</div>
