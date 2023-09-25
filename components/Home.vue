@@ -7,7 +7,7 @@
 				<div class="leading-relaxe pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					<h1>
 						Hi! I'm
-						<span class="text-fuchsia-500">Lucía </span>
+						<span class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent">Lucía </span>
 						<img
 							src="https://cdn.discordapp.com/emojis/1112300498888958043.gif?size=80&quality=lossless"
 							alt="bird "
@@ -20,18 +20,30 @@
 					<h2 class="leading-relaxe text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
 						And I'm
 						<Transition name="fade" mode="out-in">
-							<span class="text-fuchsia-500" v-if="lista[counter % lista.length] == `a girl`" id="words">{{
-								lista[counter % lista.length]
-							}}</span>
-							<span class="text-fuchsia-500" v-else-if="lista[counter % lista.length] == `a gamer`" id="words">{{
-								lista[counter % lista.length]
-							}}</span>
-							<span class="text-fuchsia-500" v-else-if="lista[counter % lista.length] == `a developer`" id="words">{{
-								lista[counter % lista.length]
-							}}</span>
-							<span class="text-fuchsia-500" v-else-if="lista[counter % lista.length] == `an anime fan`" id="words">{{
-								lista[counter % lista.length]
-							}}</span>
+							<span
+								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								v-if="lista[counter % lista.length] == `a girl`"
+								id="words"
+								>{{ lista[counter % lista.length] }}</span
+							>
+							<span
+								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								v-else-if="lista[counter % lista.length] == `a gamer`"
+								id="words"
+								>{{ lista[counter % lista.length] }}</span
+							>
+							<span
+								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								v-else-if="lista[counter % lista.length] == `a developer`"
+								id="words"
+								>{{ lista[counter % lista.length] }}</span
+							>
+							<span
+								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								v-else-if="lista[counter % lista.length] == `an anime fan`"
+								id="words"
+								>{{ lista[counter % lista.length] }}</span
+							>
 						</Transition>
 					</h2>
 				</div>
