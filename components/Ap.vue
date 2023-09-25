@@ -3,17 +3,24 @@
 		<div class="flex items-center justify-center">
 			<div class="mt-16 h-full w-[300px] items-center justify-center md:w-[700px]">
 				<div class="mb-16 flex">
-					<h1 class="text-lg font-bold text-white lg:text-2xl">Lucía Álvarez</h1>
-					<h1 class="ml-auto text-lg font-bold text-white lg:text-2xl">Institut Sapalomera</h1>
+					<h1 class="bg-gradient-to-r from-fuchsia-400 to-purple-600 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Lucía Álvarez
+					</h1>
+					<h1 class="ml-auto bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Institut Sapalomera
+					</h1>
 				</div>
 				<div class="text-start">
 					<h1 class="text-lg font-bold text-white lg:text-2xl">AP 01 Instal·lació i configuració dels navegadors WEB</h1>
 				</div>
 				<hr class="mt-2 h-1 rounded border-0 bg-gradient-to-br from-white to-pink-500 md:w-[700px]" />
 				<div id="instalacio-dels-navegadors">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">Instalació dels navegadors</h1>
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Instalació dels navegadors
+					</h1>
 					<h1 class="mt-6 text-lg font-bold text-gray-600 lg:text-2xl">
-						(Tots els enllaços per descarregar els navegadors estan al nom de cada navegador)
+						(Tots els enllaços per descarregar els navegadors estan al nom de cada navegador i tots estan utilitzan l'última versió perque
+						es la millor actualment al estar actualitzada)
 					</h1>
 					<div class="mt-6">
 						<a
@@ -152,10 +159,31 @@
 						</h1>
 						<img src="/images/AP52.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					</div>
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<div class="mt-6">
+						<a href="https://brave.com/es/download/" target="_blank" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl"
+							>Brave</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Primer hauríem d'anar a la pàgina de descàrrega i donar-li al botó d'instal·lar, això ens donarà un fitxer .exe que haurem
+						d'executar per fer la descàrrega de Brave.
+					</h1>
+					<img src="/images/AP61.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Un cop obert el fitxer .exe de la instal·lació, començarà la instal·lació de Brave.
+					</h1>
+					<img src="/images/AP62.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I ja podríem fer servir el navegador Brave per a les nostres necessitats.
+					</h1>
+					<img src="/images/AP63.png" alt="foto" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
+
 				<div id="modificar-la-plana-de-inici-del-navegador">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">Com podem modificar la plana d'inici d'el navegador?</h1>
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Com podem modificar la plana d'inici d'el navegador?
+					</h1>
 					<div class="mt-6">
 						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
 					</div>
@@ -177,8 +205,15 @@
 					<img src="/images/AP04.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<h1 class="text-base font-semibold text-white lg:text-xl">
 						I ja tendriem la nostra pàgina preferida cada vegada que obrim una nova pestanya en.
-						<a href="https://brave.com" class="font-bold text-red-500 hover:underline">Brave</a>.
+						<a href="https://brave.com" class="font-bold text-red-500 hover:underline">Brave</a>. I si no vols modificar la pagina que et
+						surt al principi a cada pestanya sempre pots personalitzar la pagina principal donant-li al botó personalitzar.
 					</h1>
+					<img src="/images/AP64.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Se t'obrirà un requadre on pots canviar el fons i les dades que mostra al teu gust, ara només queda jugar amb aquestes coses i
+						personalitzar-la al teu gust.
+					</h1>
+					<img src="/images/AP65.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<div class="mt-6">
 						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
 							>Google Chrome</a
@@ -204,12 +239,20 @@
 					<img src="/images/AP08.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
 					<h1 class="text-base font-semibold text-white lg:text-xl">
 						I ja tendriem la nostra pàgina preferida cada vegada que obrim una nova pestanya en
-						<a href="https://www.google.com/intl/es_es/chrome/" class="font-bold text-yellow-400 hover:underline">Google Chrome</a>.
+						<a href="https://www.google.com/intl/es_es/chrome/" class="font-bold text-yellow-400 hover:underline">Google Chrome</a>. I si
+						no vols modificar la pagina que et surt al principi a cada pestanya sempre pots personalitzar la pagina principal donant-li al
+						botó personalitzar que es com un llapís.
 					</h1>
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<img src="/images/AP66.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Se t'obrirà un requadre on pots canviar el fons i les dades que mostra al teu gust, ara només queda jugar amb aquestes coses i
+						personalitzar-la al teu gust.
+					</h1>
+					<img src="/images/AP67.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
 				<div id="com-desar-una-pagina-del-meu-interes">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
 						Com puc desar una plana web que sigui del meu interès per poder consultar més endavant?
 					</h1>
 					<div class="mt-6">
@@ -246,10 +289,12 @@
 						Després ja tindriem la nostra pàgina d'interès a la barra d'adreças d'interès per poder anar a la pàgina web quan volguessim.
 					</h1>
 					<img src="/images/AP14.png" alt="rallitas3" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
 				<div id="on-puc-consultar-historial-de-navegacio">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">On puc consultar l'historial de navegació?</h1>
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						On puc consultar l'historial de navegació?
+					</h1>
 					<div class="mt-6">
 						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
 					</div>
@@ -268,10 +313,10 @@
 						s'obrirà la pàgina de l'historial de navegació.
 					</h1>
 					<img src="/images/AP16.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
 				<div id="adaptar-navegador-necessitats-especifiques">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
 						Com puc adaptar el navegador a necessitats específiques com persones amb problemes de visió?
 					</h1>
 					<div class="mt-6">
@@ -294,10 +339,10 @@
 						<span class="text-red-300">CTRL</span> + <span class="text-red-300">roda cap enrerre</span>.
 					</h1>
 					<img src="/images/AP18.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
 				<div id="sincronitzar-dispositius">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
 						Si vull sincronitzar la cerca de continguts entre el meu portàtil i el meu mòbil com ho puc fer?
 					</h1>
 					<div class="mt-6">
@@ -320,12 +365,65 @@
 						<span class="text-red-300">CTRL</span> + <span class="text-red-300">roda cap enrerre</span>.
 					</h1>
 					<img src="/images/AP18.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
 				</div>
-				<h1 class="text-lg font-bold text-white lg:text-2xl">Puc compartir la informació amb altres persones? Com?</h1>
-				<h1 class="text-lg font-bold text-white lg:text-2xl">Puc classificar la informació trobada a Internet d'alguna manera?</h1>
+				<div id="compartir-informacio">
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Puc compartir la informació amb altres persones? Com?
+					</h1>
+					<div class="mt-6">
+						<h1 class="text-base font-semibold text-white lg:text-xl">
+							<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave </a>
+							y
+							<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+								>Google Chrome</a
+							>
+						</h1>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Per compartir la informació que trobem, hi ha moltes pàgines web que tenen un botó de compartir i si li dónes pots enviar
+						aquest article, vídeo... A qualsevol plataforma.
+					</h1>
+					<img src="/images/AP53.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP54.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						I si no hi ha aquest botó a la pàgina web que estàs visitant doncs sempre pots copiar el link (url) de la pàgina web i
+						enviar-la a la persona a la que li vols compartir.
+					</h1>
+					<img src="/images/AP55.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP56.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
+				<div id="classificar-informacio">
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Puc classificar la informació trobada a Internet d'alguna manera?
+					</h1>
+					<div class="mt-6">
+						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Per classificar la informació que trobes a internet quan estàs fent una cerca pots fer servir les pestanyes de tot, imatges,
+						notícies o vídeos per filltrar la informació al teu gust.
+					</h1>
+					<img src="/images/AP57.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP58.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<div class="mt-6">
+						<a href="https://www.google.com/intl/es_es/chrome/" class="mt-6 text-lg font-bold text-yellow-400 underline lg:text-2xl"
+							>Google Chrome</a
+						>
+					</div>
+					<h1 class="text-base font-semibold text-white lg:text-xl">
+						Per classificar la informació que trobes a internet quan estàs fent una cerca pots fer servir les pestanyes de tot, imatges,
+						notícies o vídeos per filltrar la informació al teu gust.
+					</h1>
+					<img src="/images/AP59.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<img src="/images/AP60.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
+					<hr class="mx-auto my-32 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+				</div>
 				<div id="afegir-compements">
-					<h1 class="mt-6 text-lg font-bold text-white lg:text-2xl">Com puc afegir un complement al meu navegador?</h1>
+					<h1 class="mt-6 bg-gradient-to-r from-sky-300 to-blue-500 bg-clip-text text-lg font-bold text-transparent lg:text-2xl">
+						Com puc afegir un complement al meu navegador?
+					</h1>
 					<div class="mt-6">
 						<a href="https://brave.com" class="mt-6 text-lg font-bold text-red-500 underline lg:text-2xl">Brave</a>
 					</div>
@@ -371,8 +469,9 @@
 						Per instalar una es extensió/tema es molt senzill, només tenim que fer click en la extensió i donar-li al botó "Add to Chrome"
 					</h1>
 					<img src="/images/AP26.png" alt="rallitas" class="mx-auto mt-4 w-[200px] rounded-md md:w-[600px]" />
-					<h1 class="text-base font-semibold text-white lg:text-xl">I ja tendriem el tema o extensió instalat en el nostre navegador.</h1>
-					<hr class="mx-auto mt-8 h-1 w-48 rounded border-0 dark:bg-gray-500" />
+					<h1 class="mb-16 text-base font-semibold text-white lg:text-xl">
+						I ja tendriem el tema o extensió instalat en el nostre navegador.
+					</h1>
 				</div>
 			</div>
 		</div>
