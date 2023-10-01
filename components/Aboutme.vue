@@ -1,17 +1,29 @@
 <template>
 	<div id="aboutme" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
-		<div class="mb-16 items-center font-['Whitney'] drop-shadow-xl md:mb-0 md:flex">
+		<div class="mb-16 items-center font-['Whitney'] md:mb-0 md:flex">
 			<div class="">
 				<img src="/images/Aboutme.webp" loading="lazy" alt="about me photo" class="h-[100%] w-[100%] max-w-2xl rounded-3xl" />
 			</div>
 			<div class="pt-8 md:ml-8">
 				<div>
-					<h1 class="text-center text-4xl font-bold text-black underline underline-offset-8 dark:text-white md:text-justify">About me</h1>
+					<h1
+						class="w-[154px] bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
+					>
+						About Me
+					</h1>
+					<div class="h-1 w-[154px] rounded-md bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400"></div>
 				</div>
+
 				<div class="mt-4 md:max-w-md">
 					<p class="text-xl text-black dark:text-white">
-						Developer Junior, with a lot of desire to learn more every day and with the desire to get to do something great in the future.
-						Just finished high school and currently studying the MSN intermediate VET program.
+						Developer Junior, with a lot of <span class="text-2xl font-bold text-pink-300">desire</span> to learn more every day and with
+						the desire to get to do something <span class="text-2xl font-bold text-emerald-300">great</span> in the future as a
+						<span class="text-2xl font-bold text-violet-300">Web Developer</span>.
+					</p>
+					<p class="mt-4 text-xl text-black dark:text-white">
+						Just finished high school and currently studying the Microcomputer Systems and Networks (MSN) intermediate
+						<span class="text-2xl font-bold text-yellow-300">VET</span> program and I'm
+						<span class="text-2xl font-bold text-blue-300">enjoyning</span> my stay.
 					</p>
 				</div>
 			</div>

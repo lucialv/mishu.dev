@@ -5,7 +5,14 @@
 		<!-- Learn More: https://formbold.com -->
 
 		<div class="mx-auto mb-32 w-full max-w-[550px]">
-			<h1 class="mb-10 block text-4xl font-bold underline underline-offset-8 dark:text-white">Contact</h1>
+			<div class="mb-10">
+				<h1
+					class="w-[132px] bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
+				>
+					Contact
+				</h1>
+				<div class="mt-1 h-1 w-[132px] rounded-md bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400"></div>
+			</div>
 			<form action="https://formbold.com/s/35K1E" method="POST">
 				<div class="mb-5 max-w-[200px]">
 					<label for="name" class="mb-3 block text-base font-medium text-black dark:text-zinc-100"> Full Name </label>
@@ -49,10 +56,10 @@
 				</div>
 				<div>
 					<button
-						class="group relative inline-flex items-center justify-center overflow-hidden rounded-full border-2 border-fuchsia-300 p-4 px-6 py-3 font-medium text-fuchsia-400 transition duration-300 ease-out"
+						class="group relative inline-flex items-center justify-center overflow-hidden rounded-full border-2 border-purple-500 p-4 px-6 py-3 font-medium text-fuchsia-400 transition duration-300 ease-out"
 					>
 						<span
-							class="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-fuchsia-300 text-white duration-300 group-hover:translate-x-0"
+							class="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-purple-500 text-white duration-300 group-hover:translate-x-0"
 						>
 							<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>

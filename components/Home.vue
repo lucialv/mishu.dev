@@ -1,9 +1,9 @@
 <template>
 	<div id="home" class="container right-0 mx-auto mb-72 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
 		<div
-			class="mb-16 flex flex-col items-center text-center font-['RockoUltraFLF'] text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
+			class="mb-16 flex flex-col items-center text-center text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 		>
-			<strong>
+			<strong class="font-['RockoUltraFLF']">
 				<div class="leading-relaxe pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					<h1>
 						Hi! I'm
@@ -48,23 +48,29 @@
 					</h2>
 				</div>
 			</strong>
-			<div class="flex justify-center pt-10">
+			<div class="flex justify-center pt-10 font-bold">
 				<nuxt-link href="https://github.com/lucialv">
 					<button
-						type="button"
-						class="mb-2 mr-2 inline-flex items-center rounded-lg bg-zinc-900 px-5 py-2.5 text-center font-sans text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-900 dark:hover:text-white"
+						class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-pink-300 via-purple-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
 					>
-						<Githubicon />
-						Github
+						<span
+							class="relative flex items-center rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
+						>
+							<Githubicon />
+							Github
+						</span>
 					</button>
 				</nuxt-link>
 				<nuxt-link href="https://discord.gg/mmZBC4JKMt">
 					<button
-						type="button"
-						class="mb-2 mr-2 inline-flex items-center rounded-lg bg-zinc-900 px-5 py-2.5 text-center font-sans text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-900 dark:hover:text-white"
+						class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-pink-300 via-purple-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
 					>
-						<Discordicon />
-						My Discord Server
+						<span
+							class="relative flex items-center rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
+						>
+							<Discordicon />
+							My Discord Server
+						</span>
 					</button>
 				</nuxt-link>
 			</div>
