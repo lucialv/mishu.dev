@@ -40,7 +40,7 @@
 							@click="toggleDark()"
 						>
 							<div
-								class="flex rounded-md bg-gradient-to-br from-slate-200 via-neutral-100 to-slate-200 px-3 py-2 text-black transition-all duration-150 ease-out"
+								class="flex rounded-md bg-gradient-to-br from-slate-200 via-neutral-100 to-slate-200 px-3 py-2 text-black"
 								v-if="isDark"
 							>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
@@ -51,7 +51,7 @@
 								<p class="ml-2">Light</p>
 							</div>
 							<div
-								class="flex rounded-md bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-900 px-3 py-2 text-white transition-all duration-150 ease-out"
+								class="flex rounded-md bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-900 px-3 py-2 text-white"
 								v-else-if="!isDark"
 							>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
