@@ -5,11 +5,11 @@
 				<div class="text-center md:text-start lg:pl-32 lg:pr-10 xl:pl-60">
 					<div>
 						<h1
-							class="w-[125px] bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
+							class="w-full bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
 						>
 							Support
 						</h1>
-						<div class="mt-1 h-1 w-[125px] rounded-md bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400"></div>
+						<div class="mx-auto mt-1 h-1 w-[125px] rounded-md bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 md:mx-0"></div>
 					</div>
 					<div class="">
 						<div class="mt-4 md:max-w-md">

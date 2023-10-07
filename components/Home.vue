@@ -17,7 +17,7 @@
 					</h1>
 				</div>
 				<div>
-					<h2 class="leading-relaxe text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
+					<h1 class="text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
 						And I'm
 						<Transition name="fade" mode="out-in">
 							<span
@@ -45,7 +45,7 @@
 								>{{ lista[counter % lista.length] }}</span
 							>
 						</Transition>
-					</h2>
+					</h1>
 				</div>
 			</strong>
 			<div class="flex justify-center pt-10 font-bold">
