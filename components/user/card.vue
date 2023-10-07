@@ -6,17 +6,9 @@
 				<!-- banner -->
 
 				<picture>
-					<source
-						type="image/gif"
-						srcset="https://cdn.discordapp.com/banners/300969054649450496/a_3ccc9253e37ca03073961040d892b365.gif?size=4096"
-					/>
-					<img
-						src="https://cdn.discordapp.com/banners/300969054649450496/a_3ccc9253e37ca03073961040d892b365.gif?size=4096"
-						alt="banner"
-						aria-hidden="true"
-						draggable="false"
-						class="block h-[123px] w-[350px]"
-					/>
+					<source type="image/webp" srcset="/images/banner.webp" />
+					<source type="image/gif" srcset="/images/banner.gif" />
+					<img src="/images/banner.gif" alt="banner" aria-hidden="true" draggable="false" class="block h-[123px] w-[350px]" />
 				</picture>
 				<!-- avatarWrapperNormal -->
 				<div class="absolute left-[16px] top-[76px]">

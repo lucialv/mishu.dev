@@ -1,42 +1,15 @@
-# Nuxt 3 Minimal Starter
+# My Portfolio Website! 🌸
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at my [Website](https://mishu.dev) to view the result.
 
-## Setup
+## Contribute 🌸
 
-Make sure to install the dependencies:
+You can support me via [Paypal](https://paypal.me/lucialvnet) to cotinue my path as a Developer.
 
-```bash
-# yarn
-yarn install
+## Pls, give me a Star! ⭐
 
-# npm
-npm install
+People that give me Stars give me energy to continue coding!
 
-# pnpm
-pnpm install
-```
+## Enjoy! 💕
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+![enjoy image](/public/images/mdimg.png)
