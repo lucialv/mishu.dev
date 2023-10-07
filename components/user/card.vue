@@ -149,9 +149,8 @@
 						</a></span
 					>
 					<span v-else-if="user.activities[0] && !user.activities[0].state?.includes('https://')"> {{ user.activities[0].state }} </span>
-					<span v-else> Im not online right now &tl;3</span>
+					<span v-else> Im not online right now &lt;3</span>
 				</div>
-
 				<!-- divider -->
 				<div class="mb-3 h-[1px] w-full bg-slate-200 dark:bg-zinc-800"></div>
 				<user-card-info />
