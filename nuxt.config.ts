@@ -85,7 +85,17 @@ export default defineNuxtConfig({
 				{ property: 'og:title', content: 'Home | Lucía Álvarez' },
 				{ property: 'og:type', content: 'website' },
 				{ property: 'og:url', content: 'https://mishu.dev' },
-				{ property: 'og:image', content: '/images/metaimage.png' }
+				{ property: 'og:image', content: '/images/metaimage.png' },
+				{ property: 'twitter:card', content: 'summary_large_image' },
+				{ property: 'twitter:creator', content: '@mishu' },
+				{ property: 'twitter:site', content: '@mishu' },
+				{ property: 'twitter:title', content: 'Home | Lucía Álvarez' },
+				{ property: 'twitter:url', content: 'https://mishu.dev' },
+				{ property: 'twitter:image', content: '/images/metaimage.png' },
+				{
+					property: 'twitter:description',
+					content: "Lucía Álvarez's personal website and portfolio"
+				}
 			]
 		}
 	}
