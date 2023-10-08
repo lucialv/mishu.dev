@@ -119,6 +119,23 @@
 				<!-- customStatus -->
 				<div class="pb-2.5">
 					<img
+						v-if="user.activities[0]?.emoji?.animated"
+						:src="`https://cdn.discordapp.com/emojis/${user.activities[0]?.emoji?.id}.gif?size=44&quality=lossless`"
+						iara-label=":iara_snuggie:"
+						alt="animatedemoji"
+						draggable="false"
+						class="float-left -my-px mr-1 h-5 w-5"
+					/>
+					<img
+						v-else-if="!user.activities[0]?.emoji?.animated && user.activities[0]?.emoji?.id"
+						:src="`https://cdn.discordapp.com/emojis/${user.activities[0]?.emoji?.id}.webp?size=44&quality=lossless`"
+						iara-label=":iara_snuggie:"
+						alt="webpemoji"
+						draggable="false"
+						class="float-left -my-px mr-1 h-5 w-5"
+					/>
+					<img
+						v-else
 						src="https://cdn.discordapp.com/emojis/1158402064070750208.webp?size=44&quality=lossless"
 						iara-label=":iara_snuggie:"
 						alt="lesbianherat"
