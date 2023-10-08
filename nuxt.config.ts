@@ -40,7 +40,7 @@ export default defineNuxtConfig({
 				{ name: 'theme-color', content: '#FFA2F8' },
 				{
 					name: 'description',
-					content: "Lucía Álvarez's personal website and portfolio"
+					content: "Lucía Álvarez's personal website and portfolio. 💕"
 				},
 				{
 					name: 'viewport',
@@ -68,16 +68,16 @@ export default defineNuxtConfig({
 				{ name: 'shortlink', content: 'https://mishu.dev' },
 				{
 					name: 'subject',
-					content: "Lucía Álvarez's personal website and portfolio"
+					content: "Lucía Álvarez's personal website and portfolio. 💕"
 				},
 				{
 					name: 'summary',
-					content: "Lucía Álvarez's personal website and portfolio."
+					content: "Lucía Álvarez's personal website and portfolio. 💕."
 				},
 				{ name: 'url', content: 'https://mishu.dev' },
 				{
 					property: 'og:description',
-					content: "Lucía Álvarez's personal website and portfolio"
+					content: "Lucía Álvarez's personal website and portfolio. 💕"
 				},
 				{ property: 'og:email', content: 'mishudiscord@gmail.com' },
 				{ property: 'og:locale', content: 'en_US' },
@@ -94,7 +94,7 @@ export default defineNuxtConfig({
 				{ property: 'twitter:image', content: '/images/metaimage.png' },
 				{
 					property: 'twitter:description',
-					content: "Lucía Álvarez's personal website and portfolio"
+					content: "Lucía Álvarez's personal website and portfolio. 💕"
 				}
 			]
 		}
