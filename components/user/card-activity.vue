@@ -8,7 +8,7 @@
 				<li v-for="(activity, index) in testactivities" :key="activity.id">
 					<template v-if="index !== 0">
 						<!-- assets -->
-						<div class="flex flex-col gap-y-8">
+						<div class="flex h-[96px] flex-col gap-y-8">
 							<div class="mb-4 flex items-center gap-x-2">
 								<div>
 									<!-- non-spotify applicationn with assets-->

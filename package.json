@@ -22,5 +22,8 @@
 		"prettier-plugin-tailwindcss": "^0.3.0",
 		"typescript": "^5.0.4",
 		"vue-meta": "^2.4.0"
+	},
+	"dependencies": {
+		"aos": "^2.3.4"
 	}
 }

@@ -13,12 +13,12 @@
 				/>
 			</span>
 			{{ '‎  ' }}
-			<span class="">{{ ' She/Her' }}</span>
+			<span>{{ ' She/Her' }}</span>
 			<!-- text-pink-600 dark:text-pink-300 -->
 			{{ ' · ' }}
 			<!-- class="text-teal-600 dark:text-teal-200" -->
 			<external-link href="https://www.16personalities.com/infp-personality" text="INFP-T" />{{ ' · ' }}
-			<span class="">{{ ' 15 year old' }}</span>
+			<span>{{ ' 15 year old' }}</span>
 			<!-- text-sky-600 dark:text-sky-200 -->
 			{{ '\n' }}
 			{{ '\n' }}

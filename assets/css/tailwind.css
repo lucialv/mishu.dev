@@ -54,3 +54,11 @@
 		@apply scroll-smooth;
 	}
 }
+
+/* Apply a fallback animation for devices with width < 640px */
+@media (max-width: 640px) {
+	.aos-animate {
+		opacity: 1 !important;
+		transform: none !important;
+	}
+}

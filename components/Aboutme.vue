@@ -1,8 +1,15 @@
 <template>
-	<div id="aboutme" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
+	<div id="aboutme" data-aos="fade-down" data-aos-delay="300" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
 		<div class="mb-16 items-center font-['Whitney'] md:mb-0 md:flex">
-			<div class="">
-				<img src="/images/Aboutme.webp" loading="lazy" alt="about me photo" class="h-[100%] w-[100%] max-w-2xl rounded-3xl" />
+			<div>
+				<img
+					src="/images/Aboutme.webp"
+					data-aos="fade-up"
+					data-aos-delay="300"
+					loading="lazy"
+					alt="about me photo"
+					class="h-[100%] w-[100%] max-w-2xl rounded-3xl"
+				/>
 			</div>
 			<div class="pt-8 md:ml-8">
 				<div>

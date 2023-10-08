@@ -1,10 +1,7 @@
 <template>
 	<div id="contact"></div>
 	<div class="mt-20 flex items-center justify-center p-12">
-		<!-- Author: FormBold Team -->
-		<!-- Learn More: https://formbold.com -->
-
-		<div class="mx-auto mb-32 w-full max-w-[550px]">
+		<div data-aos="fade-right" data-aos-delay="400" class="mx-auto mb-32 w-full max-w-[550px]">
 			<div class="mb-10">
 				<h1
 					class="w-[132px] bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"

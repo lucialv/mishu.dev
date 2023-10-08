@@ -1,6 +1,8 @@
 <template>
 	<div id="home" class="container right-0 mx-auto mb-72 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
 		<div
+			data-aos="fade-down"
+			data-aos-delay="300"
 			class="mb-16 flex flex-col items-center text-center text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 		>
 			<strong class="font-['RockoUltraFLF']">
@@ -77,7 +79,7 @@
 				</nuxt-link>
 			</div>
 		</div>
-		<div class="md:mt-12">
+		<div class="md:mt-12" data-aos="fade-up" data-aos-delay="300">
 			<user-card />
 		</div>
 	</div>

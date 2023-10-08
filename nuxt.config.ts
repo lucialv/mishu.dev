@@ -6,6 +6,7 @@ export default defineNuxtConfig({
 			DISCORD_USER_ID: '300969054649450496'
 		}
 	},
+	plugins: [{ src: '@/plugins/aos', mode: 'client' }],
 	colorMode: {
 		preference: 'dark', // default value of the color mode
 		fallback: 'dark', // fallback value if the preference can't be detected
