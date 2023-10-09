@@ -1,5 +1,17 @@
 <template>
 	<!-- avatar -->
+	<div class="relative">
+		<!-- https://cdn.discordapp.com/avatar-decoration-presets/a_fe3c76cac2adf426832a7e495e8329d3.png?size=240&amp;passthrough=true -->
+		<img
+			src="https://cdn.discordapp.com/avatar-decoration-presets/a_8ffa2ba9bff18e96b76c2e66fd0d7fa3.png?size=240&passthrough=true"
+			alt="avatar"
+			width="100"
+			height="100"
+			aria-hidden="true"
+			draggable="false"
+			class="absolute -top-3 right-0 z-[900] h-[108px] w-[108px]"
+		/>
+	</div>
 	<div aria-hidden="true" class="relative h-[92px] w-[92px] rounded-full border-[6px] border-slate-50 dark:border-zinc-900">
 		<!-- mask -->
 		<svg width="92" height="80" viewBox="0 0 92 80" class="absolute">
@@ -22,6 +34,7 @@
 							type="image/gif"
 							srcset="/images/avatar-128.gif 1x, /images/avatar-256.gif 2x, /images/avatar-384.gif 3x, /images/avatar-512.gif 4x"
 						/>
+
 						<img src="/images/avatar-128.gif" alt="avatar" width="80" height="80" aria-hidden="true" draggable="false" class="block" />
 					</picture>
 				</div>
