@@ -9,7 +9,7 @@
 			height="100"
 			aria-hidden="true"
 			draggable="false"
-			class="absolute -top-3 right-0 z-[900] h-[108px] w-[108px]"
+			class="absolute -top-3 right-0 z-40 h-[108px] w-[108px]"
 		/>
 	</div>
 	<div aria-hidden="true" class="relative h-[92px] w-[92px] rounded-full border-[6px] border-slate-50 dark:border-zinc-900">
