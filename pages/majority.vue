@@ -2,7 +2,7 @@
 	<div class="flex min-h-screen flex-col justify-between">
 		<client-only>
 			<!-- Home section start -->
-			<links />
+			<majority />
 			<!-- Home section finish -->
 
 			<!-- Footer section start -->
@@ -14,11 +14,11 @@
 
 <script setup lang="ts">
 defineSeo({
-	title: 'Links | Lucía Álvarez',
-	description: "Lucía Álvarez's links. 💕.",
+	title: 'Age Follower | Lucía Álvarez',
+	description: "Lucía Álvarez's age follower. 💕.",
 	image: {
-		url: '/images/metaimage.png',
-		alt: 'LinksImage',
+		url: '/images/majority.png',
+		alt: 'MajorityImage',
 		width: 1200,
 		height: 630
 	}

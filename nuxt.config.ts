@@ -15,7 +15,6 @@ export default defineNuxtConfig({
 	},
 	app: {
 		head: {
-			title: 'Lucía Álvarez',
 			htmlAttrs: { lang: 'en' },
 			link: [
 				{ rel: 'canonical', href: 'https://mishu.dev' },
@@ -39,10 +38,6 @@ export default defineNuxtConfig({
 				{ name: 'author', content: 'Lucía Álvarez, mishudiscord@gmail.com' },
 				{ name: 'coverage', content: 'Worldwide' },
 				{ name: 'theme-color', content: '#FFA2F8' },
-				{
-					name: 'description',
-					content: "Lucía Álvarez's personal website and portfolio. 💕"
-				},
 				{
 					name: 'viewport',
 					content: 'width=device-width, initial-scale=1, maximum-scale=5'
@@ -76,27 +71,15 @@ export default defineNuxtConfig({
 					content: "Lucía Álvarez's personal website and portfolio. 💕."
 				},
 				{ name: 'url', content: 'https://mishu.dev' },
-				{
-					property: 'og:description',
-					content: "Lucía Álvarez's personal website and portfolio. 💕"
-				},
 				{ property: 'og:email', content: 'mishudiscord@gmail.com' },
 				{ property: 'og:locale', content: 'en_US' },
 				{ property: 'og:site_name', content: 'Lucía Álvarez' },
-				{ property: 'og:title', content: 'Home | Lucía Álvarez' },
 				{ property: 'og:type', content: 'website' },
 				{ property: 'og:url', content: 'https://mishu.dev' },
-				{ property: 'og:image', content: '/images/metaimage.png' },
 				{ property: 'twitter:card', content: 'summary_large_image' },
 				{ property: 'twitter:creator', content: '@mishu' },
 				{ property: 'twitter:site', content: '@mishu' },
-				{ property: 'twitter:title', content: 'Home | Lucía Álvarez' },
-				{ property: 'twitter:url', content: 'https://mishu.dev' },
-				{ property: 'twitter:image', content: '/images/metaimage.png' },
-				{
-					property: 'twitter:description',
-					content: "Lucía Álvarez's personal website and portfolio. 💕"
-				}
+				{ property: 'twitter:url', content: 'https://mishu.dev' }
 			]
 		}
 	}
