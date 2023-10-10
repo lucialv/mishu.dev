@@ -10,10 +10,10 @@
 				<span class="font-bold text-red-600"> %</span>
 			</p>
 			<p v-if="iniciado && !finalizado" class="mt-2 text-center text-xl font-semibold text-white md:text-2xl">
-				<span class="font-bold text-red-600">{{ daysRemaining }} días</span> restantes
+				<span class="font-bold text-red-600">{{ daysRemaining }} days</span> remaining
 			</p>
 			<p v-else-if="!iniciado && !finalizado" class="mt-2 text-center text-xl font-semibold text-white md:text-2xl">
-				<span class="font-bold text-red-600">{{ startDaysRemaining }} días</span> para empezar
+				<span class="font-bold text-red-600">{{ startDaysRemaining }} days</span> to start
 			</p>
 		</div>
 	</div>
