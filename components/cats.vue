@@ -34,7 +34,7 @@
 
 <script setup>
 import axios from 'axios';
-import { ref, computed } from 'vue';
+import { ref } from 'vue';
 
 const catImageUrl = ref('');
 const lastUpdated = ref(null);
