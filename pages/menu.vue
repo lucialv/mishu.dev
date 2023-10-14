@@ -17,8 +17,8 @@ defineSeo({
 	title: 'Kitten Menu | Lucía Álvarez',
 	description: "Lucía Álvarez's Kitten Menu. 💕.",
 	image: {
-		url: '/images/metaimage.png',
-		alt: 'LinksImage',
+		url: '/images/menuimage.png',
+		alt: 'MenuImage',
 		width: 1200,
 		height: 630
 	}
