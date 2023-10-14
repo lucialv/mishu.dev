@@ -4,11 +4,7 @@
 			<div class="flex h-full items-center justify-center">
 				<h1 class="text-3xl font-bold text-white lg:text-4xl">
 					<div class="mb-4 mt-[20%] justify-center">
-						<img
-							src="https://cdn.discordapp.com/attachments/1126125323101151252/1141792694704803931/IMG_20230814_003034_396.jpg"
-							alt="logo"
-							class="mx-auto mb-12 h-32 w-32 rounded-full"
-						/>
+						<img src="/images/avatar-256.webp" alt="logo" class="mx-auto mb-12 h-32 w-32 rounded-full" />
 						<h1 class="mb-8 text-center lg:text-3xl">All <span class="text-violet-400">Lucía's</span> websites!</h1>
 						<h1 class="mb-4 place-items-center whitespace-nowrap text-center text-sm text-white md:text-xl lg:text-2xl">
 							<span class="mb-4 flex items-center rounded-2xl bg-black/5 px-4 py-4 font-semibold text-white ring-1 ring-violet-400">
