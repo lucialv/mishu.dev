@@ -1,5 +1,5 @@
 <template>
-	<div class="relative flex w-full flex-wrap items-stretch rounded bg-slate-200 p-3 dark:bg-zinc-800">
+	<div class="relative flex w-full flex-wrap items-stretch rounded bg-rose-100 p-3 dark:bg-zinc-800">
 		<textarea
 			id="mensaje"
 			class="flex-auto resize-none overflow-hidden rounded-r-none bg-transparent outline-0"
