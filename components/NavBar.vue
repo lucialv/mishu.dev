@@ -24,6 +24,27 @@
 						<path d="M4 6h16M4 12h16M4 18h16"></path>
 					</svg>
 				</button>
+				<button
+					class="bg-dbackground text-dtext dark:bg-background dark:text-text absolute right-[90px] top-3 rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out"
+					@click="toggleDark()"
+				>
+					<div class="flex rounded-md px-2 py-2 text-white" v-if="isDark">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+							<path
+								d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+							/>
+						</svg>
+					</div>
+					<div class="flex rounded-md px-2 py-2 text-black" v-else-if="!isDark">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+							<path
+								fill-rule="evenodd"
+								d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</div>
+				</button>
 			</div>
 
 			<!-- Navbar -->
@@ -34,34 +55,26 @@
 					<li><a href="#support" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Support</a></li>
 					<li><a href="#contact" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Contact</a></li>
 					<!-- <li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li> -->
-					<li>
+					<li class="items-center">
 						<button
-							class="bg-dbackground text-dtext dark:bg-background dark:text-text absolute bottom-5 rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out hover:scale-105"
+							class="bg-dbackground text-dtext dark:bg-background dark:text-text absolute bottom-[18px] rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out hover:scale-105"
 							@click="toggleDark()"
 						>
-							<div
-								class="flex rounded-md bg-gradient-to-br from-slate-200 via-neutral-100 to-slate-200 px-3 py-2 text-black"
-								v-if="isDark"
-							>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+							<div class="flex rounded-md px-2 py-2 text-white hover:border-2 hover:border-white" v-if="isDark">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
 									<path
 										d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
 									/>
 								</svg>
-								<p class="ml-2">Light</p>
 							</div>
-							<div
-								class="flex rounded-md bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-900 px-3 py-2 text-white"
-								v-else-if="!isDark"
-							>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+							<div class="flex rounded-md px-2 py-2 text-black hover:border-2 hover:border-black" v-else-if="!isDark">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
 									<path
 										fill-rule="evenodd"
 										d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"
 										clip-rule="evenodd"
 									/>
 								</svg>
-								<p class="ml-2">Dark</p>
 							</div>
 						</button>
 					</li>
@@ -103,35 +116,6 @@
 							class="cta my-8 inline-block w-full rounded bg-blue-500 px-3 py-2 text-center font-semibold text-white hover:bg-blue-600"
 							>Sign Up</a
 						> -->
-						<button
-							class="bg-dbackground text-dtext dark:bg-background dark:text-text absolute right-[89px] top-[350px] rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out hover:scale-105"
-							@click="toggleDark()"
-						>
-							<div
-								class="flex rounded-md bg-gradient-to-br from-slate-200 via-neutral-100 to-slate-200 px-3 py-2 text-black transition-all duration-150 ease-out"
-								v-if="isDark"
-							>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
-									<path
-										d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
-									/>
-								</svg>
-								<p class="ml-2">Light</p>
-							</div>
-							<div
-								class="flex rounded-md bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-900 px-3 py-2 text-white transition-all duration-150 ease-out"
-								v-else-if="!isDark"
-							>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
-									<path
-										fill-rule="evenodd"
-										d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"
-										clip-rule="evenodd"
-									/>
-								</svg>
-								<p class="ml-2">Dark</p>
-							</div>
-						</button>
 					</li>
 				</ul>
 			</aside>

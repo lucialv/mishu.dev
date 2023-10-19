@@ -1,5 +1,5 @@
 <template>
-	<div class="w-[400px] font-['Whitney']">
+	<div class="w-[350px] font-['Whitney'] md:w-[400px]">
 		<div class="relative h-full overflow-hidden rounded-2xl border-4 border-[#85d2fc] bg-gradient-to-b from-[#bce8ff] via-[#bce8ff] to-[#8de3fb]">
 			<!-- headerWrapper -->
 			<div class="relative">
