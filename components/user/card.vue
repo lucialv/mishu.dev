@@ -1,6 +1,6 @@
 <template>
-	<div class="w-[350px] font-['Whitney'] dark:text-slate-200">
-		<div class="h-full overflow-hidden rounded-2xl bg-slate-50 dark:bg-zinc-900">
+	<div class="w-[400px] font-['Whitney']">
+		<div class="relative h-full overflow-hidden rounded-2xl border-4 border-[#85d2fc] bg-gradient-to-b from-[#bce8ff] via-[#bce8ff] to-[#8de3fb]">
 			<!-- headerWrapper -->
 			<div class="relative">
 				<!-- banner -->
@@ -8,7 +8,7 @@
 				<picture>
 					<source type="image/webp" srcset="/images/banner.webp" />
 					<source type="image/gif" srcset="/images/banner.gif" />
-					<img src="/images/banner.gif" alt="banner" aria-hidden="true" draggable="false" class="block h-[123px] w-[350px]" />
+					<img src="/images/banner.gif" alt="banner" aria-hidden="true" draggable="false" class="block h-[123px] w-full" />
 				</picture>
 				<!-- avatarWrapperNormal -->
 				<div class="absolute left-[16px] top-[76px]">
@@ -19,18 +19,18 @@
 				</div>
 
 				<div>
-					<div class="absolute right-8 top-[135px] h-8 w-32 rounded-lg bg-neutral-200 dark:bg-zinc-800"></div>
+					<div class="absolute right-8 top-[135px] h-8 w-36 rounded-lg bg-[#e0f5ff]"></div>
 					<div>
 						<img
 							src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
 							alt="active-developer"
 							draggable="false"
-							class="absolute right-[107px] top-[139px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[120px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-14 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-[70px] top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							Active Developer
 						</p>
@@ -40,12 +40,12 @@
 							src="https://cdn.discordapp.com/emojis/1097524742686244975.webp?size=44&quality=lossless"
 							alt="hypesquad"
 							draggable="false"
-							class="absolute right-[130px] top-[139px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[146px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
 						/>
 					</div>
 					<div>
 						<p
-							class="absolute right-20 top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
+							class="absolute right-[90px] top-20 m-2 w-auto min-w-max origin-top scale-0 rounded-md bg-white p-2 text-xs font-bold text-zinc-900 shadow-md transition-all duration-100 dark:bg-zinc-900 dark:text-white [div:hover+*>&]:scale-100"
 						>
 							HypeSquad Balance
 						</p>
@@ -55,7 +55,7 @@
 							src="https://cdn.discordapp.com/emojis/1097524736101204108.webp?size=44&quality=lossless"
 							alt="nitro"
 							draggable="false"
-							class="absolute right-[83px] top-[139px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[92px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
 						/>
 					</div>
 					<div>
@@ -70,7 +70,7 @@
 							src="https://cdn.discordapp.com/emojis/1112318025182498876.webp?size=44&quality=lossless"
 							alt="boost"
 							draggable="false"
-							class="absolute right-[58px] top-[139px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[64px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
 						/>
 					</div>
 					<div>
@@ -85,7 +85,7 @@
 							src="https://cdn.discordapp.com/emojis/1118229890756526170.webp?size=44&quality=lossless"
 							alt="icon-username"
 							draggable="false"
-							class="absolute right-[35px] top-[139px] z-10 h-6 w-6 cursor-pointer"
+							class="absolute right-[38px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
 						/>
 					</div>
 					<div>
@@ -98,86 +98,91 @@
 				</div>
 			</div>
 			<!-- headerTop -->
-			<div class="px-8 pb-3 pt-16">
-				<!-- headerText -->
-				<div class="text-xl font-semibold leading-6">
-					<span class="text-zinc-900 dark:text-slate-50">{{ user.discord_user.global_name }}</span>
-				</div>
-				<div class="text-md font-semibold leading-6">
-					<span class="text-zinc-900 dark:text-slate-50">@{{ user.discord_user.username }}</span>
-				</div>
-				<div class="text-md font-semibold leading-6">
-					<span class="text-zinc-500 dark:text-gray-300">she/her</span>
+			<!-- from-[#e0f5ff] via-[#e0f5ff] to-[#c9f2fe] -->
+			<div class="m-6 mx-4 mt-14 rounded-lg bg-gradient-to-b from-[#e0f5ff] via-[#e0f5ff] to-[#c9f2fe] px-6 py-3">
+				<div class="pb-3">
+					<!-- headerText -->
+					<div class="text-xl font-semibold leading-6">
+						<span class="text-zinc-900">{{ user.discord_user.global_name }}</span>
+					</div>
+					<div class="text-md font-semibold leading-6">
+						<span class="text-zinc-900">@{{ user.discord_user.username }}</span>
+					</div>
+					<div class="text-md font-semibold leading-6">
+						<span class="text-zinc-500">she/her</span>
+					</div>
+
+					<!-- profileBadges -->
+					<div aria-label="User Badges" role="list"></div>
 				</div>
 
-				<!-- profileBadges -->
-				<div aria-label="User Badges" role="list"></div>
-			</div>
-
-			<!-- body -->
-			<div class="flex-initial px-8 pb-7 text-sm">
-				<!-- customStatus -->
-				<div class="pb-2.5">
-					<img
-						v-if="user.activities[0]?.emoji?.animated"
-						:src="`https://cdn.discordapp.com/emojis/${user.activities[0]?.emoji?.id}.gif?size=44&quality=lossless`"
-						iara-label=":iara_snuggie:"
-						alt="animatedemoji"
-						draggable="false"
-						class="float-left -my-px mr-1 h-5 w-5"
-					/>
-					<img
-						v-else-if="!user.activities[0]?.emoji?.animated && user.activities[0]?.emoji?.id"
-						:src="`https://cdn.discordapp.com/emojis/${user.activities[0]?.emoji?.id}.webp?size=44&quality=lossless`"
-						iara-label=":iara_snuggie:"
-						alt="webpemoji"
-						draggable="false"
-						class="float-left -my-px mr-1 h-5 w-5"
-					/>
-					<img
-						v-else
-						src="https://cdn.discordapp.com/emojis/1158402064070750208.webp?size=44&quality=lossless"
-						iara-label=":iara_snuggie:"
-						alt="lesbianherat"
-						draggable="false"
-						class="float-left -my-px mr-1 h-5 w-5"
-					/>
-					<span v-if="user.activities[4]"
-						>Playing <strong>{{ user.activities[1].name }} </strong>, <strong>{{ user.activities[2].name }} </strong>,
-						<strong>{{ user.activities[3].name }} </strong> and <strong>{{ user.activities[4].name }}</strong
-						>.</span
-					>
-					<span v-else-if="user.activities[3]"
-						>Playing <strong>{{ user.activities[1].name }} </strong>, <strong>{{ user.activities[2].name }} </strong> and
-						<strong>{{ user.activities[3].name }}</strong
-						>.</span
-					>
-					<span v-else-if="user.activities[2] && !user.activities[3]"
-						>Playing <strong>{{ user.activities[1].name }} </strong> and <strong>{{ user.activities[2].name }}</strong
-						>.</span
-					>
-					<span v-else-if="user.activities[1] && !user.activities[2]"
-						>Playing <strong>{{ user.activities[1].name }}</strong
-						>.
-					</span>
-					<span v-else-if="user.activities[0] && user.activities[0].state?.includes('https://')">
-						<a class="text-blue-700 hover:underline" target="_blank" :href="extractUrl(user.activities[0].state)">
+				<!-- body -->
+				<div class="flex-initial pb-7 text-sm">
+					<!-- customStatus -->
+					<div class="pb-2.5">
+						<img
+							v-if="user.activities[0]?.emoji?.animated"
+							:src="`https://cdn.discordapp.com/emojis/${user.activities[0]?.emoji?.id}.gif?size=44&quality=lossless`"
+							iara-label=":iara_snuggie:"
+							alt="animatedemoji"
+							draggable="false"
+							class="float-left -my-px mr-1 h-5 w-5"
+						/>
+						<img
+							v-else-if="!user.activities[0]?.emoji?.animated && user.activities[0]?.emoji?.id"
+							:src="`https://cdn.discordapp.com/emojis/${user.activities[0]?.emoji?.id}.webp?size=44&quality=lossless`"
+							iara-label=":iara_snuggie:"
+							alt="webpemoji"
+							draggable="false"
+							class="float-left -my-px mr-1 h-5 w-5"
+						/>
+						<img
+							v-else
+							src="https://cdn.discordapp.com/emojis/1158402064070750208.webp?size=44&quality=lossless"
+							iara-label=":iara_snuggie:"
+							alt="lesbianherat"
+							draggable="false"
+							class="float-left -my-px mr-1 h-5 w-5"
+						/>
+						<span v-if="user.activities[4]"
+							>Playing <strong>{{ user.activities[1].name }} </strong>, <strong>{{ user.activities[2].name }} </strong>,
+							<strong>{{ user.activities[3].name }} </strong> and <strong>{{ user.activities[4].name }}</strong
+							>.</span
+						>
+						<span v-else-if="user.activities[3]"
+							>Playing <strong>{{ user.activities[1].name }} </strong>, <strong>{{ user.activities[2].name }} </strong> and
+							<strong>{{ user.activities[3].name }}</strong
+							>.</span
+						>
+						<span v-else-if="user.activities[2] && !user.activities[3]"
+							>Playing <strong>{{ user.activities[1].name }} </strong> and <strong>{{ user.activities[2].name }}</strong
+							>.</span
+						>
+						<span v-else-if="user.activities[1] && !user.activities[2]"
+							>Playing <strong>{{ user.activities[1].name }}</strong
+							>.
+						</span>
+						<span v-else-if="user.activities[0] && user.activities[0].state?.includes('https://')">
+							<a class="text-blue-700 hover:underline" target="_blank" :href="extractUrl(user.activities[0].state)">
+								{{ user.activities[0].state }}
+							</a></span
+						>
+						<span v-else-if="user.activities[0] && !user.activities[0].state?.includes('https://')">
 							{{ user.activities[0].state }}
-						</a></span
-					>
-					<span v-else-if="user.activities[0] && !user.activities[0].state?.includes('https://')"> {{ user.activities[0].state }} </span>
-					<span v-else> Im not online right now &lt;3</span>
+						</span>
+						<span v-else> Im not online right now &lt;3</span>
+					</div>
+					<!-- divider -->
+					<div class="mb-3 h-[1px] w-full bg-[#c0e1ec]"></div>
+					<user-card-info />
+					<user-card-dates />
+					<user-card-activity v-if="activity" :spotdata="user.spotify" :testactivities="user.activities" :singleactivity="activity" />
+
+					<user-card-roles />
+					<user-card-note />
+
+					<user-card-message />
 				</div>
-				<!-- divider -->
-				<div class="mb-3 h-[1px] w-full bg-slate-200 dark:bg-zinc-800"></div>
-				<user-card-info />
-				<user-card-dates />
-				<user-card-activity v-if="activity" :spotdata="user.spotify" :testactivities="user.activities" :singleactivity="activity" />
-
-				<user-card-roles />
-				<user-card-note />
-
-				<user-card-message />
 			</div>
 		</div>
 	</div>
