@@ -1,5 +1,5 @@
 <template>
-	<div class="relative flex w-full flex-wrap items-stretch rounded bg-rose-100 p-3 dark:bg-zinc-800">
+	<div class="relative flex w-full flex-wrap items-stretch rounded bg-[#d9f7ff] p-3">
 		<textarea
 			id="mensaje"
 			class="flex-auto resize-none overflow-hidden rounded-r-none bg-transparent outline-0"
@@ -13,7 +13,7 @@
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 512 512"
-				class="right-3 top-3 ml-2 h-8 w-8 rounded-l-none fill-zinc-700 dark:fill-zinc-300"
+				class="right-3 top-3 ml-2 h-8 w-8 rounded-l-none fill-zinc-700"
 				:class="{ 'opacity-20': !input.length }"
 			>
 				<path

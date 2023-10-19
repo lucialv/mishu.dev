@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h2 class="mb-2 text-xs font-bold uppercase leading-4 text-zinc-700 dark:text-slate-300">Playing a game</h2>
+		<h2 class="mb-2 text-xs font-bold uppercase leading-4 text-zinc-700">Playing a game</h2>
 
 		<!-- bodyNormal -->
 		<div class="flex">

@@ -1,6 +1,6 @@
 <template>
 	<div class="mb-3">
-		<h2 class="mb-2 text-xs font-bold uppercase leading-4 text-zinc-700 dark:text-slate-300">About Me</h2>
+		<h2 class="mb-2 text-xs font-bold uppercase leading-4 text-zinc-700">About Me</h2>
 
 		<!-- userInfoBody -->
 		<div class="whitespace-pre-line">
@@ -33,7 +33,7 @@
 			</span>
 			{{ ' ' }}
 
-			<external-link class="text-blue-900 dark:text-blue-500" href="https://mishu.dev/" text="https://mishu.dev/ " />{{ '‎  ' }}
+			<external-link class="text-blue-500" href="https://mishu.dev/" text="https://mishu.dev/ " />{{ '‎  ' }}
 			{{ ' Owner' }}
 			<span class="inline-block">
 				<img
