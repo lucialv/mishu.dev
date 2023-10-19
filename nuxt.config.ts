@@ -37,7 +37,7 @@ export default defineNuxtConfig({
 				{ name: 'audience', content: 'all' },
 				{ name: 'author', content: 'Lucía Álvarez, mishudiscord@gmail.com' },
 				{ name: 'coverage', content: 'Worldwide' },
-				{ name: 'theme-color', content: '#FFA2F8' },
+				{ name: 'theme-color', content: '#85D2FC' },
 				{
 					name: 'viewport',
 					content: 'width=device-width, initial-scale=1, maximum-scale=5'
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
 					content: 'mishu, Lucía Álvarez Portfolio, Lucía Álvarez, Lucía Portfolio, mishu portfolio'
 				},
 				{ name: 'msapplication-config', content: '/browserconfig.xml' },
-				{ name: 'msapplication-TileColor', content: '#FFA2F8' },
+				{ name: 'msapplication-TileColor', content: '#85D2FC' },
 				{ name: 'owner', content: 'Lucía Álvarez, mishudiscord@gmail.com' },
 				{ name: 'rating', content: 'safe for kids' },
 				{ name: 'reply-to', content: 'mishudiscord@gmail.com' },
