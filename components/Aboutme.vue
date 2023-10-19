@@ -30,7 +30,7 @@
 					<p class="mt-4 text-xl text-black dark:text-white">
 						Just finished high school and currently studying the Microcomputer Systems and Networks (MSN) intermediate
 						<span class="text-2xl font-bold text-yellow-300">VET</span> program and I'm
-						<span class="text-2xl font-bold text-blue-300">enjoyning</span> my stay.
+						<span class="text-2xl font-bold text-blue-300">enjoying</span> my stay.
 					</p>
 				</div>
 			</div>
