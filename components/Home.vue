@@ -9,7 +9,7 @@
 				<div class="leading-relaxe pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					<h1>
 						Hi! I'm
-						<span class="animate-text bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+						<span class="animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text text-transparent"
 							>Lucía
 						</span>
 						<img
@@ -25,25 +25,25 @@
 						And I'm
 						<Transition name="fade" mode="out-in">
 							<span
-								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
 								v-if="lista[counter % lista.length] == `a girl`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
 							>
 							<span
-								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
 								v-else-if="lista[counter % lista.length] == `a gamer`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
 							>
 							<span
-								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
 								v-else-if="lista[counter % lista.length] == `a developer`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
 							>
 							<span
-								class="bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
 								v-else-if="lista[counter % lista.length] == `an anime fan`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
@@ -55,7 +55,7 @@
 			<div class="flex justify-center pt-10 font-bold">
 				<nuxt-link href="https://github.com/lucialv">
 					<button
-						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-pink-300 via-purple-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
+						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none dark:text-white"
 					>
 						<span
 							class="relative flex items-center rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
@@ -67,7 +67,7 @@
 				</nuxt-link>
 				<nuxt-link href="https://discord.gg/mmZBC4JKMt">
 					<button
-						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-pink-300 via-purple-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500 dark:text-white dark:focus:ring-purple-800"
+						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none dark:text-white"
 					>
 						<span
 							class="relative flex items-center rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"

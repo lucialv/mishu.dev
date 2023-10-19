@@ -14,11 +14,11 @@
 			<div class="pt-8 md:ml-8">
 				<div>
 					<h1
-						class="w-full bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
+						class="w-full bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
 					>
 						About Me
 					</h1>
-					<div class="mx-auto h-1 w-[154px] rounded-md bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-400 md:mx-0"></div>
+					<div class="mx-auto h-1 w-[154px] rounded-md bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 md:mx-0"></div>
 				</div>
 
 				<div class="mt-4 md:max-w-md">

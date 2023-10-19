@@ -25,7 +25,7 @@
 					</svg>
 				</button>
 				<button
-					class="bg-dbackground text-dtext dark:bg-background dark:text-text absolute right-[90px] top-3 rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out"
+					class="absolute right-[90px] top-3 rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out"
 					@click="toggleDark()"
 				>
 					<div class="flex rounded-md px-2 py-2 text-white" v-if="isDark">
@@ -57,17 +57,17 @@
 					<!-- <li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li> -->
 					<li class="items-center">
 						<button
-							class="bg-dbackground text-dtext dark:bg-background dark:text-text absolute bottom-[18px] rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out hover:scale-105"
+							class="absolute bottom-4 rounded border-2 border-white text-xs font-semibold uppercase text-black drop-shadow-xl transition duration-150 ease-in-out hover:border-2 hover:border-black dark:border-zinc-800 dark:text-white dark:hover:border-2 dark:hover:border-white"
 							@click="toggleDark()"
 						>
-							<div class="flex rounded-md px-2 py-2 text-white hover:border-2 hover:border-white" v-if="isDark">
+							<div class="flex rounded-md px-2 py-2" v-if="isDark">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
 									<path
 										d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
 									/>
 								</svg>
 							</div>
-							<div class="flex rounded-md px-2 py-2 text-black hover:border-2 hover:border-black" v-else-if="!isDark">
+							<div class="flex rounded-md px-2 py-2" v-else-if="!isDark">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
 									<path
 										fill-rule="evenodd"
