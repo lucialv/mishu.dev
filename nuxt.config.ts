@@ -64,11 +64,11 @@ export default defineNuxtConfig({
 				{ name: 'shortlink', content: 'https://mishu.dev' },
 				{
 					name: 'subject',
-					content: "Lucía Álvarez's personal website and portfolio. 💕"
+					content: "Lucía Álvarez's personal website and portfolio. 🐬"
 				},
 				{
 					name: 'summary',
-					content: "Lucía Álvarez's personal website and portfolio. 💕."
+					content: "Lucía Álvarez's personal website and portfolio. 🐬"
 				},
 				{ name: 'url', content: 'https://mishu.dev' },
 				{ property: 'og:email', content: 'mishudiscord@gmail.com' },
