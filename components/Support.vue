@@ -45,7 +45,7 @@
 					data-aos-delay="400"
 					loading="lazy"
 					alt="support photo"
-					class="h-[522px] w-[400px] max-w-2xl rounded-3xl md:h-[622px] md:w-[433px] lg:h-[672px] lg:w-[483px]"
+					class="h-[490px] w-[350px] max-w-2xl rounded-3xl md:h-[622px] md:w-[433px] lg:h-[672px] lg:w-[483px]"
 				/>
 			</div>
 		</div>
