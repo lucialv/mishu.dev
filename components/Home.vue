@@ -6,18 +6,21 @@
 			class="mb-16 flex flex-col items-center text-center text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 		>
 			<strong class="font-['RockoUltraFLF']">
-				<div class="leading-relaxe pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+				<div class="pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					<h1>
-						Hi! I'm
-						<span class="animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text text-transparent"
-							>Lucía
+						<span class="mb-2 flex items-center">
+							Hi! I'm
+							<span
+								class="ml-2 animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text text-transparent lg:ml-4"
+								>Lucía
+							</span>
+							<img
+								src="https://cdn.discordapp.com/emojis/1118619705914179655.gif?size=80&quality=lossless"
+								alt="bird "
+								class="ml-4 h-10 w-10 lg:h-20 lg:w-20"
+								draggable="false"
+							/>
 						</span>
-						<img
-							src="https://cdn.discordapp.com/emojis/1112300498888958043.gif?size=80&quality=lossless"
-							alt="bird "
-							class="inline-block h-10 w-10 md:h-20 md:w-20"
-							draggable="false"
-						/>
 					</h1>
 				</div>
 				<div>

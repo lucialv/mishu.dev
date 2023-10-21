@@ -2,7 +2,7 @@
 	<div id="support" data-aos="fade-up" data-aos-delay="300" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
 		<div class="mb-16 items-center font-['Whitney'] drop-shadow-xl md:mb-0 md:flex">
 			<div class="pt-8 md:mr-8">
-				<div class="text-center md:text-start lg:pl-32 lg:pr-10 xl:pl-60">
+				<div class="text-center md:text-start lg:pl-16 lg:pr-10 xl:pl-28">
 					<div>
 						<h1
 							class="w-full bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
@@ -40,12 +40,12 @@
 			</div>
 			<div>
 				<img
-					src="/images/Support.webp"
+					src="/images/support.webp"
 					data-aos="fade-down	"
 					data-aos-delay="400"
 					loading="lazy"
 					alt="support photo"
-					class="h-[100%] w-[100%] max-w-2xl rounded-3xl"
+					class="h-[522px] w-[400px] max-w-2xl rounded-3xl md:h-[622px] md:w-[433px] lg:h-[672px] lg:w-[483px]"
 				/>
 			</div>
 		</div>
