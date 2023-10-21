@@ -8,10 +8,10 @@
 				<picture>
 					<source type="image/webp" srcset="/images/banner.webp" />
 					<source type="image/gif" srcset="/images/banner.gif" />
-					<img src="/images/banner.gif" alt="banner" aria-hidden="true" draggable="false" class="block h-[123px] w-full" />
+					<img src="/images/banner.gif" alt="banner" aria-hidden="true" draggable="false" class="block h-full w-full" />
 				</picture>
 				<!-- avatarWrapperNormal -->
-				<div class="absolute left-[16px] top-[76px]">
+				<div class="absolute left-[16px] top-[76px] md:top-[85px]">
 					<!-- avatarWrapperTarget -->
 					<div class="rounded-full">
 						<user-card-avatar :status="user.discord_status" />
@@ -19,13 +19,13 @@
 				</div>
 
 				<div>
-					<div class="absolute right-8 top-[135px] h-8 w-36 rounded-lg bg-[#e0f5ff]"></div>
+					<div class="absolute right-8 top-[132.5px] h-8 w-36 rounded-lg bg-[#e0f5ff] md:top-[150px]"></div>
 					<div>
 						<img
 							src="https://cdn.discordapp.com/emojis/1097524725464432750.webp?size=44&quality=lossless"
 							alt="active-developer"
 							draggable="false"
-							class="absolute right-[120px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
+							class="absolute right-[120px] top-[135px] z-10 h-[26px] w-[26px] cursor-pointer md:top-[152px]"
 						/>
 					</div>
 					<div>
@@ -40,7 +40,7 @@
 							src="https://cdn.discordapp.com/emojis/1097524742686244975.webp?size=44&quality=lossless"
 							alt="hypesquad"
 							draggable="false"
-							class="absolute right-[146px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
+							class="absolute right-[146px] top-[135px] z-10 h-[26px] w-[26px] cursor-pointer md:top-[152px]"
 						/>
 					</div>
 					<div>
@@ -55,7 +55,7 @@
 							src="https://cdn.discordapp.com/emojis/1097524736101204108.webp?size=44&quality=lossless"
 							alt="nitro"
 							draggable="false"
-							class="absolute right-[92px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
+							class="absolute right-[92px] top-[135px] z-10 h-[26px] w-[26px] cursor-pointer md:top-[152px]"
 						/>
 					</div>
 					<div>
@@ -70,7 +70,7 @@
 							src="https://cdn.discordapp.com/emojis/1112318025182498876.webp?size=44&quality=lossless"
 							alt="boost"
 							draggable="false"
-							class="absolute right-[64px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
+							class="absolute right-[64px] top-[135px] z-10 h-[26px] w-[26px] cursor-pointer md:top-[152px]"
 						/>
 					</div>
 					<div>
@@ -85,7 +85,7 @@
 							src="https://cdn.discordapp.com/emojis/1118229890756526170.webp?size=44&quality=lossless"
 							alt="icon-username"
 							draggable="false"
-							class="absolute right-[38px] top-[138px] z-10 h-[26px] w-[26px] cursor-pointer"
+							class="absolute right-[38px] top-[135px] z-10 h-[26px] w-[26px] cursor-pointer md:top-[152px]"
 						/>
 					</div>
 					<div>

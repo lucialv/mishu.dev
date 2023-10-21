@@ -5,11 +5,9 @@
 		<img
 			src="https://cdn.discordapp.com/avatar-decoration-presets/a_8ffa2ba9bff18e96b76c2e66fd0d7fa3.png?size=240&passthrough=true"
 			alt="avatar"
-			width="100"
-			height="100"
 			aria-hidden="true"
 			draggable="false"
-			class="absolute -top-3 right-0 z-40 h-[108px] w-[108px]"
+			class="absolute -right-2 -top-3 z-40 h-[108px] min-w-[108px]"
 		/>
 		<circle cx="68" cy="68" r="14" fill="white" class="absolute right-3 top-0 z-50 h-8 w-8" />
 	</div>

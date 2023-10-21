@@ -25,6 +25,8 @@
 					</svg>
 				</button>
 				<button
+					id="darkmodemobile"
+					aria-label="darkmodemobile"
 					class="absolute right-[90px] top-3 rounded text-xs font-semibold uppercase drop-shadow-xl transition duration-150 ease-in-out"
 					@click="toggleDark()"
 				>
@@ -57,6 +59,8 @@
 					<!-- <li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li> -->
 					<li class="items-center">
 						<button
+							id="darkmodedesktop"
+							aria-label="darkmodedesktop"
 							class="absolute bottom-4 rounded border-2 border-white text-xs font-semibold uppercase text-black drop-shadow-xl transition duration-150 ease-in-out hover:border-2 hover:border-black dark:border-zinc-800 dark:text-white dark:hover:border-2 dark:hover:border-white"
 							@click="toggleDark()"
 						>

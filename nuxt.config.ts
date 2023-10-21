@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 			link: [
 				{ rel: 'canonical', href: 'https://mishu.dev' },
 				{ rel: 'icon', href: '/owo.webp' },
-				{ rel: 'preconnect', href: 'https://cdn.discordapp.com' }
+				{ rel: 'preconnect', href: 'https://cdn.discordapp.com', crossorigin: 'anonymous' }
 				// <link rel="preload" as="image" href="img.png" />
 			],
 			meta: [
