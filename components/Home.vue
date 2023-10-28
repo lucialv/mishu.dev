@@ -11,7 +11,7 @@
 						<span class="mb-2 flex items-center">
 							Hi! I'm
 							<span
-								class="ml-2 animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text text-transparent lg:ml-4"
+								class="ml-2 animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] lg:ml-4"
 								>Lucía
 							</span>
 							<img
@@ -28,25 +28,25 @@
 						And I'm
 						<Transition name="fade" mode="out-in">
 							<span
-								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 								v-if="lista[counter % lista.length] == `a girl`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
 							>
 							<span
-								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 								v-else-if="lista[counter % lista.length] == `a gamer`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
 							>
 							<span
-								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 								v-else-if="lista[counter % lista.length] == `a developer`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
 							>
 							<span
-								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent"
+								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 								v-else-if="lista[counter % lista.length] == `an anime fan`"
 								id="words"
 								>{{ lista[counter % lista.length] }}</span
@@ -58,7 +58,7 @@
 			<div class="flex justify-center pt-10 font-bold">
 				<nuxt-link href="https://github.com/lucialv">
 					<button
-						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none dark:text-white"
+						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 drop-shadow-[0_0_0.6rem_#3269eb70] hover:text-white focus:outline-none dark:text-white"
 					>
 						<span
 							class="relative flex items-center rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
@@ -70,7 +70,7 @@
 				</nuxt-link>
 				<nuxt-link href="https://discord.gg/mmZBC4JKMt">
 					<button
-						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none dark:text-white"
+						class="group relative mb-2 mr-2 inline-flex animate-text items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-sm font-medium text-gray-900 drop-shadow-[0_0_0.6rem_#3269eb70] hover:text-white focus:outline-none dark:text-white"
 					>
 						<span
 							class="relative flex items-center rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"

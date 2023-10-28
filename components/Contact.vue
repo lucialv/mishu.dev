@@ -4,11 +4,13 @@
 		<div data-aos="fade-right" data-aos-delay="400" class="mx-auto mb-32 w-full max-w-[550px]">
 			<div class="mb-10">
 				<h1
-					class="w-[132px] bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-justify"
+					class="w-[132px] bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] md:text-justify"
 				>
 					Contact
 				</h1>
-				<div class="mt-1 h-1 w-[132px] rounded-md bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400"></div>
+				<div
+					class="mt-1 h-1 w-[132px] rounded-md bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 drop-shadow-[0_0_0.6rem_#3269eb70]"
+				></div>
 			</div>
 			<form action="https://formbold.com/s/35K1E" method="POST">
 				<div class="mb-5 max-w-[200px]">
@@ -53,7 +55,7 @@
 				</div>
 				<div>
 					<button
-						class="group relative inline-flex items-center justify-center overflow-hidden rounded-full border-2 border-sky-500 p-4 px-6 py-3 font-medium text-indigo-400 transition duration-300 ease-out"
+						class="group relative inline-flex items-center justify-center overflow-hidden rounded-full border-2 border-sky-500 p-4 px-6 py-3 font-medium text-indigo-400 drop-shadow-[0_0_0.6rem_#3269eb70] transition duration-300 ease-out"
 					>
 						<span
 							class="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-sky-500 text-white duration-300 group-hover:translate-x-0"
