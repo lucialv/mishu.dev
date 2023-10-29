@@ -5,7 +5,7 @@
 			data-aos-delay="300"
 			class="mb-16 flex flex-col items-center text-center text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 		>
-			<strong class="min-w-[400px] font-['RockoUltraFLF']">
+			<strong class="font-['RockoUltraFLF']">
 				<div class="pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					<h1 class="mb-2 flex items-center justify-center md:justify-normal">
 						<span class="drop-shadow-[0_0_0.6rem_#00000070] dark:drop-shadow-[0_0_0.6rem_#ffffff70]"> Hi! I'm </span>
