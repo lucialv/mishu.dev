@@ -5,28 +5,30 @@
 			data-aos-delay="300"
 			class="mb-16 flex flex-col items-center text-center text-black drop-shadow-xl dark:text-white/95 md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 		>
-			<strong class="font-['RockoUltraFLF']">
+			<strong class="min-w-[400px] font-['RockoUltraFLF']">
 				<div class="pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
-					<h1>
-						<span class="mb-2 flex items-center">
-							Hi! I'm
-							<span
-								class="ml-2 animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] lg:ml-4"
-								>Lucía
-							</span>
-							<img
-								src="https://cdn.discordapp.com/emojis/1118619705914179655.gif?size=80&quality=lossless"
-								alt="bird "
-								class="ml-4 h-10 w-10 lg:h-20 lg:w-20"
-								draggable="false"
-							/>
+					<h1 class="mb-2 flex items-center justify-center md:justify-normal">
+						<span class="drop-shadow-[0_0_0.6rem_#00000070] dark:drop-shadow-[0_0_0.6rem_#ffffff70]"> Hi! I'm </span>
+						<span
+							class="ml-2 animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] lg:ml-4"
+							>Lucía
 						</span>
+						<img
+							src="https://cdn.discordapp.com/emojis/1118619705914179655.gif?size=80&quality=lossless"
+							alt="cinnamoroll"
+							class="ml-4 h-10 w-10 lg:h-20 lg:w-20"
+							draggable="false"
+						/>
 					</h1>
 				</div>
-				<div>
-					<h1 class="text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
+				<div class="flex items-center justify-center text-3xl md:justify-normal lg:text-5xl xl:text-6xl 2xl:text-6xl">
+					<h1
+						class="text-3xl drop-shadow-[0_0_0.6rem_#00000070] dark:drop-shadow-[0_0_0.6rem_#ffffff70] lg:text-5xl xl:text-6xl 2xl:text-6xl"
+					>
 						And I'm
-						<Transition name="fade" mode="out-in">
+					</h1>
+					<h1>
+						<Transition class="ml-2 md:ml-4" name="fade" mode="out-in">
 							<span
 								class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 								v-if="lista[counter % lista.length] == `a girl`"
