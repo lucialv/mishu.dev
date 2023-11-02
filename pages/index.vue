@@ -16,6 +16,10 @@
 			<Aboutme />
 			<!-- About Me section finish -->
 
+			<!-- Valorant Rank section start -->
+			<ValorantRank />
+			<!-- Valorant Rank section finish -->
+
 			<!-- Support section start -->
 			<Support />
 			<!-- Support section finish -->
