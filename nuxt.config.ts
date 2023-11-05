@@ -17,7 +17,7 @@ export default defineNuxtConfig({
 		head: {
 			htmlAttrs: { lang: 'en' },
 			link: [
-				{ rel: 'canonical', href: 'https://mishu.dev' },
+				{ rel: 'canonical', href: 'https://luciaa.live' },
 				{ rel: 'icon', href: '/owo.webp' },
 				{ rel: 'preconnect', href: 'https://cdn.discordapp.com', crossorigin: 'anonymous' }
 				// <link rel="preload" as="image" href="img.png" />
@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 				{ name: 'distribution', content: 'Global' },
 				{ name: 'googlebot', content: 'index,follow' },
 				{ name: 'HandheldFriendly', content: 'True' },
-				{ name: 'identifier-URL', content: 'https://mishu.dev' },
+				{ name: 'identifier-URL', content: 'https://luciaa.live' },
 				{
 					name: 'keywords',
 					content: 'mishu, Lucía Álvarez Portfolio, Lucía Álvarez, Lucía Portfolio, mishu portfolio'
@@ -61,7 +61,7 @@ export default defineNuxtConfig({
 					name: 'robots',
 					content: 'archive,follow,imageindex,index,odp,snippet,translate'
 				},
-				{ name: 'shortlink', content: 'https://mishu.dev' },
+				{ name: 'shortlink', content: 'https://luciaa.live' },
 				{
 					name: 'subject',
 					content: "Lucía Álvarez's personal website and portfolio. 🐬"
@@ -70,16 +70,16 @@ export default defineNuxtConfig({
 					name: 'summary',
 					content: "Lucía Álvarez's personal website and portfolio. 🐬"
 				},
-				{ name: 'url', content: 'https://mishu.dev' },
+				{ name: 'url', content: 'https://luciaa.live' },
 				{ property: 'og:email', content: 'mishudiscord@gmail.com' },
 				{ property: 'og:locale', content: 'en_US' },
 				{ property: 'og:site_name', content: 'Lucía Álvarez' },
 				{ property: 'og:type', content: 'website' },
-				{ property: 'og:url', content: 'https://mishu.dev' },
+				{ property: 'og:url', content: 'https://luciaa.live' },
 				{ property: 'twitter:card', content: 'summary_large_image' },
 				{ property: 'twitter:creator', content: '@mishu' },
 				{ property: 'twitter:site', content: '@mishu' },
-				{ property: 'twitter:url', content: 'https://mishu.dev' }
+				{ property: 'twitter:url', content: 'https://luciaa.live' }
 			]
 		}
 	}
