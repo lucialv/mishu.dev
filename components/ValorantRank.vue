@@ -12,7 +12,7 @@
 				</h1>
 			</div>
 			<div class="mt-10 md:flex md:items-center">
-				<div class="mr-16">
+				<!-- <div class="mr-16">
 					<div class="mb-4 mt-8 flex items-center">
 						<a
 							href="https://tracker.gg/valorant/profile/riot/Lucía%20예쁜%23love/overview"
@@ -48,11 +48,13 @@
 							</p>
 						</div>
 					</div>
-				</div>
-				<div>
+				</div> -->
+				<div class="flex">
+					<img src="/images/image.png" alt="" class="aspect-auto h-1/2" />
 					<!-- Start Card -->
-					<div class="relative">
-						<img src="/images/jettcard.webp" alt="jett" class="" />
+					<div class="relative ml-16">
+						<img src="/images/jettcard.webp" alt="jett" class="[clip-path:polygon(100%_0,100%_88%,78%_97%,50%_86%,21%_97%,0_88%,0_0)]" />
+
 						<img src="/images/ActRank.webp" alt="triangle" class="absolute -top-12 right-[83px] h-[100px]" />
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
@@ -107,9 +109,52 @@
 
 						<div class="absolute -top-3 h-[6px] w-[90px] bg-white [clip-path:polygon(0_0,100%_0%,90%_100%,0%_100%)]"></div>
 						<div class="absolute -top-3 right-0 h-[6px] w-[90px] bg-white [clip-path:polygon(0_0,100%_0%,100%_100%,10%_100%)]"></div>
-						<div class="absolute -right-[13px] bottom-[128px] h-[511px] w-[1px] bg-gray-200"></div>
-						<div class="absolute -left-[13px] bottom-[128px] h-[511px] w-[1px] bg-gray-200"></div>
-						<div class="absolute -right-[13px] bottom-[168px] w-[295px] bg-[#eaefb2] text-center text-black">
+
+						<div
+							class="absolute -left-[6px] bottom-[60px] z-10 h-[20px] w-[95px] rotate-[45deg] bg-[#fcfee1] [clip-path:polygon(0_0,78.5%_0%,100%_100%,21.2%_100%)]"
+						></div>
+						<div
+							class="absolute -right-[6px] bottom-[60px] z-10 h-[20px] w-[95px] -rotate-[45deg] bg-[#fcfee1] [clip-path:polygon(20%_0,100%_0%,80%_100%,0%_100%)]"
+						></div>
+
+						<div class="absolute -right-[13px] top-0 h-[525px] w-[1px] bg-gray-200"></div>
+						<div class="absolute -left-[13px] top-0 h-[525px] w-[1px] bg-gray-200"></div>
+						<div class="absolute left-0 top-0 h-[40px] w-[1px] bg-gray-200"></div>
+						<div class="absolute right-0 top-0 h-[40px] w-[1px] bg-gray-200"></div>
+
+						<div class="absolute -left-[11px] top-[35px] h-[32px] w-[1px] rotate-45 bg-gray-200"></div>
+						<div class="absolute -right-[11px] top-[35px] h-[32px] w-[1px] -rotate-45 bg-gray-200"></div>
+
+						<div class="absolute -right-[22px] top-[62px] h-[440px] w-[1px] bg-gray-200"></div>
+						<div class="absolute -left-[22px] top-[62px] h-[440px] w-[1px] bg-gray-200"></div>
+
+						<div class="absolute -left-[3.05px] bottom-[92.6px] h-[55px] w-[1px] -rotate-[45deg] bg-gray-200"></div>
+						<div class="absolute -right-[3.05px] bottom-[92.6px] h-[55px] w-[1px] rotate-[45deg] bg-gray-200"></div>
+
+						<div class="absolute bottom-[81px] left-[1px] h-[40px] w-[1px] -rotate-[45deg] bg-gray-200"></div>
+						<div class="absolute bottom-[81px] right-[1px] h-[40px] w-[1px] rotate-[45deg] bg-gray-200"></div>
+
+						<div class="absolute bottom-[78px] left-0 h-[70px] w-[1px] bg-gray-200"></div>
+						<div class="absolute bottom-[78px] right-0 h-[70px] w-[1px] bg-gray-200"></div>
+
+						<div class="absolute bottom-[7px] left-[28.74px] h-[83px] w-[1px] -rotate-[45deg] bg-gray-200"></div>
+						<div class="absolute bottom-[7px] right-[28.74px] h-[83px] w-[1px] rotate-[45deg] bg-gray-200"></div>
+
+						<div class="absolute bottom-[3px] left-[95.74px] h-[103.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute bottom-[3px] right-[95.74px] h-[103.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[15px] left-[58.74px] h-[35.5px] w-[1px] bg-gray-200"></div>
+						<div class="absolute -bottom-[15px] right-[58.74px] h-[35.5px] w-[1px] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[101.5px] left-[96.2px] h-[103.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute -bottom-[101.5px] right-[96.2px] h-[103.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
+						<img
+							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/largeicon.png"
+							alt="rank logo"
+							class="absolute -bottom-[20px] right-[35%] h-20"
+						/>
+
+						<div class="absolute -right-[13px] bottom-[168px] w-[294px] bg-[#eaefb2] text-center text-black">
 							<h1>
 								{{ playerName }}
 							</h1>
