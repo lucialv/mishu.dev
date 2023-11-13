@@ -90,7 +90,7 @@
 					<li class="mr-2" role="presentation">
 						<button
 							class="inline-block rounded-t-lg border-b-2 p-4"
-							:class="{ 'border-purple-500 text-purple-500 dark:text-purple-500': activeTab === 'profile' }"
+							:class="{ 'border-blue-400 text-blue-400 dark:text-blue-400': activeTab === 'profile' }"
 							@click="setActiveTab('profile')"
 							role="tab"
 							aria-controls="profile"
@@ -102,7 +102,7 @@
 					<li class="mr-2" role="presentation">
 						<button
 							class="inline-block rounded-t-lg border-b-2 p-4"
-							:class="{ 'border-purple-500 text-purple-500 dark:text-purple-500': activeTab === 'dashboard' }"
+							:class="{ 'border-blue-400 text-blue-400 dark:text-blue-400': activeTab === 'dashboard' }"
 							@click="setActiveTab('dashboard')"
 							role="tab"
 							aria-controls="dashboard"
@@ -114,7 +114,7 @@
 					<li role="presentation">
 						<button
 							class="inline-block rounded-t-lg border-b-2 p-4"
-							:class="{ 'border-purple-500 text-purple-500 dark:text-purple-500': activeTab === 'contacts' }"
+							:class="{ 'border- text-blue-400 dark:text-blue-400': activeTab === 'contacts' }"
 							@click="setActiveTab('contacts')"
 							role="tab"
 							aria-controls="contacts"
@@ -136,7 +136,7 @@
 					<p class="inline-block text-sm text-gray-500 dark:text-gray-400">
 						Hello, Im
 						<strong class="font-medium text-gray-800 dark:text-white">Lucía</strong>! I'm a
-						<strong class="font-medium text-gray-800 dark:text-white">15 years old</strong> girl from
+						<strong class="font-medium text-gray-800 dark:text-white">16 years old trans girl </strong>from
 						<strong class="items-center font-medium text-gray-800 dark:text-white"
 							>Spain
 							<img
@@ -193,7 +193,7 @@
 						<strong class="font-medium text-red-500">I don't do NSFW stuff</strong>. <br /><br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Fake GF</strong>
+								<strong class="font-bold text-blue-400">Fake GF</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -203,13 +203,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">5€/day</strong>
+								<strong class="font-bold text-blue-400">5€/day</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Fake GF</strong>
+								<strong class="font-bold text-blue-400">Fake GF</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -219,13 +219,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">25€/week</strong>
+								<strong class="font-bold text-blue-400">25€/week</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Fake GF</strong>
+								<strong class="font-bold text-blue-400">Fake GF</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -235,13 +235,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">100€/month</strong>
+								<strong class="font-bold text-blue-400">100€/month</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Play Games With You</strong>
+								<strong class="font-bold text-blue-400">Play Games With You</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -251,13 +251,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">5€/hour</strong>
+								<strong class="font-bold text-blue-400">5€/hour</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Play Games With You</strong>
+								<strong class="font-bold text-blue-400">Play Games With You</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -267,13 +267,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">25€/day</strong>
+								<strong class="font-bold text-blue-400">25€/day</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">1 SFW Pic</strong>
+								<strong class="font-bold text-blue-400">1 SFW Pic</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -283,13 +283,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">3€</strong>
+								<strong class="font-bold text-blue-400">3€</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">3 SFW Pics</strong>
+								<strong class="font-bold text-blue-400">3 SFW Pics</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -299,13 +299,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">5€</strong>
+								<strong class="font-bold text-blue-400">5€</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">5 SFW Pics</strong>
+								<strong class="font-bold text-blue-400">5 SFW Pics</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -315,13 +315,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">7.5€</strong>
+								<strong class="font-bold text-blue-400">7.5€</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">10 SFW Pics</strong>
+								<strong class="font-bold text-blue-400">10 SFW Pics</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -331,13 +331,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">10€</strong>
+								<strong class="font-bold text-blue-400">10€</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Voice Call</strong>
+								<strong class="font-bold text-blue-400">Voice Call</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -347,13 +347,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">5€/10m</strong>
+								<strong class="font-bold text-blue-400">5€/10m</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Voice Call With Cam</strong>
+								<strong class="font-bold text-blue-400">Voice Call With Cam</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -363,13 +363,13 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">15€/10m</strong>
+								<strong class="font-bold text-blue-400">15€/10m</strong>
 							</span>
 						</span>
 						<br />
 						<span class="flex justify-between">
 							<span class="text-left">
-								<strong class="font-bold text-purple-500">Texting</strong>
+								<strong class="font-bold text-blue-400">Texting</strong>
 							</span>
 							<span class="text-center">
 								<img
@@ -379,7 +379,7 @@
 									class="ml-1 inline-block aspect-video h-3 w-5"
 							/></span>
 							<span class="text-right">
-								<strong class="font-bold text-purple-500">10€/day</strong>
+								<strong class="font-bold text-blue-400">10€/day</strong>
 							</span>
 						</span>
 					</p>
@@ -409,6 +409,7 @@
 <script setup>
 import { useInterval } from '@vueuse/core';
 import { ref } from 'vue';
+import { useColorMode, useDark, useToggle } from '@vueuse/core';
 
 const lista = ['a developer', 'a girl', 'a gamer', 'an anime fan', 'a kitten'];
 const activeTab = ref('profile');
@@ -420,8 +421,6 @@ const counter = useInterval(5000, () => {
 function setActiveTab(tabName) {
 	activeTab.value = tabName;
 }
-
-import { useColorMode, useDark, useToggle } from '@vueuse/core';
 
 const colorMode = useColorMode();
 const isDark = useDark();
