@@ -11,7 +11,7 @@
 					class="mx-auto w-[350px] max-w-2xl rounded-3xl md:mx-0 md:mt-12"
 				/>
 			</div>
-			<div class="pt-8 md:ml-8">
+			<div data-aos="fade-up" data-aos-delay="300" class="pt-8 md:ml-8">
 				<div>
 					<h1
 						class="w-full bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] md:text-justify"
