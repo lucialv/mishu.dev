@@ -180,12 +180,7 @@
 
 						<div class="absolute -bottom-[82.5px] left-[95.2px] h-[103.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
 						<div class="absolute -bottom-[82.5px] right-[95.2px] h-[103.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
-						<img
-							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/largeicon.png"
-							alt="rank logo"
-							class="absolute -bottom-[20px] right-[35%] h-20"
-							draggable="false"
-						/>
+						<img :src="images.large" alt="rank logo" class="absolute -bottom-[20px] right-[35%] h-20" draggable="false" />
 
 						<div class="absolute -right-[13px] bottom-[168px] w-[294px] bg-[#eaefb2] text-center text-black">
 							<h1>
