@@ -1,7 +1,7 @@
 <template>
 	<div id="contact"></div>
-	<div class="mt-20 flex items-center justify-center p-12">
-		<div data-aos="fade-right" data-aos-delay="400" class="mx-auto mb-32 w-full max-w-[550px]">
+	<div class="my-10 flex items-center justify-center p-12">
+		<div data-aos="fade-right" data-aos-delay="400" class="mx-auto my-16 w-full max-w-[550px]">
 			<div class="mb-10">
 				<h1
 					class="w-[132px] bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-center text-4xl font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] md:text-justify"

@@ -1,5 +1,5 @@
 <template>
-	<div id="home" class="container right-0 mx-auto mb-16 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
+	<div id="home" class="container right-0 mx-auto my-8 flex flex-col items-center px-5 py-8 md:flex-row md:py-16">
 		<div
 			data-aos="fade-down"
 			data-aos-delay="300"
@@ -21,8 +21,8 @@
 						/>
 					</h1>
 				</div>
-				<div class="flex items-center justify-center text-3xl md:justify-normal lg:text-5xl xl:text-6xl 2xl:text-6xl">
-					<h1 class="text-3xl dark:drop-shadow-[0_0_0.6rem_#ffffff70] lg:text-5xl xl:text-6xl 2xl:text-6xl">And I'm</h1>
+				<div class="flex items-center justify-center text-2xl md:justify-normal lg:text-5xl xl:text-6xl 2xl:text-6xl">
+					<h1 class="dark:drop-shadow-[0_0_0.6rem_#ffffff70]">And I'm</h1>
 					<h1>
 						<Transition class="ml-2 md:ml-4" name="fade" mode="out-in">
 							<span

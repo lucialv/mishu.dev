@@ -1,5 +1,5 @@
 <template>
-	<div id="aboutme" data-aos="fade-down" data-aos-delay="300" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
+	<div id="aboutme" data-aos="fade-down" data-aos-delay="300" class="mx-auto my-16 flex px-5 py-12 md:py-32">
 		<div class="mb-16 items-center font-['Whitney'] md:mb-0 md:flex">
 			<div class="flex">
 				<img

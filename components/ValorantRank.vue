@@ -1,5 +1,6 @@
 <template>
-	<div id="valorank" class="mx-auto mt-16">
+	<div id="valorank"></div>
+	<div class="mx-auto mt-32">
 		<h1
 			class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-4xl font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 		>
