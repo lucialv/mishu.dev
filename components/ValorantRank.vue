@@ -1,5 +1,5 @@
 <template>
-	<div class="mx-auto mt-16">
+	<div id="valorank" class="mx-auto mt-16">
 		<h1
 			class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-4xl font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
 		>
@@ -7,10 +7,10 @@
 			<div class="mt-1 h-1 rounded-md bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 drop-shadow-[0_0_0.6rem_#3269eb70]"></div>
 		</h1>
 	</div>
-	<div id="valorank" class="mb-16 items-center justify-center">
-		<div data-aos="fade-down" data-aos-delay="300" class="mb-4 whitespace-nowrap text-center text-xl text-white md:text-2xl lg:text-2xl">
+	<div class="mb-16 items-center justify-center">
+		<div data-aos="fade-down" data-aos-delay="300" class="whitespace-nowrap text-center text-xl text-white md:text-2xl lg:text-2xl">
 			<div
-				class="mt-10 justify-center bg-gradient-to-tl from-blue-500 via-blue-300 to-blue-100 p-8 pb-24 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 md:items-center md:p-16 md:px-16 md:pb-32 lg:flex lg:p-32 lg:pt-16"
+				class="mt-4 justify-center bg-gradient-to-tl from-blue-500 via-blue-300 to-blue-100 p-8 pb-24 pt-2 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 md:mt-10 md:items-center md:p-16 md:px-16 md:pb-32 lg:flex lg:p-32 lg:pt-16"
 			>
 				<div class="lg:mr-16">
 					<div class="mb-4 mt-8 flex items-center">

@@ -28,6 +28,7 @@
 									class="font-bold text-blue-600 underline decoration-blue-600 decoration-wavy dark:text-blue-400 dark:decoration-blue-400"
 									>Paypal</a
 								>
+								to help me improve my websites, projects and pay for courses to learn even more. Anything is appreciated!
 							</p>
 						</div>
 						<div class="mb-6 mt-6 md:mb-0">
@@ -57,7 +58,7 @@
 					</div>
 				</div>
 			</div>
-			<div>
+			<div class="flex items-center justify-center md:justify-normal">
 				<img
 					src="/images/support.webp"
 					data-aos="fade-down	"
