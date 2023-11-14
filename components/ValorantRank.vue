@@ -1,5 +1,5 @@
 <template>
-	<div id="valorank" class="mb-64 mr-4 flex items-center justify-center">
+	<div id="valorank" class="mb-64 flex items-center justify-center">
 		<div data-aos="fade-down" data-aos-delay="300" class="mb-4 whitespace-nowrap text-center text-xl text-white md:text-2xl lg:text-2xl">
 			<div>
 				<h1
