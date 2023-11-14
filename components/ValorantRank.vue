@@ -11,7 +11,7 @@
 					></div>
 				</h1>
 			</div>
-			<div class="mt-10 rounded-lg bg-gradient-to-tl from-blue-500 via-blue-400 to-blue-200 p-32 md:items-center lg:flex">
+			<div class="mt-10 rounded-lg bg-gradient-to-tl from-blue-500 via-blue-400 to-blue-200 p-16 lg:p-32 md:items-center lg:flex">
 				<div class="lg:mr-16">
 					<div class="mb-4 mt-8 flex items-center">
 						<a
