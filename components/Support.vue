@@ -16,12 +16,18 @@
 					<div>
 						<div class="mt-4 md:max-w-md">
 							<p class="text-xl text-black dark:text-white">
-								You can support me via
+								You can support me with
 								<a
 									href="https://ko-fi.com/"
 									class="font-bold text-blue-600 underline decoration-blue-600 decoration-wavy dark:text-blue-400 dark:decoration-blue-400"
 									>Ko-fi</a
-								>!
+								>
+								or
+								<a
+									href="https://paypal.com/"
+									class="font-bold text-blue-600 underline decoration-blue-600 decoration-wavy dark:text-blue-400 dark:decoration-blue-400"
+									>Paypal</a
+								>
 							</p>
 						</div>
 						<div class="mb-6 mt-6 md:mb-0">
@@ -33,6 +39,17 @@
 										class="relative flex items-center rounded-md bg-white px-5 py-2 font-semibold transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
 									>
 										Send me a coffe!
+									</span>
+								</button>
+							</nuxt-link>
+							<nuxt-link href="https://paypal.me/lucialvnet">
+								<button
+									class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-2xl font-medium text-gray-900 drop-shadow-[0_0_0.6rem_#3269eb70] hover:text-white focus:outline-none dark:text-white"
+								>
+									<span
+										class="relative flex items-center rounded-md bg-white px-5 py-2 font-semibold transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
+									>
+										Paypal
 									</span>
 								</button>
 							</nuxt-link>

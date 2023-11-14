@@ -8,7 +8,7 @@
 			<strong class="font-['RockoUltraFLF']">
 				<div class="pt-16 text-4xl md:pt-0 md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
 					<h1 class="mb-2 flex items-center justify-center md:justify-normal">
-						<span class="drop-shadow-[0_0_0.6rem_#00000070] dark:drop-shadow-[0_0_0.6rem_#ffffff70]"> Hi! I'm </span>
+						<span class="dark:drop-shadow-[0_0_0.6rem_#ffffff70]"> Hi! I'm </span>
 						<span
 							class="ml-2 animate-text bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-300 bg-clip-text font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70] lg:ml-4"
 							>Lucía
@@ -22,11 +22,7 @@
 					</h1>
 				</div>
 				<div class="flex items-center justify-center text-3xl md:justify-normal lg:text-5xl xl:text-6xl 2xl:text-6xl">
-					<h1
-						class="text-3xl drop-shadow-[0_0_0.6rem_#00000070] dark:drop-shadow-[0_0_0.6rem_#ffffff70] lg:text-5xl xl:text-6xl 2xl:text-6xl"
-					>
-						And I'm
-					</h1>
+					<h1 class="text-3xl dark:drop-shadow-[0_0_0.6rem_#ffffff70] lg:text-5xl xl:text-6xl 2xl:text-6xl">And I'm</h1>
 					<h1>
 						<Transition class="ml-2 md:ml-4" name="fade" mode="out-in">
 							<span

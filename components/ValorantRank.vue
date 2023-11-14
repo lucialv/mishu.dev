@@ -1,6 +1,6 @@
 <template>
-	<div class="mr-4 flex items-center justify-center">
-		<div class="mb-4 whitespace-nowrap text-center text-xl text-white md:text-2xl lg:text-2xl">
+	<div id="valorank" class="mb-64 mr-4 flex items-center justify-center">
+		<div data-aos="fade-down" data-aos-delay="300" class="mb-4 whitespace-nowrap text-center text-xl text-white md:text-2xl lg:text-2xl">
 			<div>
 				<h1
 					class="bg-gradient-to-r from-sky-300 via-blue-500 to-indigo-400 bg-clip-text text-4xl font-bold text-transparent drop-shadow-[0_0_0.6rem_#3269eb70]"
@@ -11,8 +11,8 @@
 					></div>
 				</h1>
 			</div>
-			<div class="mt-10 md:flex md:items-center">
-				<!-- <div class="mr-16">
+			<div class="mt-10 rounded-lg bg-gradient-to-tl from-blue-500 via-blue-400 to-blue-200 p-32 md:items-center lg:flex">
+				<div class="lg:mr-16">
 					<div class="mb-4 mt-8 flex items-center">
 						<a
 							href="https://tracker.gg/valorant/profile/riot/Lucía%20예쁜%23love/overview"
@@ -41,70 +41,86 @@
 						</div>
 					</div>
 					<div v-else>
-						<div class="mb-10 text-xl text-black dark:text-white">
-							<p class="text-center">RANK RATING</p>
+						<div class="mb-10 text-xl text-white">
+							<p class="text-center font-semibold">RANK RATING</p>
 							<p class="font-bold">
 								{{ rankingInTier }}
 							</p>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<div class="flex">
-					<img src="/images/image.png" alt="" class="aspect-auto h-1/2" />
 					<!-- Start Card -->
-					<div class="relative ml-16">
-						<img src="/images/jettcard.webp" alt="jett" class="[clip-path:polygon(100%_0,100%_88%,78%_97%,50%_86%,21%_97%,0_88%,0_0)]" />
+					<div class="relative lg:ml-16">
+						<img src="/images/jettcard.webp" alt="jett" draggable="false" class="[clip-path:polygon(0_0,100%_0%,100%_72%,0_72%)]" />
+						<img
+							src="/images/jettcard.webp"
+							alt="jett"
+							draggable="false"
+							class="absolute right-0 top-0 opacity-40 [clip-path:polygon(100%_76%,100%_88%,78%_97%,50%_86%,21%_97%,0_88%,0_76%)]"
+						/>
+						<img src="/images/jettcard.webp" draggable="false" alt="jett" class="absolute right-0 top-0 rounded-lg opacity-20 blur-sm" />
 
-						<img src="/images/ActRank.webp" alt="triangle" class="absolute -top-12 right-[83px] h-[100px]" />
+						<img src="/images/ActRank.webp" draggable="false" alt="triangle" class="absolute -top-12 right-[83px] h-[100px]" />
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
 							alt="triangle up"
 							class="absolute -top-6 right-[123.0px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
 							alt="triangle up"
 							class="absolute -top-[6px] right-[133.2px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangledownicon.png"
 							alt="triangle down"
 							class="absolute -top-[6px] right-[123.3px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
 							alt="triangle up"
 							class="absolute -top-[6px] right-[112.8px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
 							alt="triangle up"
 							class="absolute right-[144px] top-[12.2px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangledownicon.png"
 							alt="triangle down"
 							class="absolute right-[133.8px] top-[12.2px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
 							alt="triangle up"
 							class="absolute right-[123.3px] top-[12.2px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangledownicon.png"
 							alt="triangle down"
 							class="absolute right-[113px] top-[12.2px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/ranktriangleupicon.png"
 							alt="triangle up"
 							class="absolute right-[102.6px] top-[12.2px] h-[18.2px]"
+							draggable="false"
 						/>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/largeicon.png"
 							alt="rank logo"
 							class="absolute -top-[14px] right-[112px] h-11"
+							draggable="false"
 						/>
 
 						<div class="absolute -top-3 h-[6px] w-[90px] bg-white [clip-path:polygon(0_0,100%_0%,90%_100%,0%_100%)]"></div>
@@ -128,8 +144,8 @@
 						<div class="absolute -right-[22px] top-[62px] h-[440px] w-[1px] bg-gray-200"></div>
 						<div class="absolute -left-[22px] top-[62px] h-[440px] w-[1px] bg-gray-200"></div>
 
-						<div class="absolute -left-[3.05px] bottom-[92.6px] h-[55px] w-[1px] -rotate-[45deg] bg-gray-200"></div>
-						<div class="absolute -right-[3.05px] bottom-[92.6px] h-[55px] w-[1px] rotate-[45deg] bg-gray-200"></div>
+						<div class="absolute -left-[2.9px] bottom-[92px] h-[55px] w-[1px] -rotate-[45deg] bg-gray-200"></div>
+						<div class="absolute -right-[2.9px] bottom-[92.6px] h-[55px] w-[1px] rotate-[45deg] bg-gray-200"></div>
 
 						<div class="absolute bottom-[81px] left-[1px] h-[40px] w-[1px] -rotate-[45deg] bg-gray-200"></div>
 						<div class="absolute bottom-[81px] right-[1px] h-[40px] w-[1px] rotate-[45deg] bg-gray-200"></div>
@@ -143,15 +159,31 @@
 						<div class="absolute bottom-[3px] left-[95.74px] h-[103.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
 						<div class="absolute bottom-[3px] right-[95.74px] h-[103.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
 
-						<div class="absolute -bottom-[15px] left-[58.74px] h-[35.5px] w-[1px] bg-gray-200"></div>
-						<div class="absolute -bottom-[15px] right-[58.74px] h-[35.5px] w-[1px] bg-gray-200"></div>
+						<div class="absolute bottom-[4px] left-[57.74px] h-[15.5px] w-[1px] bg-gray-200"></div>
+						<div class="absolute bottom-[4px] right-[57.74px] h-[35.5px] w-[1px] bg-gray-200"></div>
 
-						<div class="absolute -bottom-[101.5px] left-[96.2px] h-[103.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
-						<div class="absolute -bottom-[101.5px] right-[96.2px] h-[103.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute bottom-[15px] left-[78.2px] h-[30px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute bottom-[15px] right-[78.2px] h-[30px] w-[1px] rotate-[47deg] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[10px] left-[89px] h-[30px] w-[1px] bg-gray-200"></div>
+						<div class="absolute -bottom-[10px] right-[89px] h-[30px] w-[1px] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[45.5px] left-[96.2px] h-[85.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute -bottom-[45.5px] right-[96.2px] h-[85.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[50.5px] left-[120.2px] h-[20.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute -bottom-[50.5px] right-[120.2px] h-[20.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[52.5px] left-[127.5px] h-[5.5px] w-[1px] bg-gray-200"></div>
+						<div class="absolute -bottom-[52.5px] right-[127.5px] h-[5.5px] w-[1px] bg-gray-200"></div>
+
+						<div class="absolute -bottom-[82.5px] left-[95.2px] h-[103.5px] w-[1px] -rotate-[47deg] bg-gray-200"></div>
+						<div class="absolute -bottom-[82.5px] right-[95.2px] h-[103.5px] w-[1px] rotate-[47deg] bg-gray-200"></div>
 						<img
 							src="https://media.valorant-api.com/competitivetiers/03621f52-342b-cf4e-4f86-9350a49c6d04/24/largeicon.png"
 							alt="rank logo"
 							class="absolute -bottom-[20px] right-[35%] h-20"
+							draggable="false"
 						/>
 
 						<div class="absolute -right-[13px] bottom-[168px] w-[294px] bg-[#eaefb2] text-center text-black">
