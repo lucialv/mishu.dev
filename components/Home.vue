@@ -1,5 +1,5 @@
 <template>
-	<div id="home" class="container right-0 mx-auto mb-72 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
+	<div id="home" class="container right-0 mx-auto mb-16 flex flex-col items-center px-5 py-20 md:flex-row md:py-32">
 		<div
 			data-aos="fade-down"
 			data-aos-delay="300"

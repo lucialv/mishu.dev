@@ -1,5 +1,5 @@
 <template>
-	<div id="support" data-aos="fade-up" data-aos-delay="300" class="mx-auto mb-64 flex px-5 py-12 md:py-32">
+	<div id="support" data-aos="fade-up" data-aos-delay="300" class="mx-auto my-32 flex px-5 py-12 md:py-32">
 		<div class="mb-16 items-center font-['Whitney'] drop-shadow-xl md:mb-0 md:flex">
 			<div class="pt-8 md:mr-8">
 				<div class="text-center md:text-start lg:pl-16 lg:pr-10 xl:pl-28">
