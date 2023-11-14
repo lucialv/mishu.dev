@@ -52,11 +52,13 @@
 			<!-- Navbar -->
 			<div class="hidden md:inline-block">
 				<ul class="flex space-x-8 font-sans text-sm dark:text-white">
-					<li><a href="#home" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Home</a></li>
-					<li><a href="#aboutme" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">About Me</a></li>
-					<li><a href="#rankvalo" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Valorant Rank</a></li>
-					<li><a href="#support" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Support</a></li>
-					<li><a href="#contact" class="hover:border-b-2 hover:border-black hover:pb-1 dark:hover:border-white">Contact</a></li>
+					<li><a href="#home" class="hover:border-b-2 hover:border-blue-400 hover:pb-1 dark:hover:border-blue-500">Home</a></li>
+					<li><a href="#aboutme" class="hover:border-b-2 hover:border-blue-400 hover:pb-1 dark:hover:border-blue-500">About Me</a></li>
+					<li>
+						<a href="#valorank" class="hover:border-b-2 hover:border-blue-400 hover:pb-1 dark:hover:border-blue-500">Valorant Rank</a>
+					</li>
+					<li><a href="#support" class="hover:border-b-2 hover:border-blue-400 hover:pb-1 dark:hover:border-blue-500">Support</a></li>
+					<li><a href="#contact" class="hover:border-b-2 hover:border-blue-400 hover:pb-1 dark:hover:border-blue-500">Contact</a></li>
 					<!-- <li><a href="#" class="cta rounded bg-blue-500 px-3 py-2 font-semibold text-white hover:bg-blue-600">Sign Up</a></li> -->
 					<li class="items-center">
 						<button
@@ -112,7 +114,7 @@
 				<ul class="divide-y font-sans">
 					<li><a href="#home" @click="isOpen = false" class="my-4 inline-block">Home</a></li>
 					<li><a href="#aboutme" @click="isOpen = false" class="my-4 inline-block">About Me</a></li>
-					<li><a href="#rankvalo" @click="isOpen = false" class="my-4 inline-block">Valorant Rank</a></li>
+					<li><a href="#valorank" @click="isOpen = false" class="my-4 inline-block">Valorant Rank</a></li>
 					<li><a href="#support" @click="isOpen = false" class="my-4 inline-block">Support</a></li>
 					<li><a href="#contact" @click="isOpen = false" class="my-4 inline-block">Contact</a></li>
 					<li>
