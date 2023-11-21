@@ -45,7 +45,7 @@
 @layer base {
 	html,
 	body {
-		@apply bg-white dark:bg-zinc-800;
+		@apply bg-white dark:bg-zinc-900;
 	}
 }
 

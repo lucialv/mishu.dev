@@ -11,12 +11,12 @@
 	<div class="mb-16 items-center justify-center">
 		<div data-aos="fade-down" data-aos-delay="300" class="whitespace-nowrap text-center text-xl text-white md:text-2xl lg:text-2xl">
 			<div
-				class="mt-4 justify-center bg-gradient-to-tl from-blue-500 via-blue-300 to-blue-100 p-8 pb-24 pt-2 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 md:mt-10 md:items-center md:p-16 md:px-16 md:pb-32 lg:flex lg:p-32 lg:pt-16 lg:[clip-path:polygon(20%_0,100%_0,100%_37%,80%_100%,0_100%,0_63%)]"
+				class="mt-4 justify-center bg-gradient-to-tl from-blue-500 via-blue-300 to-blue-100 p-8 pb-24 pt-2 dark:from-zinc-900 dark:via-zinc-900 dark:to-zinc-900 md:mt-10 md:items-center md:p-16 md:px-16 md:pb-32 lg:flex lg:p-32 lg:pt-16 lg:[clip-path:polygon(20%_0,100%_0,100%_37%,80%_100%,0_100%,0_63%)]"
 			>
 				<div class="lg:mr-16">
 					<div class="mb-4 mt-8 flex items-center">
 						<a
-							href="https://tracker.gg/valorant/profile/riot/Lucía%20예쁜%23love/overview"
+							href="https://tracker.gg/valorant/profile/riot/Lucía%23suya/overview"
 							target="_blank"
 							class="mx-auto font-bold hover:underline"
 							:style="{ color: getTierColor(currentTierPatched) }"
@@ -199,7 +199,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const apiUrl = 'https://api.henrikdev.xyz/valorant/v1/mmr/eu/Lucía%20예쁜/love';
+const apiUrl = 'https://api.henrikdev.xyz/valorant/v1/mmr/eu/Lucía/suya';
 const playerName = ref('');
 const currentTier = ref('');
 const mmr = ref(0);

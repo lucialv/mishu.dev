@@ -37,7 +37,7 @@
 									class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-2xl font-medium text-gray-900 drop-shadow-[0_0_0.6rem_#3269eb70] hover:text-white focus:outline-none dark:text-white"
 								>
 									<span
-										class="relative flex items-center rounded-md bg-white px-5 py-2 font-semibold transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
+										class="relative flex items-center rounded-md bg-white px-5 py-2 font-semibold transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-900"
 									>
 										Send me a coffe!
 									</span>
@@ -48,7 +48,7 @@
 									class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-sky-300 via-blue-500 to-indigo-400 p-0.5 text-2xl font-medium text-gray-900 drop-shadow-[0_0_0.6rem_#3269eb70] hover:text-white focus:outline-none dark:text-white"
 								>
 									<span
-										class="relative flex items-center rounded-md bg-white px-5 py-2 font-semibold transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-800"
+										class="relative flex items-center rounded-md bg-white px-5 py-2 font-semibold transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-zinc-900"
 									>
 										Paypal
 									</span>

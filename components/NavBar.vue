@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed h-[72px] w-full bg-white shadow-md dark:bg-zinc-800 md:px-16"></div>
+	<div class="fixed h-[72px] w-full bg-white shadow-md dark:bg-zinc-900 md:px-16"></div>
 	<nav class="fixed w-full p-4 px-6 md:pl-16 md:pr-32">
 		<div class="flex items-center justify-between">
 			<!-- Header logo -->
@@ -64,7 +64,7 @@
 						<button
 							id="darkmodedesktop"
 							aria-label="darkmodedesktop"
-							class="absolute bottom-4 rounded border-2 border-white text-xs font-semibold uppercase text-black drop-shadow-xl transition duration-150 ease-in-out hover:border-2 hover:border-black dark:border-zinc-800 dark:text-white dark:hover:border-2 dark:hover:border-white"
+							class="absolute bottom-4 rounded border-2 border-white text-xs font-semibold uppercase text-black drop-shadow-xl transition duration-150 ease-in-out hover:border-2 hover:border-black dark:border-zinc-900 dark:text-white dark:hover:border-2 dark:hover:border-white"
 							@click="toggleDark()"
 						>
 							<div class="flex rounded-md px-2 py-2" v-if="isDark">
@@ -104,7 +104,7 @@
 
 			<!-- Drawer Menu -->
 			<aside
-				class="fixed left-0 top-0 z-30 h-full w-64 transform overflow-auto bg-white p-5 text-black transition-all duration-300 ease-in-out dark:bg-zinc-800 dark:text-white"
+				class="fixed left-0 top-0 z-30 h-full w-64 transform overflow-auto bg-white p-5 text-black transition-all duration-300 ease-in-out dark:bg-zinc-900 dark:text-white"
 				:class="isOpen ? 'translate-x-0' : '-translate-x-full'"
 			>
 				<span @click="isOpen = false" class="flex items-center justify-center border-b p-4">
